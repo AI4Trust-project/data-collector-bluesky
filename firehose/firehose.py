@@ -18,7 +18,7 @@ DBNAME = os.environ.get("DATABASE_NAME")
 USER = os.environ.get("DATABASE_USER")
 PASSWORD = os.environ.get("DATABASE_PWD")
 HOST = os.environ.get("DATABASE_HOST")
-
+DELAY = 15
 client = None
 
 
@@ -103,9 +103,11 @@ def keyword_matches(text, keywords):
 def serialize_extra(extra):
     """Serialize extra data for Kafka"""
     if isinstance(extra, dict):
-        return json.dumps(extra)
+        return json.dumps(extra, default=_iceberg_json_default)
     elif isinstance(extra, list):
-        return json.dumps([json.dumps(e) for e in extra])
+        return json.dumps([json.dumps(e, default=_iceberg_json_default) for e in extra])
+    elif isinstance(extra, bytes):
+        return repr(extra)
     else:
         return str(extra)
 
@@ -136,13 +138,13 @@ def on_message_handler(message, keywords, producer):
 
             matches = keyword_matches(text_lower, keywords)
             discard = matches is None or len(matches) == 0
-            if discard:
-                continue
+            # if discard:
+            #     continue
 
             # unpack matches
-            mtopics = [m[0] for m in matches]
-            mkeywords = [m[1] for m in matches]
-            mlanguages = [m[2] for m in matches]
+            mtopics = [m[0] for m in matches] if matches else None
+            mkeywords = [m[1] for m in matches] if matches else None
+            mlanguages = [m[2] for m in matches] if matches else None
 
             # serialize nested structures
             embed = block.get("embed", None)
@@ -163,6 +165,7 @@ def on_message_handler(message, keywords, producer):
                 "langs": block.get("langs", []),
                 "embed": embed,
                 "facets": facets,
+                "reply": block.get("reply"),
                 "keywords": list(dict.fromkeys(mkeywords)) if mkeywords else [],
                 "topics": list(dict.fromkeys(mtopics)) if mtopics else [],
                 "languages": list(dict.fromkeys(mlanguages)) if mlanguages else [],
@@ -171,10 +174,14 @@ def on_message_handler(message, keywords, producer):
             post_key = f"{commit.repo}/{op.path}:" + post["cid"]
 
             # Send to Kafka
-            producer.send("bluesky.posts", key=post_key, value=post)
+            producer.send("bluesky.firehose", key=post_key, value=post)
+
+            if not discard:
+                # Send to Kafka
+                producer.send("bluesky.posts", key=post_key, value=post)
 
     except Exception as e:
-        print(f"[!] Error in message handler: {e}")
+        print(f"[ERR] Error in message handler: {e}")
 
 
 def handler(context, event):
@@ -198,6 +205,17 @@ def handler(context, event):
         client.start(handle)
 
     except Exception as e:
-        print(f"Error processing event: {e}")
+        print(f"Error with client: {e}")
+        if client:
+            try:
+                client.stop()
+                client = None
+            except Exception as er:
+                print(f"Error closing the client, dropping: {er}")
+                client = None
+
+        # wait to stagger the restart
+        time.sleep(DELAY)
+        handler(context, event)
 
     return "Running"
