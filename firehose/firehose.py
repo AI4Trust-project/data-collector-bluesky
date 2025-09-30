@@ -23,9 +23,56 @@ HOST = os.environ.get("DATABASE_HOST")
 DELAY = 15
 client = None
 
+DELIVERABLE23_FILE = "Deliverable23keywords.json"
+DELIVERABLE21_FILE = "Deliverable21keywords.json"
+
+# === Load keywords ===
+with open(DELIVERABLE23_FILE, encoding="utf-8") as f:
+    keywords_23 = json.load(f)
+
+with open(DELIVERABLE21_FILE, encoding="utf-8") as f:
+    keywords_21 = json.load(f)
+
+# === Build regex patterns for 2.3 keywords (subwords, * handled, store lang+topic) ===
+def build_patterns_23_subwords():
+    patterns = {}
+    for lang, data in keywords_23.items():
+        for topic, words in data["full_keywords"].items():
+            for word in words:
+                # subword matching: no \b boundaries
+                pattern = re.escape(word).replace(r'\*', '.*')
+                regex = re.compile(pattern, re.IGNORECASE)
+                patterns.setdefault(topic, []).append({
+                    "word": word,
+                    "regex": regex,
+                    "lang": lang,
+                    "topic": topic
+                })
+    return patterns
+
+# === Build regex patterns for 2.1 keywords (subwords too, store lang+topic) ===
+def build_patterns_21_fullwords():
+    patterns = {}
+    for lang, data in keywords_21.items():
+        for topic, words in data.items():
+            for word in words:
+                # full-word matching: add \b boundaries
+                pattern = r'\b' + re.escape(word).replace(r'\*', '.*') + r'\b'
+                regex = re.compile(pattern, re.IGNORECASE)
+                patterns.setdefault(topic, []).append({
+                    "word": word,
+                    "regex": regex,
+                    "lang": lang,
+                    "topic": topic
+                })
+    return patterns
+
+patterns_23 = build_patterns_23_subwords()
+patterns_21 = build_patterns_21_fullwords()
 
 def init_context(context):
     # read keywords
+    # TODO make keywords be fetched from conn rather than json files as it is now.
     conn = psycopg2.connect(dbname=DBNAME, user=USER, password=PASSWORD, host=HOST)
     keywords = get_keywords(conn)
     conn.close()
@@ -44,7 +91,10 @@ def init_context(context):
         return
 
     setattr(context, "producer", producer)
-    setattr(context, "keywords", keywords)
+    #old
+    #setattr(context, "keywords", keywords)
+    #New
+    setattr(context, "keywords", {"23": patterns_23, "21": patterns_21})
 
 
 def _iceberg_json_default(value):
@@ -56,6 +106,7 @@ def _iceberg_json_default(value):
         return repr(value)
 
 
+# OLD
 def get_keywords(conn):
     """Get keywords from database"""
     cur = None
@@ -91,6 +142,7 @@ def get_keywords(conn):
     return data
 
 
+# OLD
 def keyword_matches(text, keywords):
     """Filter text based on keywords"""
     match = []
@@ -101,6 +153,43 @@ def keyword_matches(text, keywords):
 
     return match
 
+#NEW
+def keyword_matches(text, keywords_dict):
+    """Return matches for both filters."""
+    matched_23 = []
+    matched_21 = []
+
+
+    for topic, configs in keywords_dict["23"].items():
+        for k in configs:
+            if k["regex"].search(text):
+                matched_23.append({
+                    "word": k["word"],
+                    "lang": k["lang"],
+                    "topic": k["topic"]
+                })
+
+
+    for topic, configs in keywords_dict["21"].items():
+        for k in configs:
+            if k["regex"].search(text):
+                matched_21.append({
+                    "word": k["word"],
+                    "lang": k["lang"],
+                    "topic": k["topic"]
+                })
+
+
+    filter23_true = bool(matched_23)
+    filter2123_true = bool(matched_23 or matched_21)
+
+
+    return {
+        "filter_23_true": filter23_true,
+        "filter_23_keywords": matched_23,
+        "filter_21&23_true": filter2123_true,
+        "filter_21&23_keywords": matched_23 + matched_21,
+    }
 
 def serialize_extra(extra):
     """Serialize extra data for Kafka"""
@@ -114,17 +203,6 @@ def serialize_extra(extra):
         return str(extra)
 
 def decode_embed_link(encoded_ref, author_did, fmt):
-    """
-    Decode an embedded reference (image or video) into a usable URL.
-
-    Args:
-        encoded_ref: CID reference (bytes for video, str for image).
-        author_did: The author's DID string.
-        fmt (str): Either "image" or "video".
-
-    Returns:
-        str or None: A URL to the media resource, or None if decoding fails.
-    """
     if fmt == "image":
         try:
             if not isinstance(encoded_ref, (str, bytes)):
@@ -157,23 +235,27 @@ def process_post(block, commit, op, keywords):
     text_lower = text.lower()
 
     matches = keyword_matches(text_lower, keywords)
-    discard = matches is None or len(matches) == 0
-    # if discard:
-    #     continue
 
-    # unpack matches
-    mtopics = [m[0] for m in matches] if matches else None
-    mkeywords = [m[1] for m in matches] if matches else None
-    mlanguages = [m[2] for m in matches] if matches else None
+    # Separate matched lists
+    matched_23 = matches["filter_23_keywords"]          # only 2.3 subword matches
+    matched_21_23 = matches["filter_21&23_keywords"]    # combined 2.1 + 2.3 matches
 
+    # Extract words, topics, languages
+    mkeywords_23 = [m["word"] for m in matched_23]
+    mtopics_23 = [m["topic"] for m in matched_23]
+    mlanguages_23 = [m["lang"] for m in matched_23]
 
+    mkeywords_21_23 = [m["word"] for m in matched_21_23]
+    mtopics_21_23 = [m["topic"] for m in matched_21_23]
+    mlanguages_21_23 = [m["lang"] for m in matched_21_23]
 
+    # Deal with embed: store needed fields but also serialize
     embed = block.get("embed", None)
     images_links = None
     video_link = None
     author_did = commit.repo
-    # serialize nested structures
-    if (embed is not None) and (isinstance(embed, dict)):
+
+    if embed and isinstance(embed, dict):
         embed_type = embed.get("$type")
 
         if embed_type == "app.bsky.embed.images":
@@ -186,7 +268,6 @@ def process_post(block, commit, op, keywords):
                 except Exception as e:
                     print(f"[!] Failed to decode image: {e}")
         elif embed_type == "app.bsky.embed.video":
-            print("Videos")
             try:
                 ref = embed.get("video", {}).get("ref")
                 if ref:
@@ -194,14 +275,14 @@ def process_post(block, commit, op, keywords):
             except Exception as e:
                 print(f"[!] Failed to decode video: {e}")
 
-
         embed = serialize_extra(embed)
 
-    facets = block.get("facets", None)
+    # Deal with facets
+    facets = block.get("facets")
     if facets is not None:
         facets = serialize_extra(facets)
 
-
+    # Deal with reply: store needed fields but also serialize
     reply_full = block.get("reply", None)
     root_cid = None
     parent_cid = None
@@ -213,15 +294,15 @@ def process_post(block, commit, op, keywords):
         reply_to_store = {
             "root": {
                 "cid": root_cid,
-                "uri": reply_full["root"]["cid"],
+                "uri": reply_full["root"]["uri"],
             },
             "parent": {
                 "cid": parent_cid,
-                "uri": reply_full["parent"]["cid"],
+                "uri": reply_full["parent"]["uri"],
             }
         }
 
-    # Save matched posts to Kafka
+    # Build post dictionary
     post = {
         "uri": f"at://{commit.repo}/{op.path}",
         "cid": str(op.cid),
@@ -236,12 +317,18 @@ def process_post(block, commit, op, keywords):
         "reply": reply_to_store,
         "root_cid": root_cid,
         "parent_cid": parent_cid,
-        "keywords": list(dict.fromkeys(mkeywords)) if mkeywords else [],
-        "topics": list(dict.fromkeys(mtopics)) if mtopics else [],
-        "languages": list(dict.fromkeys(mlanguages)) if mlanguages else [],
+        "filter_23_true": matches["filter_23_true"],
+        "filter_21&23_true": matches["filter_21&23_true"],
+        "keywords_23": list(dict.fromkeys(mkeywords_23)) if mkeywords_23 else [],
+        "topics_23": list(dict.fromkeys(mtopics_23)) if mtopics_23 else [],
+        "languages_23": list(dict.fromkeys(mlanguages_23)) if mlanguages_23 else [],
+        "keywords_21&23": list(dict.fromkeys(mkeywords_21_23)) if mkeywords_21_23 else [],
+        "topics_21&23": list(dict.fromkeys(mtopics_21_23)) if mtopics_21_23 else [],
+        "languages_21&23": list(dict.fromkeys(mlanguages_21_23)) if mlanguages_21_23 else [],
     }
 
-    return post, discard
+    return post
+
 
 
 def process_like(block, commit, op):
@@ -252,7 +339,7 @@ def process_like(block, commit, op):
         "subject.uri": block.get("subject", {}).get("uri", ""),
         "via.cid": str(block.get("via", {}).get("cid", "")) if block.get("via") else None,
         "via.uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
-        "createdAt": block.get("createdAt") or datetime.utcnow().isoformat(),
+        "createdAt": block.get("createdAt"),
     }
 
 def process_repost(block, commit, op):
@@ -263,7 +350,7 @@ def process_repost(block, commit, op):
         "subject.uri": block.get("subject", {}).get("uri", "") if block.get("subject") else None,
         "via.cid": str(block.get("via", {}).get("cid", "")) if block.get("via") else None,
         "via.uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
-        "createdAt": block.get("createdAt") or datetime.utcnow().isoformat(),
+        "createdAt": block.get("createdAt"),
     }
 
 def on_message_handler(message, keywords, producer):
@@ -295,29 +382,26 @@ def on_message_handler(message, keywords, producer):
                 continue
             
             if record_type == "app.bsky.feed.post":
-                post, discard = process_post(block, commit, op)
+                post = process_post(block, commit, op)
                 post_key = f"{commit.repo}/{op.path}:" + post["cid"]
 
                 # Send to Kafka
                 producer.send("bluesky.firehose", key=post_key, value=post)
 
-                if not discard:
+                # TODO: choose if we want them in the same table or a different table
+                if (post["filter_21&23_true"] or post["filter_23_true"]):
                     # Send to Kafka
                     producer.send("bluesky.posts", key=post_key, value=post)
+                
             elif record_type == "app.bsky.feed.like":
                 like = process_like(block, commit, op)
-                like_key = f"{commit.repo}/{op.path}:" + like["subject.cid"]
+                like_key = f"{commit.repo}/{op.path}:{like.get('subject.cid') or 'no-cid'}"
                 # TODO producer.send("bluesky.likes", key=like_key, value=like)
 
             elif record_type == "app.bsky.feed.repost":
                 repost = process_repost(block, commit, op)
-                repost_key = f"{commit.repo}/{op.path}:" + repost["subject.cid"]
+                repost_key = f"{commit.repo}/{op.path}:{repost.get('subject.cid') or 'no-cid'}"
                 # TODO producer.send("bluesky.reposts", key=repost_key, value=repost)
-
-
-            
-
-            
 
     except Exception as e:
         print(f"[ERR] Error in message handler: {e}")
