@@ -37,7 +37,7 @@ with open(DELIVERABLE21_FILE, encoding="utf-8") as f:
 def build_patterns_23_subwords():
     patterns = {}
     for lang, data in keywords_23.items():
-        for topic, words in data["full_keywords"].items():
+        for topic, words in data.items():
             for word in words:
                 # subword matching: no \b boundaries
                 pattern = re.escape(word).replace(r'\*', '.*')
