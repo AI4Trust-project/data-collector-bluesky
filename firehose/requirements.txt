@@ -1,3 +1,4 @@
 atproto>=0.0.43
 kafka-python
 psycopg2[binary]
+multiformats
