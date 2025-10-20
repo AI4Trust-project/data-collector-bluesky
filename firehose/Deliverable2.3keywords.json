@@ -1,42 +1,42 @@
 {
   "English": {
-    "climate_change": ["climate change", "global warming"],
-    "migrants": ["migra*", "refugee*", "migrant", "migration", "migrate", "migratory", "immigrant", "immigration", "immigrate", "refugees"],
-    "public_health": ["vaccin*", "vaccine", "vaccines", "vaccination", "vaccinations", "vaccinate", "vaccinates", "vaccinated", "vaccinating"]
+    "CLIMATE_CHANGE": ["climate change", "global warming"],
+    "MIGRANTS": ["migra*", "refugee*", "migrant", "migration", "migrate", "migratory", "immigrant", "immigration", "immigrate", "refugees"],
+    "PUBLIC_HEALTH": ["vaccin*", "vaccine", "vaccines", "vaccination", "vaccinations", "vaccinate", "vaccinates", "vaccinated", "vaccinating"]
   },
   "Italian": {
-    "climate_change": ["cambiamento climatico", "riscaldamento globale"],
-    "migrants": ["migra*", "rifugiat*", "migrante", "migranti", "migrazione", "migrare", "migratorio", "migratoria", "immigrante", "immigranti", "immigrazione", "immigrare", "rifugiato", "rifugiata", "rifugiati", "rifugiate"],
-    "public_health": ["vaccin*", "vaccino", "vaccini", "vaccinazione", "vaccinazioni", "vaccinare", "vaccina", "vaccinato", "vaccinata", "vaccinati", "vaccinate", "vaccinando"]
+    "CLIMATE_CHANGE": ["cambiamento climatico", "riscaldamento globale"],
+    "MIGRANTS": ["migra*", "rifugiat*", "migrante", "migranti", "migrazione", "migrare", "migratorio", "migratoria", "immigrante", "immigranti", "immigrazione", "immigrare", "rifugiato", "rifugiata", "rifugiati", "rifugiate"],
+    "PUBLIC_HEALTH": ["vaccin*", "vaccino", "vaccini", "vaccinazione", "vaccinazioni", "vaccinare", "vaccina", "vaccinato", "vaccinata", "vaccinati", "vaccinate", "vaccinando"]
   },
   "French": {
-    "climate_change": ["changement climatique", "réchauffement climatique"],
-    "migrants": ["migr*", "réfugié*", "migrant", "migrante", "migration", "migrer", "migratoire", "immigrant", "immigrante", "immigration", "réfugié", "réfugiée", "réfugiés", "réfugiées"],
-    "public_health": ["vaccin*", "vaccin", "vaccins", "vaccination", "vaccinations", "vacciner", "vaccine", "vacciné", "vaccinée", "vaccinés", "vaccinées", "vaccinant"]
+    "CLIMATE_CHANGE": ["changement climatique", "réchauffement climatique"],
+    "MIGRANTS": ["migr*", "réfugié*", "migrant", "migrante", "migration", "migrer", "migratoire", "immigrant", "immigrante", "immigration", "réfugié", "réfugiée", "réfugiés", "réfugiées"],
+    "PUBLIC_HEALTH": ["vaccin*", "vaccin", "vaccins", "vaccination", "vaccinations", "vacciner", "vaccine", "vacciné", "vaccinée", "vaccinés", "vaccinées", "vaccinant"]
   },
   "Spanish": {
-    "climate_change": ["cambio climático", "calentamiento global"],
-    "migrants": ["migra*", "refugiad*", "migrante", "migrantes", "migración", "migrar", "migratorio", "migratoria", "inmigrante", "inmigrantes", "inmigración", "refugiado", "refugiada", "refugiados", "refugiadas"],
-    "public_health": ["vacun*", "vacuna", "vacunas", "vacunación", "vacunaciones", "vacunar", "vacunado", "vacunada", "vacunados", "vacunadas", "vacunando"]
+    "CLIMATE_CHANGE": ["cambio climático", "calentamiento global"],
+    "MIGRANTS": ["migra*", "refugiad*", "migrante", "migrantes", "migración", "migrar", "migratorio", "migratoria", "inmigrante", "inmigrantes", "inmigración", "refugiado", "refugiada", "refugiados", "refugiadas"],
+    "PUBLIC_HEALTH": ["vacun*", "vacuna", "vacunas", "vacunación", "vacunaciones", "vacunar", "vacunado", "vacunada", "vacunados", "vacunadas", "vacunando"]
   },
   "German": {
-    "climate_change": ["Klimawandel", "globale Erwärmung"],
-    "migrants": ["migra*", "Flüchtling*", "Ausländer", "Migrant", "Migrantin", "Migranten", "Migrantinnen", "Migration", "migrieren", "Immigrant", "Immigrantin", "Immigranten", "Immigrantinnen", "Immigration", "immigrieren", "Einwanderer", "Asylant", "Flüchtling", "Flüchtlinge"],
-    "public_health": ["impf*", "geimpft", "Vakzin*", "Impfstoff", "Impfstoffe", "Impfung", "Impfungen", "impfen", "impft", "impfend", "Vakzin", "Vakzine", "Vakzination", "Vakzinationen"]
+    "CLIMATE_CHANGE": ["Klimawandel", "globale Erwärmung"],
+    "MIGRANTS": ["migra*", "Flüchtling*", "Ausländer", "Migrant", "Migrantin", "Migranten", "Migrantinnen", "Migration", "migrieren", "Immigrant", "Immigrantin", "Immigranten", "Immigrantinnen", "Immigration", "immigrieren", "Einwanderer", "Asylant", "Flüchtling", "Flüchtlinge"],
+    "PUBLIC_HEALTH": ["impf*", "geimpft", "Vakzin*", "Impfstoff", "Impfstoffe", "Impfung", "Impfungen", "impfen", "impft", "impfend", "Vakzin", "Vakzine", "Vakzination", "Vakzinationen"]
   },
   "Romanian": {
-    "climate_change": ["schimbări climatice", "încălzire globală"],
-    "migrants": ["migra*", "refugiat*", "migrant", "migrantă", "migranți", "migrante", "migrație", "migra", "migrator", "migratoare", "imigrant", "imigrantă", "imigranți", "imigrante", "imigrație", "imigra", "refugiat", "refugiată", "refugiați", "refugiați"],
-    "public_health": ["vaccin*", "vaccin", "vaccinuri", "vaccinare", "vaccinări", "vaccina", "vaccinează", "vaccinat", "vaccinată", "vaccinați", "vaccinate", "vaccinând"]
+    "CLIMATE_CHANGE": ["schimbări climatice", "încălzire globală"],
+    "MIGRANTS": ["migra*", "refugiat*", "migrant", "migrantă", "migranți", "migrante", "migrație", "migra", "migrator", "migratoare", "imigrant", "imigrantă", "imigranți", "imigrante", "imigrație", "imigra", "refugiat", "refugiată", "refugiați", "refugiați"],
+    "PUBLIC_HEALTH": ["vaccin*", "vaccin", "vaccinuri", "vaccinare", "vaccinări", "vaccina", "vaccinează", "vaccinat", "vaccinată", "vaccinați", "vaccinate", "vaccinând"]
   },
   "Greek": {
-    "climate_change": ["κλιματική αλλαγή", "υπερθέρμανση του πλανήτη"],
-    "migrants": ["μεταναστ", "πρόσφυγ*", "μετανάστ*", "πρoσφυγ*", "μετανάστης", "μετανάστρια", "μετανάστες", "μετανάστριες", "μετανάστευση", "μεταναστεύω", "μεταναστευτικός", "μεταναστευτική", "μεταναστευτικό", "πρόσφυγας", "προσφύγισσα", "πρόσφυγες", "προσφύγισσες", "προσφυγοπούλα", "προσφυγόπουλο", "προσφυγόπουλα", "προσφυγοπούλες"],
-    "public_health": ["εμβολι*", "εμβόλι*", "εμβόλι", "εμβολι", "εμβόλι", "εμβόλιο", "εμβόλια", "εμβολιασμός", "εμβολιασμοί", "εμβολιάζω", "εμβολιάζει", "εμβολιασμένος", "εμβολιασμένη", "εμβολιασμένοι", "εμβολιασμένες", "εμβολιάζοντας", "εμβολιασμένο", "εμβολιάζομαι", "εμβολιάστηκε"]
+    "CLIMATE_CHANGE": ["κλιματική αλλαγή", "υπερθέρμανση του πλανήτη"],
+    "MIGRANTS": ["μεταναστ", "πρόσφυγ*", "μετανάστ*", "πρoσφυγ*", "μετανάστης", "μετανάστρια", "μετανάστες", "μετανάστριες", "μετανάστευση", "μεταναστεύω", "μεταναστευτικός", "μεταναστευτική", "μεταναστευτικό", "πρόσφυγας", "προσφύγισσα", "πρόσφυγες", "προσφύγισσες", "προσφυγοπούλα", "προσφυγόπουλο", "προσφυγόπουλα", "προσφυγοπούλες"],
+    "PUBLIC_HEALTH": ["εμβολι*", "εμβόλι*", "εμβόλι", "εμβολι", "εμβόλι", "εμβόλιο", "εμβόλια", "εμβολιασμός", "εμβολιασμοί", "εμβολιάζω", "εμβολιάζει", "εμβολιασμένος", "εμβολιασμένη", "εμβολιασμένοι", "εμβολιασμένες", "εμβολιάζοντας", "εμβολιασμένο", "εμβολιάζομαι", "εμβολιάστηκε"]
   },
   "Polish": {
-    "climate_change": ["zmiana klimatu", "globalne ocieplenie"],
-    "migrants": ["migra", "uchodźc*", "migrant", "migrantka", "migranci", "migrantki", "migracja", "migrować", "migracyjny", "migracyjna", "imigrant", "imigrantka", "imigranci", "imigrantki", "imigracja", "imigrować", "uchodźca", "uchodźczyni", "uchodźcy", "uchodźczynie"],
-    "public_health": ["szczepi", "szczepionka", "szczepionki", "szczepienie", "szczepienia", "szczepić", "zaszczepiony", "zaszczepiona", "zaszczepieni", "zaszczepione", "szczepiąc"]
+    "CLIMATE_CHANGE": ["zmiana klimatu", "globalne ocieplenie"],
+    "MIGRANTS": ["migra", "uchodźc*", "migrant", "migrantka", "migranci", "migrantki", "migracja", "migrować", "migracyjny", "migracyjna", "imigrant", "imigrantka", "imigranci", "imigrantki", "imigracja", "imigrować", "uchodźca", "uchodźczyni", "uchodźcy", "uchodźczynie"],
+    "PUBLIC_HEALTH": ["szczepi", "szczepionka", "szczepionki", "szczepienie", "szczepienia", "szczepić", "zaszczepiony", "zaszczepiona", "zaszczepieni", "zaszczepione", "szczepiąc"]
   }
 }

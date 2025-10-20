@@ -1,6 +1,6 @@
 {
   "English": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Adaptation strategies", "Air pollution", "Biodiversity loss", "Carless cities", "Carbon dioxide emissions", "Carbon emissions", "Carbon footprint", "Carbon pricing", "Carbon sequestration", "Chemical spill", "Clean energy", 
       "Clean energy technologies", "Climate activism", "Climate action", "Climate adaptation", "Climate change", "Climate change adaptation", "Climate change hoax", "Climate crisis", "Climate education", "Climate finance", 
       "Climate impact on ecosystems", "Climate justice", "Climate mitigation", "Climate modelling", "Climate policy", "Climate refugees", "Climate resilience", "Climate science", "Climate variability", "Copernicus", "Deforestation", 
@@ -10,7 +10,7 @@
       "Rainforest", "Recycling initiatives", "Renewable energy", "Sea level rise", "Sustainability efforts", "Sustainable development", "Sustainable energy", "United Nations Climate Change Conference", "Waste management", 
       "Water pollution", "Water scarcity", "Weather", "Weather modification", "Wind turbines", "Wildfires"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5G", "5th gen wireless", "5th-generation wireless", "Alien", "Alien Agenda", "AlienLeaks", "Anthony Fauci", "Big Pharma", "Bill Gates", "CDC", "CHD", "COVID", "COVID-19", "COVID vax", "COVID19", "Dr Bryan Ardis", "DNA", 
       "Emergency", "FDA", "George Soros", "Johnson & Johnson", "Marburg virus", "Moderna", "Morgellons", "Pfizer", "RNA", "Ron Watkins", "SARS-CoV-2", "Transhuman", "Transhumanism", "UAP", "UFO", "UFO report", 
       "Unidentified Aerial Phenomena", "adrenochrome", "adverse events", "adverse reaction", "antibodies", "anti-vax", "anti-vaxx", "anti-vaxxer", "antivaxx", "antivaxxer", "antibodies", "antibody", "antivaxx", "antivaxxer", 
@@ -28,7 +28,7 @@
        "vaids", "vaccine", "vaccine adverse reporting system", "vaccine choice", "vaccine deaths", "vaccine injuries", "vaccine mandates", "vaccine side effects", "vaccine victims", "vaccination", "vaccinations", "vaccines", "vax", 
        "vax death", "vaxx", "watch the water", "wuhan", "yellow fever"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Asylum seekers", "attack Europe", "banderisation", "borders", "child migrants", "civilization threat", "danger civilisation", "displacement", "economic immigrants", "economic migrants", "Economic impact of migration", 
       "europhobie", "greece_defends_europe", "greece_under_attack", "great replacement", "great remplacement", "illegal", "illegal alien", "illegal aliens", "immigrant", "immigrants", "immigration", "Immigration law",
       "Immigration policies", "Integration programs", "invasion", "invasion Europe", "invaders", "invade", "migrant danger women", "migrant killer", "migrants", "Migration and development", "Migration management", "Migration patterns", 
@@ -37,10 +37,10 @@
     ]
   },
   "French": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Changement climatique", "co2", "catastrophe environnementale", "villes sans voiture", "déversement de produits chimiques", "canular sur le changement climatique", "Greta Thunberg", "le réchauffement climatique"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "Adrénochrome", "anti-avortement", "anti-vaccin", "anticorps", "antivaxer", "arme biologique du ccp", "arrêt cardiaque", "asymptomatique", "aucun enfant vacciné", "auto-isolement", "avortement", "biotech", 
       "blessures vaccinales", "caillot sanguin", "calendrier des vaccinations infantiles", "choix du vaccin", "Code de Nuremberg", "congé menstruel", "convention istanbul", "courbe épidémique", "COVID-19 crimes contre l'humanité",
        "décès vaccin", "effets indésirables", "effets secondaires du vaccin", "essais cliniques", "extraterrestre", "fièvre jaune", "foetus", "fuites extraterrestres", "industrie pharmaceutique", "grippe Wuhan", "homéopathique", 
@@ -57,7 +57,7 @@
          "couvre-feu dictature", "masques révoltez-vous", "NonAuMasque", "chloroquine", "coronagate", "vaccins obligatoires", "veran demission", "chinois responsable", "covid collabos", "covid mensonge", "remède éthanol", 
          "remède javel", "révolte corona"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Migrant", "immigrant", "enfants migrants", "tommy robinson", "invasion migratoire", "migration", "immigration", "étranger en situation irrégulière", "Étrangers illégaux", "grand replacement", 
       "regroupement familiale crime originel", "réfugié dehors", "envahisseur", "reimigration", "menace migratoire", "france aux francais", "migrants dehors", "sale migrant", "sale réfugié", "dégage migrant", "dégage réfugié", 
       "pseudo migrant", "faux migrant", "faux réfugié", "insécurité migrant", "invasion africaine", "Invasion Migratoire", "reconquista", "déferlement migratoire", "immigrationdemasse", "immigration terrorisme", "oqtf", 
@@ -65,11 +65,11 @@
     ]
   },
   "German": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Greta Thunberg", "Energiewende", "CO2", "Umweltkatastrophe", "autolose Städte", "Klimawandel", "die globale Erwärmung", "Chemieunfall", "Klimawandel-Schwindel", "Klima Hysterie", "Klima Elite", "Klima-Irre", "Fridays for Future",
        "Klimareligion", "Luisa Neubauer", "Klima-Ideologen", "Klima-Terrroristen", "Klima-Chaoten", "Klimakontrolle"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "Arzneimittel", "Impfopfer", "Impftote", "Schlangenblut", "Adrenochrom", "Impfung", "Lambda-Stamm", "Haftung für gefährliche Produkte", "Nürnberger Prozesse wegen Covid", "Virusmutation", "Spike-Protein", "Vax-Tod", "mRNA-Brühe", 
       "Epidemiekurve", "Gen-Impfung", "Herzmuskelentzündung", "Genspritze", "zusammengebrochen", "Todesschuss", "Nürnberg 2.0", "Nebenwirkung", "Stoppen Sie den Völkermord", "kein Stich", "Alien-Agenda", "Masern",
        "Masken sind für Sklaven", "PSA", "UFO-Bericht des Pentagons", "keine Kinder geimpft", "Covid-Pass", "Maskenpflicht", "Wahl des Impfstoffs", "Robert Koch-Institut", "RKI", "WHO-Diktatur", "Nürnberg 2", "geimpft", 
@@ -83,14 +83,14 @@
         "asymptomatisch", "Corona-Diktatur", "Coronavirus", "Mandat", "Gift Cocktail", "Schnelltests", "Pro-Wahl", "Abtreibung", "Gynäkologie", "Pro-Choice", "prochoice", "Fötus", "Roe gegen Wade", "Istanbuler Konvention",
         "Menstruationsurlaub", "Menstruation"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Anti-Schwuchtel-Gesetze", "Immigrant", "Einwanderung", "Migranten", "Einwanderungswelle", "Invasion", "Einwanderer", "Kindermigranten werden vermisst", "Kriminalität", "Undankbarkeit", "undankbar", "Vergewaltigung",
        "vergewaltigen", "Sozialtourismus", "Sozial-Tourismus", "Sozialtouristen", "Sozialleistung ausnutzen", "auf Staatskosten", "Sozialstaat ausnutzen", "Wohnungsnot", "Luxusflüchtling", "Luxus Flüchtling", "Luxusunterkünfte",
        "Messer Migranten", "Messermigranten", "Ausländer", "Horde", "Ausländerkriminalität"
     ]
   },
   "Greek": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Στρατηγικές προσαρμογής", "μόλυνση του αέρα", "απώλεια βιοποικολότητας", "πόλεις χωρίς αυτοκίνητα", "εκπομπές διοξειδίου του άνθρακα", "εκπομπές άνθρακα", "αποτύπωμα άνθρακα", "τιμολόγηση άνθρακα", "δέσμευση άνθρακα", 
       "διαρροή χημικών", "καθαρή ενέργεια", "τεχνολογία καθαρής ενέργειας", "ακτιβισμός για το κλίμα", "δράση για το κλίμα", "προσαρμογή στην κλιματική αλλαγή", "κλιματική αλλαγή", "απάτη της κλιματικής αλλαγής", "κλιματική κρίση", 
       "περιβαλλοντική εκπαίδευση", "χρηματοδότηση για το κλίμα", "επίδραση του κλίματος στο οικοσύστημα", "δικαιοσύνη για το κλίμα", "μετριασμός των επιπτώσεων της κλιματικής αλλαγής", "μοντελοποίηση του κλίματος", "κλιματική πολιτική",
@@ -101,7 +101,7 @@
       "αύξηση της στάθμης της θάλασσας", "βιώσιμες προσπάθειες", "βιώσιμη ανάπτυξη", "βιώσιμη ενέργεια", "Διάσκεψη των Ηνωμένων Εθνών για την Κλιματική Αλλαγή", "διαχείριση αποβλήτων", "μόλυνση του νερού", "λειψυδρία", "καιρός", 
       "τροποποίηση του καιρού", "ανεμογεννήτριες", "πυρκαγιές"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5g", "ασύρματα δίκτυα πέμπτης γενιάς", "εξωγήινοι", "ατζέντα εξωγήινων", "AlienLeaks", "Άντονι Φάουτσι", "Big Pharma", "μεγάλες φαρμακευτικές", "Μπιλ Γκέιτς", "CDC", "CHD", "COVID", "COVID-19", "εμβόλιο COVID", "COVID19", 
       "Δρ. Μπράιν Άντρις", "DNA", "έκτακτη ανάγκη", "FDA", "Τζορτζ Σόρος", "Johnson & Johnson", "ιός Marburg", "Moderna", "Morgellons", "Pfizer", "RNA", "Ρον Γουάτκινς", "SARS-CoV-2", "μετάνθρωπος", "διανθρωπισμός", "ΑΤΙΑ", "UFO", 
       "UFO Report", "μη αναγνωρισμένα εναέρια φαινόμενα", "αδρενοχρώμιο", "ανεπιθύμητα γεγονότα", "παρενέργειες", "αντιβιωτικά", "κατά των εμβολίων", "anti-vax", "εντιεμβολιαστής", "AstraZeneca", "αυτισμός", "κακή θεραπεία", 
@@ -121,7 +121,7 @@
        "εμβολιασμοί", "Ουχάν", "Γιουχάν", "Κίτρινος Πυρετός",
       "Ξαφνικίτιδα", "μπόλι", "μπολιασμένος", "πρωτόκολλο θανάτου", "κοροϊδοιός", "σφράγισμα", "τσίμπιμα", "τσιπάκι"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Αφρικανοί", "Άραβες", "αιτούντες άσυλο", "επίθεση στην Ευρώπη", "Banderisation", "βάρβαροι", "σύνορα", "παιδιά μετανάστες", "απειλή για τον πολιτισμό", "επικίνδυνος πολιτισμός", "εκτοπισμός", "οικονομικοί μετανάστες", 
       "οικονομικές επιπτώσεις της μετανάστευσης", "φοβία για την Ευρώπη", "Η_Ελλάδα_προστατεύει_την_Ευρώπη", "Η_Ελλάδα_δέχεται_επίθεση", "μεγάλη αντικατάσταση", "παράνομος", "παράνομος μετανάστης", "μετανάστες", "μετανάστευση", 
       "μεταναστευτικός νόμος", "μεταναστευτικές πολιτικές", "μεταναστευτικά προγράμματα", "εισβολή", "προγράμματα ενσωμάτωσης", "εισβολή στην Ευρώπη", "εισβολείς", "μετανάστες κίνδυνος για τις γυναίκες", "μετανάστης δολοφόνος", 
@@ -133,7 +133,7 @@
 
   },
   "Italian": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Città senza auto", "fuoriuscita di sostanze chimiche", "bufala del cambiamento climatico", "Greta Thunberg", "cambiamento climatico", "riscaldamento globale", "co2", "disastro ambientale", "Strategie di adattamento", 
       "inquinamento atmosferico", "perdita biodiversità", "emissioni Co2", "emissioni carbonio", "impronta carbonio", "prezzo carbonio", "sequestro carbonio", "energia pulita", "tecnologie energia pulita", "attivismo climatico", 
       "inganno cambiamento climatico", "crisi climatiche", "educazione climatica", "finanza climatica", "impatto climatico ecosistemi", "giustizia climatica", "migrazioni climatiche", "moderazione climatica", "politiche climatiche", 
@@ -144,7 +144,7 @@
       "sforzi sostenibilità", "sviluppo sostenibile", "energia sostenibile", "Conferenza cambiamento climatico Onu", "gestione rifiuti", "inquinamento acqua", "mancanza acqua", "tempo atmosferico", "modificazione tempo atmosferico", 
       "turbine eoliche", "incendi boschivi"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5g", "wireless quinta generazione", "wireless 5 gen", "alieno", "agenda aliena", "AlienLeaks", "Anthony Fauci", "Big Pharma", "Bill Gates", "CDC", "CHD", "Covid", "Covid-19", "vaccino Covid", "Covid19", "Dr Bryan Ardis", "DNA", 
       "emergenza", "FDA", "George Soros", "Johnson & Johnson", "virus di Marburg", "Moderna", "Morgellons", "Pfizer", "RNA", "Ron Watkins", "SARS-CoV-2", "transumano", "transumanesimo", "UAP", "UFO", "report UFO", 
       "fenomeno aereo non identificato", "adrenocromo", "eventi avversi", "reazioni avverse", "anticorpi", "anticorpo", "Astrazeneca", "autismo", "cattiva medicina", "cattiva scienza", "paralisi di Bell", "big Pharma", 
@@ -161,7 +161,7 @@
       "rimozione tossine", "transumano", "non vaccinato", "unvaxxed lives matter", "unvaccinated", "immunodeficienza acquisita da vaccino", "vaccino", "sistema di segnalazione eventi avversi da vaccino", "scelta vaccinale", 
       "morti da vaccino", "infortuni da vaccino", "obblighi vaccinali", "effetti collaterali vaccino", "vittime vaccino", "vaccinazione", "vaccinazioni", "vaccini", "vax", "wuhan", "febbre gialla"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "I bambini migranti scompaiono", "extracomunitari", "migrazione", "immigrazione", "invasione", "immigrato", "clandestini", "migranti", "straniero clandestino", "Tommy Robinson", "immigrati", "africani", "arabi", 
       "richiedenti asilo", "attacchi Europa", "banderizzazione", "confini", "bambini migranti", "minaccia alla civiltà", "pericolo civiltà", "dislocamento", "immigrati economici", "migranti economici", 
       "impatto economico della migrazione", "eurofobia", "Grecia difende europa", "Grecia sotto attacco", "grande sostituzione", "illegale", "clandestino", "clandestini", "immigrato", "immigrati", "immigrazione", 
@@ -173,7 +173,7 @@
     ]
   },
   "Polish": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Strategie adaptacyjne/środki przystosowawcze", "zanieczyszczenie powietrza", "utrata różnorodności biologicznej", "miasta bez samochodów", "emisja dwutlenku węgla", "śląd węglowy", "ceny emisji dwutlenku węgla", 
       "sekwestracja dwutlenku węgla", "wyciek substancji chemicznych", "czysta energia", "technologia czystej energii", "Clean energy technologies", "aktywizmy klimatyczny", "działanie/działania na rzecz klimatu", 
       "adaptacja klimatyczna", "zmiany klimatu/zmiana klimatu", "adaptacja do zmian klimatycznych", "oszustwo dotyczące zmian klimatu/spisek klimatyczny", "kryzys klimatyczny", "edukacja klimatyczna", "zrównoważone finanse", 
@@ -186,7 +186,7 @@
        "Konferencja Narodów Zjednoczonych w sprawie zmian klimatycznych", "gospodarowanie odpadami", "zanieczyszczenie wody", "ziedobór wody", "pogoda", "modyfikacja pogody/wpływanie na pogodę", "turbiny wiatrowe", 
        "niekontrolowany ogień"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5G", "technologia bezprzewodowa piątej generacji", "technologia bezprzewodowa 5-tej generacji", "obcy/kosmita", "agenda obcych", "Anthony Fauci", "Big Pharma", "Bill Gates", "CDC", "CHD", "COVID", "COVID-19", 
       "szczepionka na COVID/szczepionka przeciw COVID", "COVID19", "Dr Bryan Ardis", "DNA", "nagły wypadek", "FDA", "George Soros", "Johnson & Johnson", "wirus Marburg", "Moderna", "Morgellony/Morgellonowie", "Pfizer", 
       "RNA", "Ron Watkins", "SARS-CoV-2", "transczłowiek", "transhumanizm", "UAP", "UFO", "raport o UFO", "Niezidentyfikowane zjawiska latający", "adrenochrom", "zdarzenia niepożądane", "działanie niepożądane", "przeciwciała", 
@@ -205,7 +205,7 @@
       "system zgłaszania działań niepożądanych szczepionek", "wybór czy zostać zaszczepionym", "zgonów poszczepienne", "urazy poszczepienne", "upoważnienie do zaszczepienia", 
       "skutki uboczne szczepionki/niepożądany odczyn poszczepienny/nop", "ofiar szczepionek", "szczepienie", "szczepienia", "szczepionki", "śmierć szczepionkowa", "wuhan", "żółta febra"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Afrykanie", "Arabowie", "osoby ubiegające się o azyl", "atakować Europę", "banderyzacja", "granice", "dzieci-migranci", "zagrożenie cywilizacyjne", "niebezpieczna cywilizacja", "przemieszczenie", "imigranci ekonomiczni", 
       "emigranci ekonomiczni", "ekonomiczne skutki migracji", "eurofob", "grecja_chroni_europę", "grecja_atakowana", "wielkie zastąpienie", "nielegalny", "nielegalny obcy", "nielegalni obcy", "imigrant", "imigranci", "imigracja", 
       "prawo imigracyjne", "polityka imigracyjna", "programy integracyjne", "inwazja", "inwazja na Europę", "najeźdźcy", "najechać", "migranci zagrażają kobietom", "migrant zabójca", "migranci", "Migracja i rozwój", 
@@ -215,7 +215,7 @@
     ]
   },
   "Romanian": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "Strategii de adaptare", "Poluarea aerului", "Poluarea atmosferică", "Pierderea biodiversității", "Distrugerea biodiversității", "Orașe fără mașini", "Emisii de dioxid de carbon", "Emisiile de dioxid de carbon", 
       "Amprenta de carbon", "Prețul carbonului", "Stocarea carbonului", "Deversare de substanțe chimice", "Energie curată", "Tehnologii energetice curate", "Activism climatic", "Acțiune climatică", "Adaptare la schimbările climatice", 
       "Schimbări climatice", "Caniculă privind schimbările climatice", "Criza climatică", "Educație climatică", "Finanțarea climei", "Impactul climei asupra ecosistemelor", "Justiție climatică", "Atenuarea schimbărilor climatice", 
@@ -227,7 +227,7 @@
       "Creșterea nivelului mării", "Eforturi de durabilitate", "Dezvoltare durabilă", "Energie durabilă", "Conferința Națiunilor Unite privind schimbările climatice", "Gestionarea deșeurilor", "Poluarea apei", "Scăderea apei", 
       "Vreme", "Schimbarea vremii", "Turbine eolienne"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5G", "a 5a generație wireless", "wireless 5 gen", "Alien", "Alien Agenda", "AlienLeaks", "Anthony Fauci", "Big Pharma", "Bill Gates", "CDC", "CHD", "COVID", "COVID-19", "COVID vax", "COVID19", "Dr. Bryan Ardis", "DNA", 
       "Urgență", "FDA", "George Soros", "Johnson & Johnson", "virusul Marburg", "Moderna", "Morgellons", "Pfizer", "ARN", "Ron Watkins", "SARS-CoV-2", "Transuman", "Transumanism", "UAP", "OZN", "raport OZN", 
       "Fenomene aeriene neidentificate", "adrenocrom", "evenimente adverse", "reacții adverse", "anticorpi", "anti-vax", "anti-vaxx", "anti-vaxxer", "antivaxx", "astrazeneca", "autism", "medicină proastă", "știință proastă", 
@@ -245,7 +245,7 @@
       "alegerea vaccinului", "decese prin vaccinare", "leziuni prin vaccinare", "mandate de vaccinare", "efecte secundare ale vaccinurilor", "victime ale vaccinurilor", "vaccinare", "vaccinuri", "vax", "vax moarte", "vaxx", 
       "watch the water", "wuhan", "febra galbenă"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Africani", "arabi", "solicitanți de azil", "atacă Europa", "banderizare", "granițe", "copii migranți", "amenințarea civilizației", "pericolul civilizației", "strămutare", "imigranți economici", "migranți economici", 
       "impactul economic al migrației", "eurofobie", "grecia_apară_europa", "grecia_sub_atac", "marea înlocuire", "marea relocare", "ilegal", "străin ilegal", "străini illegali", "imigrant", "imigranți", "imigrare", "imigrație", 
       "Legea imigrației", "Politici de migrație", "Programe de integrare", "invazie", "invazie Europa", "invadatori", "invadare", "invadează", "pericol migranți femei", "ucigaș de migranți", "migranți", "Migrație și dezvoltare", 
@@ -255,7 +255,7 @@
     ]
   },
   "Spanish": {
-    "climate_change": [
+    "CLIMATE_CHANGE": [
       "calentamiento global", "engaño del cambio climático", "cambio climático", "desastre ambiental", "ciudades sin coches", "co2", "greta thunberg", "derrame de sustancias químicas", "cambio cromático", "timo climático", "presas", 
       "sequía", "temperaturas", "inundación", "agenda 2030", "nivel del mar", "chemtrails", "geoingeniería", "planeta B", "ciclón", "tormenta", "huracán", "HAARP", "DANA", "insectos", "emergencia climática", "pantano", "incendio", 
       "reciclaje", "glaciar", "temperaturas extremas", "embalses", "paneles solares", "hidroeléctrica", "molinos de viento", "electricidad", "baterías", "ola de calor", "coches eléctricos", "cobalto", "contaminación", "temperatura", 
@@ -263,7 +263,7 @@
       "yoduro de plata", "cambio climatico antropogénico", "agua", "racionamiento", "fumigación", "energía verde", "destrucción de lluvias", "afrenta 2030", "climodemia", "climademia", "ecodictadura", "ecofascismo", 
       "ecorrégimen dictatorial", "farsemia climática", "Paranoia climática", "Timo climático", "2030 agenda"
     ],
-    "public_health": [
+    "PUBLIC_HEALTH": [
       "5g", "aborto", "adrenocromo", "Agenda alienígena", "anticuerpos", "antivacunas", "antivax", "antivaxx", "aplanando la curva", "arma biológica del ccp", "asintomático", "astrazeneca", "autoaislamiento", "base de datos vaers", 
       "Bill Gates", "biotecnología", "calendario vacunal infantil", "cáncer", "cardiopatía coronaria", "cepa lambda", "clínica de cleveland", "coágulo", "coalición para la preparación ante epidemias", "cobayas", "codigo de nuremberg", 
       "códigomonkeyz", "colapsado", "conejillos de indias", "convención de estambul", "corona", "coronavirus", "COVID-19", "crímenes contra la humanidad", "curar", "curva epidémica", "disparo mortal", "efectos secundarios", 
@@ -278,7 +278,7 @@
     "aRn", "bozal", "covidiano", "despiertos", "disidentes", "enflautamientos", "inoculados", "kakunas", "masónico", "mundialista", "neonega", "NOM", "Nuevo Orden Mundia", "Nueva Normalidad", "Opoficción", "plandemia", "Repentinitis", 
     "Tapabocas", "Úrsula Von der Pfizer", "Vacuñao", "Zombi covidiano", "Zoociedad"
     ],
-    "migrants": [
+    "MIGRANTS": [
       "Migración", "migrantes", "niños migrantes", "inmigración", "extranjeros ilegales", "niños migrantes desaparecen", "inmigrantes", "invasión", "marroquíes", "moros", "musulmanes", "árabe", "Alá es grande", "ilegales", 
       "magrebí", "islamismo", "pateras", "barco nodriza", "mahomá", "ramadan", "meca", "inmigrante okupa", "africanos", "invasión islámica", "mezquita", "negro", "persona negra", "burka", "ayudas", "paguitas", "puertas ilegales", 
       "reemplazo social", "terrorismo"
