@@ -222,7 +222,7 @@ def decode_embed_link(encoded_ref, author_did, fmt):
 
             cid_obj = CID.decode(encoded_ref)
             cid_base32 = cid_obj.encode("base32")
-            return f"https://video.bsky.app/watch/{author_did}/{cid_base32}/playlist.m3u8"
+            return f"https://video.bsky.app/watch/{author_did}/{cid_base32}/playlist.m3u8", f"https://video.bsky.app/watch/{author_did}/{cid_base32}/thumbnail.jpg"
 
         except Exception as e:
             print(f"[!] Failed to decode video ref: {e}")
@@ -255,6 +255,7 @@ def process_post(block, commit, op, keywords):
     video_link = None
     external_link_url = None
     external_link_image_link = None
+    video_thumbnail_link = None
     author_did = commit.repo
 
     if embed and isinstance(embed, dict):
@@ -273,7 +274,7 @@ def process_post(block, commit, op, keywords):
             try:
                 ref = embed.get("video", {}).get("ref")
                 if ref:
-                    video_link = decode_embed_link(ref, author_did, "video")
+                    video_link, video_thumbnail_link = decode_embed_link(ref, author_did, "video")
             except Exception as e:
                 print(f"[!] Failed to decode video: {e}")
         elif embed_type == "app.bsky.embed.external":
@@ -326,6 +327,7 @@ def process_post(block, commit, op, keywords):
         "embed": embed,
         "images_links": images_links,
         "video_link": video_link,
+        "video_thumbnail_link": video_thumbnail_link,
         "external_link_url": external_link_url,
         "external_link_image_link": external_link_image_link,
         "facets": facets,
