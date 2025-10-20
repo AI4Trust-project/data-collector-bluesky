@@ -253,6 +253,8 @@ def process_post(block, commit, op, keywords):
     embed = block.get("embed", None)
     images_links = None
     video_link = None
+    external_link_url = None
+    external_link_image_link = None
     author_did = commit.repo
 
     if embed and isinstance(embed, dict):
@@ -274,6 +276,17 @@ def process_post(block, commit, op, keywords):
                     video_link = decode_embed_link(ref, author_did, "video")
             except Exception as e:
                 print(f"[!] Failed to decode video: {e}")
+        elif embed_type == "app.bsky.embed.external":
+            try:
+                external_link_url = embed.get("external", {}).get("uri")
+            except Exception as e:
+                print(f"[!] Failed to get uri of external link: {e}")
+            try:
+                ref = embed.get("external", {}).get("thumb").get("ref")
+                if ref:
+                    external_link_image_link = decode_embed_link(ref, author_did, "image")
+            except Exception as e:
+                print(f"[!] Failed to decode url for external link: {e}")
 
         embed = serialize_extra(embed)
 
@@ -313,6 +326,8 @@ def process_post(block, commit, op, keywords):
         "embed": embed,
         "images_links": images_links,
         "video_link": video_link,
+        "external_link_url": external_link_url,
+        "external_link_image_link": external_link_image_link,
         "facets": facets,
         "reply": reply_to_store,
         "root_cid": root_cid,
