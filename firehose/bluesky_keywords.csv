@@ -1,0 +1,2511 @@
+language,topic,keyword,match_type,keyword_id
+English,CLIMATE_CHANGE,climate change,sub_word,1
+English,CLIMATE_CHANGE,global warming,sub_word,2
+English,MIGRANTS,migra*,sub_word,3
+English,MIGRANTS,refugee*,sub_word,4
+English,MIGRANTS,migrant,sub_word,5
+English,MIGRANTS,migration,sub_word,6
+English,MIGRANTS,migrate,sub_word,7
+English,MIGRANTS,migratory,sub_word,8
+English,MIGRANTS,immigrant,sub_word,9
+English,MIGRANTS,immigration,sub_word,10
+English,MIGRANTS,immigrate,sub_word,11
+English,MIGRANTS,refugees,sub_word,12
+English,PUBLIC_HEALTH,vaccin*,sub_word,13
+English,PUBLIC_HEALTH,vaccine,sub_word,14
+English,PUBLIC_HEALTH,vaccines,sub_word,15
+English,PUBLIC_HEALTH,vaccination,sub_word,16
+English,PUBLIC_HEALTH,vaccinations,sub_word,17
+English,PUBLIC_HEALTH,vaccinate,sub_word,18
+English,PUBLIC_HEALTH,vaccinates,sub_word,19
+English,PUBLIC_HEALTH,vaccinated,sub_word,20
+English,PUBLIC_HEALTH,vaccinating,sub_word,21
+Italian,CLIMATE_CHANGE,cambiamento climatico,sub_word,22
+Italian,CLIMATE_CHANGE,riscaldamento globale,sub_word,23
+Italian,MIGRANTS,migra*,sub_word,24
+Italian,MIGRANTS,rifugiat*,sub_word,25
+Italian,MIGRANTS,migrante,sub_word,26
+Italian,MIGRANTS,migranti,sub_word,27
+Italian,MIGRANTS,migrazione,sub_word,28
+Italian,MIGRANTS,migrare,sub_word,29
+Italian,MIGRANTS,migratorio,sub_word,30
+Italian,MIGRANTS,migratoria,sub_word,31
+Italian,MIGRANTS,immigrante,sub_word,32
+Italian,MIGRANTS,immigranti,sub_word,33
+Italian,MIGRANTS,immigrazione,sub_word,34
+Italian,MIGRANTS,immigrare,sub_word,35
+Italian,MIGRANTS,rifugiato,sub_word,36
+Italian,MIGRANTS,rifugiata,sub_word,37
+Italian,MIGRANTS,rifugiati,sub_word,38
+Italian,MIGRANTS,rifugiate,sub_word,39
+Italian,PUBLIC_HEALTH,vaccin*,sub_word,40
+Italian,PUBLIC_HEALTH,vaccino,sub_word,41
+Italian,PUBLIC_HEALTH,vaccini,sub_word,42
+Italian,PUBLIC_HEALTH,vaccinazione,sub_word,43
+Italian,PUBLIC_HEALTH,vaccinazioni,sub_word,44
+Italian,PUBLIC_HEALTH,vaccinare,sub_word,45
+Italian,PUBLIC_HEALTH,vaccina,sub_word,46
+Italian,PUBLIC_HEALTH,vaccinato,sub_word,47
+Italian,PUBLIC_HEALTH,vaccinata,sub_word,48
+Italian,PUBLIC_HEALTH,vaccinati,sub_word,49
+Italian,PUBLIC_HEALTH,vaccinate,sub_word,50
+Italian,PUBLIC_HEALTH,vaccinando,sub_word,51
+French,CLIMATE_CHANGE,changement climatique,sub_word,52
+French,CLIMATE_CHANGE,réchauffement climatique,sub_word,53
+French,MIGRANTS,migr*,sub_word,54
+French,MIGRANTS,réfugié*,sub_word,55
+French,MIGRANTS,migrant,sub_word,56
+French,MIGRANTS,migrante,sub_word,57
+French,MIGRANTS,migration,sub_word,58
+French,MIGRANTS,migrer,sub_word,59
+French,MIGRANTS,migratoire,sub_word,60
+French,MIGRANTS,immigrant,sub_word,61
+French,MIGRANTS,immigrante,sub_word,62
+French,MIGRANTS,immigration,sub_word,63
+French,MIGRANTS,réfugié,sub_word,64
+French,MIGRANTS,réfugiée,sub_word,65
+French,MIGRANTS,réfugiés,sub_word,66
+French,MIGRANTS,réfugiées,sub_word,67
+French,PUBLIC_HEALTH,vaccin*,sub_word,68
+French,PUBLIC_HEALTH,vaccin,sub_word,69
+French,PUBLIC_HEALTH,vaccins,sub_word,70
+French,PUBLIC_HEALTH,vaccination,sub_word,71
+French,PUBLIC_HEALTH,vaccinations,sub_word,72
+French,PUBLIC_HEALTH,vacciner,sub_word,73
+French,PUBLIC_HEALTH,vaccine,sub_word,74
+French,PUBLIC_HEALTH,vacciné,sub_word,75
+French,PUBLIC_HEALTH,vaccinée,sub_word,76
+French,PUBLIC_HEALTH,vaccinés,sub_word,77
+French,PUBLIC_HEALTH,vaccinées,sub_word,78
+French,PUBLIC_HEALTH,vaccinant,sub_word,79
+Spanish,CLIMATE_CHANGE,cambio climático,sub_word,80
+Spanish,CLIMATE_CHANGE,calentamiento global,sub_word,81
+Spanish,MIGRANTS,migra*,sub_word,82
+Spanish,MIGRANTS,refugiad*,sub_word,83
+Spanish,MIGRANTS,migrante,sub_word,84
+Spanish,MIGRANTS,migrantes,sub_word,85
+Spanish,MIGRANTS,migración,sub_word,86
+Spanish,MIGRANTS,migrar,sub_word,87
+Spanish,MIGRANTS,migratorio,sub_word,88
+Spanish,MIGRANTS,migratoria,sub_word,89
+Spanish,MIGRANTS,inmigrante,sub_word,90
+Spanish,MIGRANTS,inmigrantes,sub_word,91
+Spanish,MIGRANTS,inmigración,sub_word,92
+Spanish,MIGRANTS,refugiado,sub_word,93
+Spanish,MIGRANTS,refugiada,sub_word,94
+Spanish,MIGRANTS,refugiados,sub_word,95
+Spanish,MIGRANTS,refugiadas,sub_word,96
+Spanish,PUBLIC_HEALTH,vacun*,sub_word,97
+Spanish,PUBLIC_HEALTH,vacuna,sub_word,98
+Spanish,PUBLIC_HEALTH,vacunas,sub_word,99
+Spanish,PUBLIC_HEALTH,vacunación,sub_word,100
+Spanish,PUBLIC_HEALTH,vacunaciones,sub_word,101
+Spanish,PUBLIC_HEALTH,vacunar,sub_word,102
+Spanish,PUBLIC_HEALTH,vacunado,sub_word,103
+Spanish,PUBLIC_HEALTH,vacunada,sub_word,104
+Spanish,PUBLIC_HEALTH,vacunados,sub_word,105
+Spanish,PUBLIC_HEALTH,vacunadas,sub_word,106
+Spanish,PUBLIC_HEALTH,vacunando,sub_word,107
+German,CLIMATE_CHANGE,klimawandel,sub_word,108
+German,CLIMATE_CHANGE,globale erwärmung,sub_word,109
+German,MIGRANTS,migra*,sub_word,110
+German,MIGRANTS,flüchtling*,sub_word,111
+German,MIGRANTS,ausländer,sub_word,112
+German,MIGRANTS,migrant,sub_word,113
+German,MIGRANTS,migrantin,sub_word,114
+German,MIGRANTS,migranten,sub_word,115
+German,MIGRANTS,migrantinnen,sub_word,116
+German,MIGRANTS,migration,sub_word,117
+German,MIGRANTS,migrieren,sub_word,118
+German,MIGRANTS,immigrant,sub_word,119
+German,MIGRANTS,immigrantin,sub_word,120
+German,MIGRANTS,immigranten,sub_word,121
+German,MIGRANTS,immigrantinnen,sub_word,122
+German,MIGRANTS,immigration,sub_word,123
+German,MIGRANTS,immigrieren,sub_word,124
+German,MIGRANTS,einwanderer,sub_word,125
+German,MIGRANTS,asylant,sub_word,126
+German,MIGRANTS,flüchtling,sub_word,127
+German,MIGRANTS,flüchtlinge,sub_word,128
+German,PUBLIC_HEALTH,impf*,sub_word,129
+German,PUBLIC_HEALTH,geimpft,sub_word,130
+German,PUBLIC_HEALTH,vakzin*,sub_word,131
+German,PUBLIC_HEALTH,impfstoff,sub_word,132
+German,PUBLIC_HEALTH,impfstoffe,sub_word,133
+German,PUBLIC_HEALTH,impfung,sub_word,134
+German,PUBLIC_HEALTH,impfungen,sub_word,135
+German,PUBLIC_HEALTH,impfen,sub_word,136
+German,PUBLIC_HEALTH,impft,sub_word,137
+German,PUBLIC_HEALTH,impfend,sub_word,138
+German,PUBLIC_HEALTH,vakzin,sub_word,139
+German,PUBLIC_HEALTH,vakzine,sub_word,140
+German,PUBLIC_HEALTH,vakzination,sub_word,141
+German,PUBLIC_HEALTH,vakzinationen,sub_word,142
+Romanian,CLIMATE_CHANGE,schimbări climatice,sub_word,143
+Romanian,CLIMATE_CHANGE,încălzire globală,sub_word,144
+Romanian,MIGRANTS,migra*,sub_word,145
+Romanian,MIGRANTS,refugiat*,sub_word,146
+Romanian,MIGRANTS,migrant,sub_word,147
+Romanian,MIGRANTS,migrantă,sub_word,148
+Romanian,MIGRANTS,migranți,sub_word,149
+Romanian,MIGRANTS,migrante,sub_word,150
+Romanian,MIGRANTS,migrație,sub_word,151
+Romanian,MIGRANTS,migra,sub_word,152
+Romanian,MIGRANTS,migrator,sub_word,153
+Romanian,MIGRANTS,migratoare,sub_word,154
+Romanian,MIGRANTS,imigrant,sub_word,155
+Romanian,MIGRANTS,imigrantă,sub_word,156
+Romanian,MIGRANTS,imigranți,sub_word,157
+Romanian,MIGRANTS,imigrante,sub_word,158
+Romanian,MIGRANTS,imigrație,sub_word,159
+Romanian,MIGRANTS,imigra,sub_word,160
+Romanian,MIGRANTS,refugiat,sub_word,161
+Romanian,MIGRANTS,refugiată,sub_word,162
+Romanian,MIGRANTS,refugiați,sub_word,163
+Romanian,PUBLIC_HEALTH,vaccin*,sub_word,164
+Romanian,PUBLIC_HEALTH,vaccin,sub_word,165
+Romanian,PUBLIC_HEALTH,vaccinuri,sub_word,166
+Romanian,PUBLIC_HEALTH,vaccinare,sub_word,167
+Romanian,PUBLIC_HEALTH,vaccinări,sub_word,168
+Romanian,PUBLIC_HEALTH,vaccina,sub_word,169
+Romanian,PUBLIC_HEALTH,vaccinează,sub_word,170
+Romanian,PUBLIC_HEALTH,vaccinat,sub_word,171
+Romanian,PUBLIC_HEALTH,vaccinată,sub_word,172
+Romanian,PUBLIC_HEALTH,vaccinați,sub_word,173
+Romanian,PUBLIC_HEALTH,vaccinate,sub_word,174
+Romanian,PUBLIC_HEALTH,vaccinând,sub_word,175
+Greek,CLIMATE_CHANGE,κλιματική αλλαγή,sub_word,176
+Greek,CLIMATE_CHANGE,υπερθέρμανση του πλανήτη,sub_word,177
+Greek,MIGRANTS,μεταναστ,sub_word,178
+Greek,MIGRANTS,πρόσφυγ*,sub_word,179
+Greek,MIGRANTS,μετανάστ*,sub_word,180
+Greek,MIGRANTS,πρoσφυγ*,sub_word,181
+Greek,MIGRANTS,μετανάστης,sub_word,182
+Greek,MIGRANTS,μετανάστρια,sub_word,183
+Greek,MIGRANTS,μετανάστες,sub_word,184
+Greek,MIGRANTS,μετανάστριες,sub_word,185
+Greek,MIGRANTS,μετανάστευση,sub_word,186
+Greek,MIGRANTS,μεταναστεύω,sub_word,187
+Greek,MIGRANTS,μεταναστευτικός,sub_word,188
+Greek,MIGRANTS,μεταναστευτική,sub_word,189
+Greek,MIGRANTS,μεταναστευτικό,sub_word,190
+Greek,MIGRANTS,πρόσφυγας,sub_word,191
+Greek,MIGRANTS,προσφύγισσα,sub_word,192
+Greek,MIGRANTS,πρόσφυγες,sub_word,193
+Greek,MIGRANTS,προσφύγισσες,sub_word,194
+Greek,MIGRANTS,προσφυγοπούλα,sub_word,195
+Greek,MIGRANTS,προσφυγόπουλο,sub_word,196
+Greek,MIGRANTS,προσφυγόπουλα,sub_word,197
+Greek,MIGRANTS,προσφυγοπούλες,sub_word,198
+Greek,PUBLIC_HEALTH,εμβολι*,sub_word,199
+Greek,PUBLIC_HEALTH,εμβόλι*,sub_word,200
+Greek,PUBLIC_HEALTH,εμβόλι,sub_word,201
+Greek,PUBLIC_HEALTH,εμβολι,sub_word,202
+Greek,PUBLIC_HEALTH,εμβόλιο,sub_word,203
+Greek,PUBLIC_HEALTH,εμβόλια,sub_word,204
+Greek,PUBLIC_HEALTH,εμβολιασμός,sub_word,205
+Greek,PUBLIC_HEALTH,εμβολιασμοί,sub_word,206
+Greek,PUBLIC_HEALTH,εμβολιάζω,sub_word,207
+Greek,PUBLIC_HEALTH,εμβολιάζει,sub_word,208
+Greek,PUBLIC_HEALTH,εμβολιασμένος,sub_word,209
+Greek,PUBLIC_HEALTH,εμβολιασμένη,sub_word,210
+Greek,PUBLIC_HEALTH,εμβολιασμένοι,sub_word,211
+Greek,PUBLIC_HEALTH,εμβολιασμένες,sub_word,212
+Greek,PUBLIC_HEALTH,εμβολιάζοντας,sub_word,213
+Greek,PUBLIC_HEALTH,εμβολιασμένο,sub_word,214
+Greek,PUBLIC_HEALTH,εμβολιάζομαι,sub_word,215
+Greek,PUBLIC_HEALTH,εμβολιάστηκε,sub_word,216
+Polish,CLIMATE_CHANGE,zmiana klimatu,sub_word,217
+Polish,CLIMATE_CHANGE,globalne ocieplenie,sub_word,218
+Polish,MIGRANTS,migra,sub_word,219
+Polish,MIGRANTS,uchodźc*,sub_word,220
+Polish,MIGRANTS,migrant,sub_word,221
+Polish,MIGRANTS,migrantka,sub_word,222
+Polish,MIGRANTS,migranci,sub_word,223
+Polish,MIGRANTS,migrantki,sub_word,224
+Polish,MIGRANTS,migracja,sub_word,225
+Polish,MIGRANTS,migrować,sub_word,226
+Polish,MIGRANTS,migracyjny,sub_word,227
+Polish,MIGRANTS,migracyjna,sub_word,228
+Polish,MIGRANTS,imigrant,sub_word,229
+Polish,MIGRANTS,imigrantka,sub_word,230
+Polish,MIGRANTS,imigranci,sub_word,231
+Polish,MIGRANTS,imigrantki,sub_word,232
+Polish,MIGRANTS,imigracja,sub_word,233
+Polish,MIGRANTS,imigrować,sub_word,234
+Polish,MIGRANTS,uchodźca,sub_word,235
+Polish,MIGRANTS,uchodźczyni,sub_word,236
+Polish,MIGRANTS,uchodźcy,sub_word,237
+Polish,MIGRANTS,uchodźczynie,sub_word,238
+Polish,PUBLIC_HEALTH,szczepi,sub_word,239
+Polish,PUBLIC_HEALTH,szczepionka,sub_word,240
+Polish,PUBLIC_HEALTH,szczepionki,sub_word,241
+Polish,PUBLIC_HEALTH,szczepienie,sub_word,242
+Polish,PUBLIC_HEALTH,szczepienia,sub_word,243
+Polish,PUBLIC_HEALTH,szczepić,sub_word,244
+Polish,PUBLIC_HEALTH,zaszczepiony,sub_word,245
+Polish,PUBLIC_HEALTH,zaszczepiona,sub_word,246
+Polish,PUBLIC_HEALTH,zaszczepieni,sub_word,247
+Polish,PUBLIC_HEALTH,zaszczepione,sub_word,248
+Polish,PUBLIC_HEALTH,szczepiąc,sub_word,249
+English,CLIMATE_CHANGE,adaptation strategies,full_word,250
+English,CLIMATE_CHANGE,air pollution,full_word,251
+English,CLIMATE_CHANGE,biodiversity loss,full_word,252
+English,CLIMATE_CHANGE,carless cities,full_word,253
+English,CLIMATE_CHANGE,carbon dioxide emissions,full_word,254
+English,CLIMATE_CHANGE,carbon emissions,full_word,255
+English,CLIMATE_CHANGE,carbon footprint,full_word,256
+English,CLIMATE_CHANGE,carbon pricing,full_word,257
+English,CLIMATE_CHANGE,carbon sequestration,full_word,258
+English,CLIMATE_CHANGE,chemical spill,full_word,259
+English,CLIMATE_CHANGE,clean energy,full_word,260
+English,CLIMATE_CHANGE,clean energy technologies,full_word,261
+English,CLIMATE_CHANGE,climate activism,full_word,262
+English,CLIMATE_CHANGE,climate action,full_word,263
+English,CLIMATE_CHANGE,climate adaptation,full_word,264
+English,CLIMATE_CHANGE,climate change adaptation,full_word,265
+English,CLIMATE_CHANGE,climate change hoax,full_word,266
+English,CLIMATE_CHANGE,climate crisis,full_word,267
+English,CLIMATE_CHANGE,climate education,full_word,268
+English,CLIMATE_CHANGE,climate finance,full_word,269
+English,CLIMATE_CHANGE,climate impact on ecosystems,full_word,270
+English,CLIMATE_CHANGE,climate justice,full_word,271
+English,CLIMATE_CHANGE,climate mitigation,full_word,272
+English,CLIMATE_CHANGE,climate modelling,full_word,273
+English,CLIMATE_CHANGE,climate policy,full_word,274
+English,CLIMATE_CHANGE,climate refugees,full_word,275
+English,CLIMATE_CHANGE,climate resilience,full_word,276
+English,CLIMATE_CHANGE,climate science,full_word,277
+English,CLIMATE_CHANGE,climate variability,full_word,278
+English,CLIMATE_CHANGE,copernicus,full_word,279
+English,CLIMATE_CHANGE,deforestation,full_word,280
+English,CLIMATE_CHANGE,droughts,full_word,281
+English,CLIMATE_CHANGE,eco-friendly,full_word,282
+English,CLIMATE_CHANGE,emissions,full_word,283
+English,CLIMATE_CHANGE,environment,full_word,284
+English,CLIMATE_CHANGE,environmental activism,full_word,285
+English,CLIMATE_CHANGE,environmental disaster,full_word,286
+English,CLIMATE_CHANGE,environmental impact,full_word,287
+English,CLIMATE_CHANGE,environmental sustainability,full_word,288
+English,CLIMATE_CHANGE,erosion control,full_word,289
+English,CLIMATE_CHANGE,extreme weather,full_word,290
+English,CLIMATE_CHANGE,extreme weather events,full_word,291
+English,CLIMATE_CHANGE,forest fires,full_word,292
+English,CLIMATE_CHANGE,fossil fuels,full_word,293
+English,CLIMATE_CHANGE,friday for future,full_word,294
+English,CLIMATE_CHANGE,geoengineering,full_word,295
+English,CLIMATE_CHANGE,glaciers,full_word,296
+English,CLIMATE_CHANGE,global temperature,full_word,297
+English,CLIMATE_CHANGE,greenhouse effect,full_word,298
+English,CLIMATE_CHANGE,greenhouse gases,full_word,299
+English,CLIMATE_CHANGE,greta thunberg,full_word,300
+English,CLIMATE_CHANGE,habitat conservation,full_word,301
+English,CLIMATE_CHANGE,habitat destruction,full_word,302
+English,CLIMATE_CHANGE,heatwaves,full_word,303
+English,CLIMATE_CHANGE,ice melting,full_word,304
+English,CLIMATE_CHANGE,marine conservation,full_word,305
+English,CLIMATE_CHANGE,microplastics,full_word,306
+English,CLIMATE_CHANGE,mitigation measures,full_word,307
+English,CLIMATE_CHANGE,natural disasters,full_word,308
+English,CLIMATE_CHANGE,net-zero emissions,full_word,309
+English,CLIMATE_CHANGE,ocean acidification,full_word,310
+English,CLIMATE_CHANGE,overfishing,full_word,311
+English,CLIMATE_CHANGE,ozone depletion,full_word,312
+English,CLIMATE_CHANGE,paris agreement,full_word,313
+English,CLIMATE_CHANGE,photovoltaics,full_word,314
+English,CLIMATE_CHANGE,rainforest,full_word,315
+English,CLIMATE_CHANGE,recycling initiatives,full_word,316
+English,CLIMATE_CHANGE,renewable energy,full_word,317
+English,CLIMATE_CHANGE,sea level rise,full_word,318
+English,CLIMATE_CHANGE,sustainability efforts,full_word,319
+English,CLIMATE_CHANGE,sustainable development,full_word,320
+English,CLIMATE_CHANGE,sustainable energy,full_word,321
+English,CLIMATE_CHANGE,united nations climate change conference,full_word,322
+English,CLIMATE_CHANGE,waste management,full_word,323
+English,CLIMATE_CHANGE,water pollution,full_word,324
+English,CLIMATE_CHANGE,water scarcity,full_word,325
+English,CLIMATE_CHANGE,weather,full_word,326
+English,CLIMATE_CHANGE,weather modification,full_word,327
+English,CLIMATE_CHANGE,wind turbines,full_word,328
+English,CLIMATE_CHANGE,wildfires,full_word,329
+English,PUBLIC_HEALTH,5g,full_word,330
+English,PUBLIC_HEALTH,5th gen wireless,full_word,331
+English,PUBLIC_HEALTH,5th-generation wireless,full_word,332
+English,PUBLIC_HEALTH,alien,full_word,333
+English,PUBLIC_HEALTH,alien agenda,full_word,334
+English,PUBLIC_HEALTH,alienleaks,full_word,335
+English,PUBLIC_HEALTH,anthony fauci,full_word,336
+English,PUBLIC_HEALTH,big pharma,full_word,337
+English,PUBLIC_HEALTH,bill gates,full_word,338
+English,PUBLIC_HEALTH,cdc,full_word,339
+English,PUBLIC_HEALTH,chd,full_word,340
+English,PUBLIC_HEALTH,covid,full_word,341
+English,PUBLIC_HEALTH,covid-19,full_word,342
+English,PUBLIC_HEALTH,covid vax,full_word,343
+English,PUBLIC_HEALTH,covid19,full_word,344
+English,PUBLIC_HEALTH,dr bryan ardis,full_word,345
+English,PUBLIC_HEALTH,dna,full_word,346
+English,PUBLIC_HEALTH,emergency,full_word,347
+English,PUBLIC_HEALTH,fda,full_word,348
+English,PUBLIC_HEALTH,george soros,full_word,349
+English,PUBLIC_HEALTH,johnson & johnson,full_word,350
+English,PUBLIC_HEALTH,marburg virus,full_word,351
+English,PUBLIC_HEALTH,moderna,full_word,352
+English,PUBLIC_HEALTH,morgellons,full_word,353
+English,PUBLIC_HEALTH,pfizer,full_word,354
+English,PUBLIC_HEALTH,rna,full_word,355
+English,PUBLIC_HEALTH,ron watkins,full_word,356
+English,PUBLIC_HEALTH,sars-cov-2,full_word,357
+English,PUBLIC_HEALTH,transhuman,full_word,358
+English,PUBLIC_HEALTH,transhumanism,full_word,359
+English,PUBLIC_HEALTH,uap,full_word,360
+English,PUBLIC_HEALTH,ufo,full_word,361
+English,PUBLIC_HEALTH,ufo report,full_word,362
+English,PUBLIC_HEALTH,unidentified aerial phenomena,full_word,363
+English,PUBLIC_HEALTH,adrenochrome,full_word,364
+English,PUBLIC_HEALTH,adverse events,full_word,365
+English,PUBLIC_HEALTH,adverse reaction,full_word,366
+English,PUBLIC_HEALTH,antibodies,full_word,367
+English,PUBLIC_HEALTH,anti-vax,full_word,368
+English,PUBLIC_HEALTH,anti-vaxx,full_word,369
+English,PUBLIC_HEALTH,anti-vaxxer,full_word,370
+English,PUBLIC_HEALTH,antivaxx,full_word,371
+English,PUBLIC_HEALTH,antivaxxer,full_word,372
+English,PUBLIC_HEALTH,antibody,full_word,373
+English,PUBLIC_HEALTH,astrazeneca,full_word,374
+English,PUBLIC_HEALTH,autism,full_word,375
+English,PUBLIC_HEALTH,bad medicine,full_word,376
+English,PUBLIC_HEALTH,bad science,full_word,377
+English,PUBLIC_HEALTH,bells palsy,full_word,378
+English,PUBLIC_HEALTH,big tech,full_word,379
+English,PUBLIC_HEALTH,big tech censorship,full_word,380
+English,PUBLIC_HEALTH,biontech,full_word,381
+English,PUBLIC_HEALTH,blood,full_word,382
+English,PUBLIC_HEALTH,blood clots,full_word,383
+English,PUBLIC_HEALTH,blood sample,full_word,384
+English,PUBLIC_HEALTH,cancer,full_word,385
+English,PUBLIC_HEALTH,cancer cells,full_word,386
+English,PUBLIC_HEALTH,cardiac arrest,full_word,387
+English,PUBLIC_HEALTH,cardiac problem,full_word,388
+English,PUBLIC_HEALTH,ccp bioweapon,full_word,389
+English,PUBLIC_HEALTH,ccp virus,full_word,390
+English,PUBLIC_HEALTH,chemtrails,full_word,391
+English,PUBLIC_HEALTH,chemotherapy,full_word,392
+English,PUBLIC_HEALTH,chemical abortion,full_word,393
+English,PUBLIC_HEALTH,chemical-free,full_word,394
+English,PUBLIC_HEALTH,childhood vaccine schedule,full_word,395
+English,PUBLIC_HEALTH,chlorine dioxide,full_word,396
+English,PUBLIC_HEALTH,chondroitin sulphate,full_word,397
+English,PUBLIC_HEALTH,chronic fatigue syndrome,full_word,398
+English,PUBLIC_HEALTH,cleveland clinic,full_word,399
+English,PUBLIC_HEALTH,clinical trials,full_word,400
+English,PUBLIC_HEALTH,clotshot,full_word,401
+English,PUBLIC_HEALTH,codemonkeyz,full_word,402
+English,PUBLIC_HEALTH,contact tracing,full_word,403
+English,PUBLIC_HEALTH,corona,full_word,404
+English,PUBLIC_HEALTH,corona virus,full_word,405
+English,PUBLIC_HEALTH,coronavirus,full_word,406
+English,PUBLIC_HEALTH,covid passport,full_word,407
+English,PUBLIC_HEALTH,cures,full_word,408
+English,PUBLIC_HEALTH,cure,full_word,409
+English,PUBLIC_HEALTH,dangerous medicine,full_word,410
+English,PUBLIC_HEALTH,dangerous product liability,full_word,411
+English,PUBLIC_HEALTH,death,full_word,412
+English,PUBLIC_HEALTH,death jab,full_word,413
+English,PUBLIC_HEALTH,death rate,full_word,414
+English,PUBLIC_HEALTH,death shot,full_word,415
+English,PUBLIC_HEALTH,depopulation,full_word,416
+English,PUBLIC_HEALTH,detox,full_word,417
+English,PUBLIC_HEALTH,drugs,full_word,418
+English,PUBLIC_HEALTH,electromagnetism,full_word,419
+English,PUBLIC_HEALTH,epidemic,full_word,420
+English,PUBLIC_HEALTH,epidemic curve,full_word,421
+English,PUBLIC_HEALTH,face mask,full_word,422
+English,PUBLIC_HEALTH,foetal tissue,full_word,423
+English,PUBLIC_HEALTH,foetus,full_word,424
+English,PUBLIC_HEALTH,foetuses,full_word,425
+English,PUBLIC_HEALTH,fifth generation wireless,full_word,426
+English,PUBLIC_HEALTH,fifth-gen wireless,full_word,427
+English,PUBLIC_HEALTH,fifth-generation wireless,full_word,428
+English,PUBLIC_HEALTH,flu,full_word,429
+English,PUBLIC_HEALTH,forced vaccines,full_word,430
+English,PUBLIC_HEALTH,gene therapy,full_word,431
+English,PUBLIC_HEALTH,genes,full_word,432
+English,PUBLIC_HEALTH,graphene,full_word,433
+English,PUBLIC_HEALTH,green arrivals,full_word,434
+English,PUBLIC_HEALTH,green list,full_word,435
+English,PUBLIC_HEALTH,guinea pigs,full_word,436
+English,PUBLIC_HEALTH,health education,full_word,437
+English,PUBLIC_HEALTH,health risk,full_word,438
+English,PUBLIC_HEALTH,heart attack,full_word,439
+English,PUBLIC_HEALTH,herd immunity,full_word,440
+English,PUBLIC_HEALTH,homeopathic,full_word,441
+English,PUBLIC_HEALTH,horse paste,full_word,442
+English,PUBLIC_HEALTH,incubation period,full_word,443
+English,PUBLIC_HEALTH,immune system,full_word,444
+English,PUBLIC_HEALTH,immunization,full_word,445
+English,PUBLIC_HEALTH,infection,full_word,446
+English,PUBLIC_HEALTH,injections,full_word,447
+English,PUBLIC_HEALTH,inoculation,full_word,448
+English,PUBLIC_HEALTH,intensive care unit,full_word,449
+English,PUBLIC_HEALTH,jab,full_word,450
+English,PUBLIC_HEALTH,jabgate,full_word,451
+English,PUBLIC_HEALTH,janssen,full_word,452
+English,PUBLIC_HEALTH,kill shot,full_word,453
+English,PUBLIC_HEALTH,lateral flow test,full_word,454
+English,PUBLIC_HEALTH,lethal injection,full_word,455
+English,PUBLIC_HEALTH,let the bodies hit the floor,full_word,456
+English,PUBLIC_HEALTH,long-covid,full_word,457
+English,PUBLIC_HEALTH,malaria,full_word,458
+English,PUBLIC_HEALTH,mask mandates,full_word,459
+English,PUBLIC_HEALTH,masks,full_word,460
+English,PUBLIC_HEALTH,masks are for slaves,full_word,461
+English,PUBLIC_HEALTH,measles,full_word,462
+English,PUBLIC_HEALTH,medical abortion,full_word,463
+English,PUBLIC_HEALTH,medical tyranny,full_word,464
+English,PUBLIC_HEALTH,medicines,full_word,465
+English,PUBLIC_HEALTH,meghathakur,full_word,466
+English,PUBLIC_HEALTH,millimeter wave,full_word,467
+English,PUBLIC_HEALTH,mitochondria,full_word,468
+English,PUBLIC_HEALTH,monkeypox,full_word,469
+English,PUBLIC_HEALTH,monkey pox,full_word,470
+English,PUBLIC_HEALTH,mortality,full_word,471
+English,PUBLIC_HEALTH,mrna,full_word,472
+English,PUBLIC_HEALTH,natural medicine,full_word,473
+English,PUBLIC_HEALTH,nuremberg 2,full_word,474
+English,PUBLIC_HEALTH,nuremberg 2.0,full_word,475
+English,PUBLIC_HEALTH,nuremberg code,full_word,476
+English,PUBLIC_HEALTH,nuremberg trials for covid,full_word,477
+English,PUBLIC_HEALTH,no jab,full_word,478
+English,PUBLIC_HEALTH,no kids vaccinated,full_word,479
+English,PUBLIC_HEALTH,pandemic,full_word,480
+English,PUBLIC_HEALTH,patient zero,full_word,481
+English,PUBLIC_HEALTH,pentagon ufo report,full_word,482
+English,PUBLIC_HEALTH,pharmaceutical companies,full_word,483
+English,PUBLIC_HEALTH,pills,full_word,484
+English,PUBLIC_HEALTH,plandemic,full_word,485
+English,PUBLIC_HEALTH,political agenda,full_word,486
+English,PUBLIC_HEALTH,prevention,full_word,487
+English,PUBLIC_HEALTH,protein spike,full_word,488
+English,PUBLIC_HEALTH,pro-safe vaccine,full_word,489
+English,PUBLIC_HEALTH,prochoice,full_word,490
+English,PUBLIC_HEALTH,pro-life,full_word,491
+English,PUBLIC_HEALTH,prolife,full_word,492
+English,PUBLIC_HEALTH,radiation,full_word,493
+English,PUBLIC_HEALTH,reaction,full_word,494
+English,PUBLIC_HEALTH,red arrivals,full_word,495
+English,PUBLIC_HEALTH,red list,full_word,496
+English,PUBLIC_HEALTH,reversal pill,full_word,497
+English,PUBLIC_HEALTH,robert malone,full_word,498
+English,PUBLIC_HEALTH,rochelle walensky,full_word,499
+English,PUBLIC_HEALTH,roe v wade,full_word,500
+English,PUBLIC_HEALTH,sanitation,full_word,501
+English,PUBLIC_HEALTH,self isolation,full_word,502
+English,PUBLIC_HEALTH,side effects,full_word,503
+English,PUBLIC_HEALTH,snake blood,full_word,504
+English,PUBLIC_HEALTH,snake venom,full_word,505
+English,PUBLIC_HEALTH,south african variant,full_word,506
+English,PUBLIC_HEALTH,spike,full_word,507
+English,PUBLIC_HEALTH,spike protein,full_word,508
+English,PUBLIC_HEALTH,stop state genocide,full_word,509
+English,PUBLIC_HEALTH,study,full_word,510
+English,PUBLIC_HEALTH,sudden death,full_word,511
+English,PUBLIC_HEALTH,surgical face mask,full_word,512
+English,PUBLIC_HEALTH,the great culling,full_word,513
+English,PUBLIC_HEALTH,toxin removal,full_word,514
+English,PUBLIC_HEALTH,unvax,full_word,515
+English,PUBLIC_HEALTH,unvaxxed lives matter,full_word,516
+English,PUBLIC_HEALTH,unvaccinated,full_word,517
+English,PUBLIC_HEALTH,vaids,full_word,518
+English,PUBLIC_HEALTH,vaccine adverse reporting system,full_word,519
+English,PUBLIC_HEALTH,vaccine choice,full_word,520
+English,PUBLIC_HEALTH,vaccine deaths,full_word,521
+English,PUBLIC_HEALTH,vaccine injuries,full_word,522
+English,PUBLIC_HEALTH,vaccine mandates,full_word,523
+English,PUBLIC_HEALTH,vaccine side effects,full_word,524
+English,PUBLIC_HEALTH,vaccine victims,full_word,525
+English,PUBLIC_HEALTH,vax,full_word,526
+English,PUBLIC_HEALTH,vax death,full_word,527
+English,PUBLIC_HEALTH,vaxx,full_word,528
+English,PUBLIC_HEALTH,watch the water,full_word,529
+English,PUBLIC_HEALTH,wuhan,full_word,530
+English,PUBLIC_HEALTH,yellow fever,full_word,531
+English,MIGRANTS,asylum seekers,full_word,532
+English,MIGRANTS,attack europe,full_word,533
+English,MIGRANTS,banderisation,full_word,534
+English,MIGRANTS,borders,full_word,535
+English,MIGRANTS,child migrants,full_word,536
+English,MIGRANTS,civilization threat,full_word,537
+English,MIGRANTS,danger civilisation,full_word,538
+English,MIGRANTS,displacement,full_word,539
+English,MIGRANTS,economic immigrants,full_word,540
+English,MIGRANTS,economic migrants,full_word,541
+English,MIGRANTS,economic impact of migration,full_word,542
+English,MIGRANTS,europhobie,full_word,543
+English,MIGRANTS,greece_defends_europe,full_word,544
+English,MIGRANTS,greece_under_attack,full_word,545
+English,MIGRANTS,great replacement,full_word,546
+English,MIGRANTS,great remplacement,full_word,547
+English,MIGRANTS,illegal,full_word,548
+English,MIGRANTS,illegal alien,full_word,549
+English,MIGRANTS,illegal aliens,full_word,550
+English,MIGRANTS,immigrants,full_word,551
+English,MIGRANTS,immigration law,full_word,552
+English,MIGRANTS,immigration policies,full_word,553
+English,MIGRANTS,integration programs,full_word,554
+English,MIGRANTS,invasion,full_word,555
+English,MIGRANTS,invasion europe,full_word,556
+English,MIGRANTS,invaders,full_word,557
+English,MIGRANTS,invade,full_word,558
+English,MIGRANTS,migrant danger women,full_word,559
+English,MIGRANTS,migrant killer,full_word,560
+English,MIGRANTS,migrants,full_word,561
+English,MIGRANTS,migration and development,full_word,562
+English,MIGRANTS,migration management,full_word,563
+English,MIGRANTS,migration patterns,full_word,564
+English,MIGRANTS,migratory invasion,full_word,565
+English,MIGRANTS,migrant children,full_word,566
+English,MIGRANTS,migrant detention,full_word,567
+English,MIGRANTS,migrant health,full_word,568
+English,MIGRANTS,migrant rights,full_word,569
+English,MIGRANTS,muslims,full_word,570
+English,MIGRANTS,rape migrant,full_word,571
+English,MIGRANTS,rape refugee,full_word,572
+English,MIGRANTS,rapefugees,full_word,573
+English,MIGRANTS,refugee camp,full_word,574
+English,MIGRANTS,refugee crisis,full_word,575
+English,MIGRANTS,refugee resettlement,full_word,576
+English,MIGRANTS,refugee danger women,full_word,577
+English,MIGRANTS,relocate,full_word,578
+English,MIGRANTS,remigration,full_word,579
+English,MIGRANTS,resettlement action,full_word,580
+English,MIGRANTS,social care,full_word,581
+English,MIGRANTS,social inclusion,full_word,582
+English,MIGRANTS,terrorists,full_word,583
+English,MIGRANTS,threat europe,full_word,584
+English,MIGRANTS,threat west,full_word,585
+English,MIGRANTS,threat western values,full_word,586
+English,MIGRANTS,white genocide,full_word,587
+English,MIGRANTS,xenophobia,full_word,588
+French,CLIMATE_CHANGE,co2,full_word,589
+French,CLIMATE_CHANGE,catastrophe environnementale,full_word,590
+French,CLIMATE_CHANGE,villes sans voiture,full_word,591
+French,CLIMATE_CHANGE,déversement de produits chimiques,full_word,592
+French,CLIMATE_CHANGE,canular sur le changement climatique,full_word,593
+French,CLIMATE_CHANGE,greta thunberg,full_word,594
+French,CLIMATE_CHANGE,le réchauffement climatique,full_word,595
+French,PUBLIC_HEALTH,adrénochrome,full_word,596
+French,PUBLIC_HEALTH,anti-avortement,full_word,597
+French,PUBLIC_HEALTH,anti-vaccin,full_word,598
+French,PUBLIC_HEALTH,anticorps,full_word,599
+French,PUBLIC_HEALTH,antivaxer,full_word,600
+French,PUBLIC_HEALTH,arme biologique du ccp,full_word,601
+French,PUBLIC_HEALTH,arrêt cardiaque,full_word,602
+French,PUBLIC_HEALTH,asymptomatique,full_word,603
+French,PUBLIC_HEALTH,aucun enfant vacciné,full_word,604
+French,PUBLIC_HEALTH,auto-isolement,full_word,605
+French,PUBLIC_HEALTH,avortement,full_word,606
+French,PUBLIC_HEALTH,biotech,full_word,607
+French,PUBLIC_HEALTH,blessures vaccinales,full_word,608
+French,PUBLIC_HEALTH,caillot sanguin,full_word,609
+French,PUBLIC_HEALTH,calendrier des vaccinations infantiles,full_word,610
+French,PUBLIC_HEALTH,choix du vaccin,full_word,611
+French,PUBLIC_HEALTH,code de nuremberg,full_word,612
+French,PUBLIC_HEALTH,congé menstruel,full_word,613
+French,PUBLIC_HEALTH,convention istanbul,full_word,614
+French,PUBLIC_HEALTH,courbe épidémique,full_word,615
+French,PUBLIC_HEALTH,covid-19 crimes contre l'humanité,full_word,616
+French,PUBLIC_HEALTH,décès vaccin,full_word,617
+French,PUBLIC_HEALTH,effets indésirables,full_word,618
+French,PUBLIC_HEALTH,effets secondaires du vaccin,full_word,619
+French,PUBLIC_HEALTH,essais cliniques,full_word,620
+French,PUBLIC_HEALTH,extraterrestre,full_word,621
+French,PUBLIC_HEALTH,fièvre jaune,full_word,622
+French,PUBLIC_HEALTH,foetus,full_word,623
+French,PUBLIC_HEALTH,fuites extraterrestres,full_word,624
+French,PUBLIC_HEALTH,industrie pharmaceutique,full_word,625
+French,PUBLIC_HEALTH,grippe wuhan,full_word,626
+French,PUBLIC_HEALTH,homéopathique,full_word,627
+French,PUBLIC_HEALTH,immunité collective,full_word,628
+French,PUBLIC_HEALTH,influenceur anti-vaccin,full_word,629
+French,PUBLIC_HEALTH,johnson et johnson,full_word,630
+French,PUBLIC_HEALTH,vaccin variole,full_word,631
+French,PUBLIC_HEALTH,masques esclaves,full_word,632
+French,PUBLIC_HEALTH,mauvais médicament,full_word,633
+French,PUBLIC_HEALTH,médecine naturelle,full_word,634
+French,PUBLIC_HEALTH,médicament dangereux,full_word,635
+French,PUBLIC_HEALTH,mort vaccin,full_word,636
+French,PUBLIC_HEALTH,mutation virale,full_word,637
+French,PUBLIC_HEALTH,non vacciné,full_word,638
+French,PUBLIC_HEALTH,ordre du jour extraterrestre,full_word,639
+French,PUBLIC_HEALTH,ovni,full_word,640
+French,PUBLIC_HEALTH,pas de piqûre,full_word,641
+French,PUBLIC_HEALTH,passeport covid,full_word,642
+French,PUBLIC_HEALTH,patient zéro,full_word,643
+French,PUBLIC_HEALTH,période d'incubation,full_word,644
+French,PUBLIC_HEALTH,pro vie,full_word,645
+French,PUBLIC_HEALTH,procès de nuremberg covid,full_word,646
+French,PUBLIC_HEALTH,prochoix,full_word,647
+French,PUBLIC_HEALTH,rapport d'ovni,full_word,648
+French,PUBLIC_HEALTH,roe wade,full_word,649
+French,PUBLIC_HEALTH,rougeole,full_word,650
+French,PUBLIC_HEALTH,sang de serpent,full_word,651
+French,PUBLIC_HEALTH,souche delta,full_word,652
+French,PUBLIC_HEALTH,sras-cov-2,full_word,653
+French,PUBLIC_HEALTH,test de flux latéral,full_word,654
+French,PUBLIC_HEALTH,tyrannie médicale,full_word,655
+French,PUBLIC_HEALTH,variant mongole,full_word,656
+French,PUBLIC_HEALTH,variant sud-africaine,full_word,657
+French,PUBLIC_HEALTH,variole du singe,full_word,658
+French,PUBLIC_HEALTH,virus ccp,full_word,659
+French,PUBLIC_HEALTH,virus jaune,full_word,660
+French,PUBLIC_HEALTH,virus de wuhan,full_word,661
+French,PUBLIC_HEALTH,pillule abortive,full_word,662
+French,PUBLIC_HEALTH,pillule avortement,full_word,663
+French,PUBLIC_HEALTH,avortement genocide,full_word,664
+French,PUBLIC_HEALTH,avortement meutre,full_word,665
+French,PUBLIC_HEALTH,avortement assasinat,full_word,666
+French,PUBLIC_HEALTH,avortement cancer,full_word,667
+French,PUBLIC_HEALTH,avortement sterile,full_word,668
+French,PUBLIC_HEALTH,avortement danger,full_word,669
+French,PUBLIC_HEALTH,ivg genocide,full_word,670
+French,PUBLIC_HEALTH,ivg meurtre,full_word,671
+French,PUBLIC_HEALTH,ivg cancer,full_word,672
+French,PUBLIC_HEALTH,ivg sterile,full_word,673
+French,PUBLIC_HEALTH,ivg danger,full_word,674
+French,PUBLIC_HEALTH,ivg assassinat,full_word,675
+French,PUBLIC_HEALTH,sidaique,full_word,676
+French,PUBLIC_HEALTH,avortement meurtre,full_word,677
+French,PUBLIC_HEALTH,protege vie avortement,full_word,678
+French,PUBLIC_HEALTH,protege vie ivg,full_word,679
+French,PUBLIC_HEALTH,#bigpharma,full_word,680
+French,PUBLIC_HEALTH,#cevaccinnesertarien,full_word,681
+French,PUBLIC_HEALTH,#jenemevaccineraipas,full_word,682
+French,PUBLIC_HEALTH,#nonauvaccin,full_word,683
+French,PUBLIC_HEALTH,#stopvaccin,full_word,684
+French,PUBLIC_HEALTH,bigpharma vaccin,full_word,685
+French,PUBLIC_HEALTH,bill gates vaccin,full_word,686
+French,PUBLIC_HEALTH,complot vaccin,full_word,687
+French,PUBLIC_HEALTH,complot vacciniation,full_word,688
+French,PUBLIC_HEALTH,crise cardiaque vaccin,full_word,689
+French,PUBLIC_HEALTH,diktat vaccin,full_word,690
+French,PUBLIC_HEALTH,elite mondiale vaccin,full_word,691
+French,PUBLIC_HEALTH,dépeuplement vaccin,full_word,692
+French,PUBLIC_HEALTH,faux vaccin,full_word,693
+French,PUBLIC_HEALTH,mort astrazeneca,full_word,694
+French,PUBLIC_HEALTH,mort moderna,full_word,695
+French,PUBLIC_HEALTH,mort pfzier,full_word,696
+French,PUBLIC_HEALTH,mort spoutnik,full_word,697
+French,PUBLIC_HEALTH,non passeport vaccinal,full_word,698
+French,PUBLIC_HEALTH,oms complice vaccin,full_word,699
+French,PUBLIC_HEALTH,pharma vaccin complot,full_word,700
+French,PUBLIC_HEALTH,raoult vaccin,full_word,701
+French,PUBLIC_HEALTH,rat laboratoire vaccin,full_word,702
+French,PUBLIC_HEALTH,soros vaccin,full_word,703
+French,PUBLIC_HEALTH,soros covid,full_word,704
+French,PUBLIC_HEALTH,soros pandemie,full_word,705
+French,PUBLIC_HEALTH,vaccin 5g,full_word,706
+French,PUBLIC_HEALTH,vaccin assassin,full_word,707
+French,PUBLIC_HEALTH,vaccin cobaye francais,full_word,708
+French,PUBLIC_HEALTH,vaccin criminel,full_word,709
+French,PUBLIC_HEALTH,vaccin danger,full_word,710
+French,PUBLIC_HEALTH,vaccin desobeissance civile,full_word,711
+French,PUBLIC_HEALTH,dictature,full_word,712
+French,PUBLIC_HEALTH,sanitaire,full_word,713
+French,PUBLIC_HEALTH,vaccin reduire population,full_word,714
+French,PUBLIC_HEALTH,vaccin mort,full_word,715
+French,PUBLIC_HEALTH,vaccin poison,full_word,716
+French,PUBLIC_HEALTH,vaccin puce,full_word,717
+French,PUBLIC_HEALTH,vaccin qanon,full_word,718
+French,PUBLIC_HEALTH,vaccin toxique,full_word,719
+French,PUBLIC_HEALTH,vaccin tue,full_word,720
+French,PUBLIC_HEALTH,vaccin tuer population,full_word,721
+French,PUBLIC_HEALTH,vaccination danger,full_word,722
+French,PUBLIC_HEALTH,vaccin cobaye,full_word,723
+French,PUBLIC_HEALTH,non vaccin,full_word,724
+French,PUBLIC_HEALTH,cobaye covid,full_word,725
+French,PUBLIC_HEALTH,cobaye coronavirus,full_word,726
+French,PUBLIC_HEALTH,non vaccination,full_word,727
+French,PUBLIC_HEALTH,covid qanon,full_word,728
+French,PUBLIC_HEALTH,big pharma,full_word,729
+French,PUBLIC_HEALTH,rothschild vaccin,full_word,730
+French,PUBLIC_HEALTH,vaccin 666,full_word,731
+French,PUBLIC_HEALTH,vaccin satan,full_word,732
+French,PUBLIC_HEALTH,vaccin golem,full_word,733
+French,PUBLIC_HEALTH,oms meurtre,full_word,734
+French,PUBLIC_HEALTH,oms danger,full_word,735
+French,PUBLIC_HEALTH,controle population oms,full_word,736
+French,PUBLIC_HEALTH,non au testpcr,full_word,737
+French,PUBLIC_HEALTH,génocide sanitaire,full_word,738
+French,PUBLIC_HEALTH,fausse pandemie,full_word,739
+French,PUBLIC_HEALTH,desobeissance civile,full_word,740
+French,PUBLIC_HEALTH,non au port du masque obligatoire,full_word,741
+French,PUBLIC_HEALTH,couvre-feu dictature,full_word,742
+French,PUBLIC_HEALTH,masques révoltez-vous,full_word,743
+French,PUBLIC_HEALTH,nonaumasque,full_word,744
+French,PUBLIC_HEALTH,chloroquine,full_word,745
+French,PUBLIC_HEALTH,coronagate,full_word,746
+French,PUBLIC_HEALTH,vaccins obligatoires,full_word,747
+French,PUBLIC_HEALTH,veran demission,full_word,748
+French,PUBLIC_HEALTH,chinois responsable,full_word,749
+French,PUBLIC_HEALTH,covid collabos,full_word,750
+French,PUBLIC_HEALTH,covid mensonge,full_word,751
+French,PUBLIC_HEALTH,remède éthanol,full_word,752
+French,PUBLIC_HEALTH,remède javel,full_word,753
+French,PUBLIC_HEALTH,révolte corona,full_word,754
+French,MIGRANTS,enfants migrants,full_word,755
+French,MIGRANTS,tommy robinson,full_word,756
+French,MIGRANTS,invasion migratoire,full_word,757
+French,MIGRANTS,étranger en situation irrégulière,full_word,758
+French,MIGRANTS,étrangers illégaux,full_word,759
+French,MIGRANTS,grand replacement,full_word,760
+French,MIGRANTS,regroupement familiale crime originel,full_word,761
+French,MIGRANTS,réfugié dehors,full_word,762
+French,MIGRANTS,envahisseur,full_word,763
+French,MIGRANTS,reimigration,full_word,764
+French,MIGRANTS,menace migratoire,full_word,765
+French,MIGRANTS,france aux francais,full_word,766
+French,MIGRANTS,migrants dehors,full_word,767
+French,MIGRANTS,sale migrant,full_word,768
+French,MIGRANTS,sale réfugié,full_word,769
+French,MIGRANTS,dégage migrant,full_word,770
+French,MIGRANTS,dégage réfugié,full_word,771
+French,MIGRANTS,pseudo migrant,full_word,772
+French,MIGRANTS,faux migrant,full_word,773
+French,MIGRANTS,faux réfugié,full_word,774
+French,MIGRANTS,insécurité migrant,full_word,775
+French,MIGRANTS,invasion africaine,full_word,776
+French,MIGRANTS,reconquista,full_word,777
+French,MIGRANTS,déferlement migratoire,full_word,778
+French,MIGRANTS,immigrationdemasse,full_word,779
+French,MIGRANTS,immigration terrorisme,full_word,780
+French,MIGRANTS,oqtf,full_word,781
+French,MIGRANTS,urgent rétablir frontières,full_word,782
+French,MIGRANTS,#francaisreveillezvous,full_word,783
+French,MIGRANTS,métèque,full_word,784
+German,CLIMATE_CHANGE,greta thunberg,full_word,785
+German,CLIMATE_CHANGE,energiewende,full_word,786
+German,CLIMATE_CHANGE,co2,full_word,787
+German,CLIMATE_CHANGE,umweltkatastrophe,full_word,788
+German,CLIMATE_CHANGE,autolose städte,full_word,789
+German,CLIMATE_CHANGE,die globale erwärmung,full_word,790
+German,CLIMATE_CHANGE,chemieunfall,full_word,791
+German,CLIMATE_CHANGE,klimawandel-schwindel,full_word,792
+German,CLIMATE_CHANGE,klima hysterie,full_word,793
+German,CLIMATE_CHANGE,klima elite,full_word,794
+German,CLIMATE_CHANGE,klima-irre,full_word,795
+German,CLIMATE_CHANGE,fridays for future,full_word,796
+German,CLIMATE_CHANGE,klimareligion,full_word,797
+German,CLIMATE_CHANGE,luisa neubauer,full_word,798
+German,CLIMATE_CHANGE,klima-ideologen,full_word,799
+German,CLIMATE_CHANGE,klima-terrroristen,full_word,800
+German,CLIMATE_CHANGE,klima-chaoten,full_word,801
+German,CLIMATE_CHANGE,klimakontrolle,full_word,802
+German,PUBLIC_HEALTH,arzneimittel,full_word,803
+German,PUBLIC_HEALTH,impfopfer,full_word,804
+German,PUBLIC_HEALTH,impftote,full_word,805
+German,PUBLIC_HEALTH,schlangenblut,full_word,806
+German,PUBLIC_HEALTH,adrenochrom,full_word,807
+German,PUBLIC_HEALTH,lambda-stamm,full_word,808
+German,PUBLIC_HEALTH,haftung für gefährliche produkte,full_word,809
+German,PUBLIC_HEALTH,nürnberger prozesse wegen covid,full_word,810
+German,PUBLIC_HEALTH,virusmutation,full_word,811
+German,PUBLIC_HEALTH,spike-protein,full_word,812
+German,PUBLIC_HEALTH,vax-tod,full_word,813
+German,PUBLIC_HEALTH,mrna-brühe,full_word,814
+German,PUBLIC_HEALTH,epidemiekurve,full_word,815
+German,PUBLIC_HEALTH,gen-impfung,full_word,816
+German,PUBLIC_HEALTH,herzmuskelentzündung,full_word,817
+German,PUBLIC_HEALTH,genspritze,full_word,818
+German,PUBLIC_HEALTH,zusammengebrochen,full_word,819
+German,PUBLIC_HEALTH,todesschuss,full_word,820
+German,PUBLIC_HEALTH,nürnberg 2.0,full_word,821
+German,PUBLIC_HEALTH,nebenwirkung,full_word,822
+German,PUBLIC_HEALTH,stoppen sie den völkermord,full_word,823
+German,PUBLIC_HEALTH,kein stich,full_word,824
+German,PUBLIC_HEALTH,alien-agenda,full_word,825
+German,PUBLIC_HEALTH,masern,full_word,826
+German,PUBLIC_HEALTH,masken sind für sklaven,full_word,827
+German,PUBLIC_HEALTH,psa,full_word,828
+German,PUBLIC_HEALTH,ufo-bericht des pentagons,full_word,829
+German,PUBLIC_HEALTH,keine kinder geimpft,full_word,830
+German,PUBLIC_HEALTH,covid-pass,full_word,831
+German,PUBLIC_HEALTH,maskenpflicht,full_word,832
+German,PUBLIC_HEALTH,wahl des impfstoffs,full_word,833
+German,PUBLIC_HEALTH,robert koch-institut,full_word,834
+German,PUBLIC_HEALTH,rki,full_word,835
+German,PUBLIC_HEALTH,who-diktatur,full_word,836
+German,PUBLIC_HEALTH,nürnberg 2,full_word,837
+German,PUBLIC_HEALTH,impfverletzungen,full_word,838
+German,PUBLIC_HEALTH,spritze,full_word,839
+German,PUBLIC_HEALTH,nürnberger code,full_word,840
+German,PUBLIC_HEALTH,die große keulung,full_word,841
+German,PUBLIC_HEALTH,system zur meldung unerwünschter impfstoffe,full_word,842
+German,PUBLIC_HEALTH,khk,full_word,843
+German,PUBLIC_HEALTH,karl lauterbach,full_word,844
+German,PUBLIC_HEALTH,ema,full_word,845
+German,PUBLIC_HEALTH,pharma-lobby,full_word,846
+German,PUBLIC_HEALTH,impfverbrecher,full_word,847
+German,PUBLIC_HEALTH,medizinische tyrannei,full_word,848
+German,PUBLIC_HEALTH,gerinnsel,full_word,849
+German,PUBLIC_HEALTH,unbekanntes,full_word,850
+German,PUBLIC_HEALTH,flugobjekt,full_word,851
+German,PUBLIC_HEALTH,gefährliche medizin,full_word,852
+German,PUBLIC_HEALTH,wuhan-virus,full_word,853
+German,PUBLIC_HEALTH,südafrikanische variante,full_word,854
+German,PUBLIC_HEALTH,krebserregend,full_word,855
+German,PUBLIC_HEALTH,pharmaindustrie,full_word,856
+German,PUBLIC_HEALTH,big pharma,full_word,857
+German,PUBLIC_HEALTH,pfizer,full_word,858
+German,PUBLIC_HEALTH,biontech,full_word,859
+German,PUBLIC_HEALTH,geldpocken,full_word,860
+German,PUBLIC_HEALTH,bernsteinliste,full_word,861
+German,PUBLIC_HEALTH,johnson und johnson,full_word,862
+German,PUBLIC_HEALTH,koalition zur seuchenvorsorge,full_word,863
+German,PUBLIC_HEALTH,ungeimpfte leben sind wichtig,full_word,864
+German,PUBLIC_HEALTH,impfplan für kinder,full_word,865
+German,PUBLIC_HEALTH,pferdepaste,full_word,866
+German,PUBLIC_HEALTH,sicherheitsprobleme,full_word,867
+German,PUBLIC_HEALTH,todesstoß,full_word,868
+German,PUBLIC_HEALTH,impfvorschriften,full_word,869
+German,PUBLIC_HEALTH,krebs,full_word,870
+German,PUBLIC_HEALTH,zwangsimpfungen,full_word,871
+German,PUBLIC_HEALTH,wlan der 5. generation,full_word,872
+German,PUBLIC_HEALTH,gelbfieber,full_word,873
+German,PUBLIC_HEALTH,mongolische variante,full_word,874
+German,PUBLIC_HEALTH,wuhan-grippe,full_word,875
+German,PUBLIC_HEALTH,china-virus,full_word,876
+German,PUBLIC_HEALTH,ufo-bericht,full_word,877
+German,PUBLIC_HEALTH,ungeimpft,full_word,878
+German,PUBLIC_HEALTH,unbekannte luftphänomene,full_word,879
+German,PUBLIC_HEALTH,salbei,full_word,880
+German,PUBLIC_HEALTH,heilung,full_word,881
+German,PUBLIC_HEALTH,medizin,full_word,882
+German,PUBLIC_HEALTH,bell-lähmung,full_word,883
+German,PUBLIC_HEALTH,millimeterwelle,full_word,884
+German,PUBLIC_HEALTH,wlan der fünften generation,full_word,885
+German,PUBLIC_HEALTH,tötungsschuss,full_word,886
+German,PUBLIC_HEALTH,selbstisolation,full_word,887
+German,PUBLIC_HEALTH,klinische versuche,full_word,888
+German,PUBLIC_HEALTH,schlangengift,full_word,889
+German,PUBLIC_HEALTH,nebenwirkungen des impfstoffs,full_word,890
+German,PUBLIC_HEALTH,sucharit bhakdi,full_word,891
+German,PUBLIC_HEALTH,verbrechen gegen die menschheit,full_word,892
+German,PUBLIC_HEALTH,abflachung der kurve,full_word,893
+German,PUBLIC_HEALTH,anti-impfstoff-influencer,full_word,894
+German,PUBLIC_HEALTH,außerirdischer,full_word,895
+German,PUBLIC_HEALTH,absichtliches gift,full_word,896
+German,PUBLIC_HEALTH,ccp-biowaffe,full_word,897
+German,PUBLIC_HEALTH,affenpocken,full_word,898
+German,PUBLIC_HEALTH,inkubationszeitraum,full_word,899
+German,PUBLIC_HEALTH,schlechte medizin,full_word,900
+German,PUBLIC_HEALTH,patient null,full_word,901
+German,PUBLIC_HEALTH,natürliche medizin,full_word,902
+German,PUBLIC_HEALTH,antikörper,full_word,903
+German,PUBLIC_HEALTH,versuchskaninchen,full_word,904
+German,PUBLIC_HEALTH,herzstillstand,full_word,905
+German,PUBLIC_HEALTH,ccp-virus,full_word,906
+German,PUBLIC_HEALTH,schlechte wissenschaft,full_word,907
+German,PUBLIC_HEALTH,delta-stamm,full_word,908
+German,PUBLIC_HEALTH,big-tech-zensur,full_word,909
+German,PUBLIC_HEALTH,lass die körper auf den boden fallen,full_word,910
+German,PUBLIC_HEALTH,rote ankünfte,full_word,911
+German,PUBLIC_HEALTH,pro-safe-impfstoff,full_word,912
+German,PUBLIC_HEALTH,herdenimmunität,full_word,913
+German,PUBLIC_HEALTH,vaers-datenbank,full_word,914
+German,PUBLIC_HEALTH,kontaktverfolgung,full_word,915
+German,PUBLIC_HEALTH,homöopathisch,full_word,916
+German,PUBLIC_HEALTH,asymptomatisch,full_word,917
+German,PUBLIC_HEALTH,corona-diktatur,full_word,918
+German,PUBLIC_HEALTH,coronavirus,full_word,919
+German,PUBLIC_HEALTH,mandat,full_word,920
+German,PUBLIC_HEALTH,gift cocktail,full_word,921
+German,PUBLIC_HEALTH,schnelltests,full_word,922
+German,PUBLIC_HEALTH,pro-wahl,full_word,923
+German,PUBLIC_HEALTH,abtreibung,full_word,924
+German,PUBLIC_HEALTH,gynäkologie,full_word,925
+German,PUBLIC_HEALTH,pro-choice,full_word,926
+German,PUBLIC_HEALTH,prochoice,full_word,927
+German,PUBLIC_HEALTH,fötus,full_word,928
+German,PUBLIC_HEALTH,roe gegen wade,full_word,929
+German,PUBLIC_HEALTH,istanbuler konvention,full_word,930
+German,PUBLIC_HEALTH,menstruationsurlaub,full_word,931
+German,PUBLIC_HEALTH,menstruation,full_word,932
+German,MIGRANTS,anti-schwuchtel-gesetze,full_word,933
+German,MIGRANTS,einwanderung,full_word,934
+German,MIGRANTS,einwanderungswelle,full_word,935
+German,MIGRANTS,invasion,full_word,936
+German,MIGRANTS,kindermigranten werden vermisst,full_word,937
+German,MIGRANTS,kriminalität,full_word,938
+German,MIGRANTS,undankbarkeit,full_word,939
+German,MIGRANTS,undankbar,full_word,940
+German,MIGRANTS,vergewaltigung,full_word,941
+German,MIGRANTS,vergewaltigen,full_word,942
+German,MIGRANTS,sozialtourismus,full_word,943
+German,MIGRANTS,sozial-tourismus,full_word,944
+German,MIGRANTS,sozialtouristen,full_word,945
+German,MIGRANTS,sozialleistung ausnutzen,full_word,946
+German,MIGRANTS,auf staatskosten,full_word,947
+German,MIGRANTS,sozialstaat ausnutzen,full_word,948
+German,MIGRANTS,wohnungsnot,full_word,949
+German,MIGRANTS,luxusflüchtling,full_word,950
+German,MIGRANTS,luxus flüchtling,full_word,951
+German,MIGRANTS,luxusunterkünfte,full_word,952
+German,MIGRANTS,messer migranten,full_word,953
+German,MIGRANTS,messermigranten,full_word,954
+German,MIGRANTS,horde,full_word,955
+German,MIGRANTS,ausländerkriminalität,full_word,956
+Greek,CLIMATE_CHANGE,στρατηγικές προσαρμογής,full_word,957
+Greek,CLIMATE_CHANGE,μόλυνση του αέρα,full_word,958
+Greek,CLIMATE_CHANGE,απώλεια βιοποικολότητας,full_word,959
+Greek,CLIMATE_CHANGE,πόλεις χωρίς αυτοκίνητα,full_word,960
+Greek,CLIMATE_CHANGE,εκπομπές διοξειδίου του άνθρακα,full_word,961
+Greek,CLIMATE_CHANGE,εκπομπές άνθρακα,full_word,962
+Greek,CLIMATE_CHANGE,αποτύπωμα άνθρακα,full_word,963
+Greek,CLIMATE_CHANGE,τιμολόγηση άνθρακα,full_word,964
+Greek,CLIMATE_CHANGE,δέσμευση άνθρακα,full_word,965
+Greek,CLIMATE_CHANGE,διαρροή χημικών,full_word,966
+Greek,CLIMATE_CHANGE,καθαρή ενέργεια,full_word,967
+Greek,CLIMATE_CHANGE,τεχνολογία καθαρής ενέργειας,full_word,968
+Greek,CLIMATE_CHANGE,ακτιβισμός για το κλίμα,full_word,969
+Greek,CLIMATE_CHANGE,δράση για το κλίμα,full_word,970
+Greek,CLIMATE_CHANGE,προσαρμογή στην κλιματική αλλαγή,full_word,971
+Greek,CLIMATE_CHANGE,απάτη της κλιματικής αλλαγής,full_word,972
+Greek,CLIMATE_CHANGE,κλιματική κρίση,full_word,973
+Greek,CLIMATE_CHANGE,περιβαλλοντική εκπαίδευση,full_word,974
+Greek,CLIMATE_CHANGE,χρηματοδότηση για το κλίμα,full_word,975
+Greek,CLIMATE_CHANGE,επίδραση του κλίματος στο οικοσύστημα,full_word,976
+Greek,CLIMATE_CHANGE,δικαιοσύνη για το κλίμα,full_word,977
+Greek,CLIMATE_CHANGE,μετριασμός των επιπτώσεων της κλιματικής αλλαγής,full_word,978
+Greek,CLIMATE_CHANGE,μοντελοποίηση του κλίματος,full_word,979
+Greek,CLIMATE_CHANGE,κλιματική πολιτική,full_word,980
+Greek,CLIMATE_CHANGE,κλιματικοί πρόσφυγες,full_word,981
+Greek,CLIMATE_CHANGE,κλιματική ανθεκτικότητα,full_word,982
+Greek,CLIMATE_CHANGE,επιστήμη του κλίματος,full_word,983
+Greek,CLIMATE_CHANGE,κλιματική μεταβλητότητα,full_word,984
+Greek,CLIMATE_CHANGE,copernicus,full_word,985
+Greek,CLIMATE_CHANGE,αποδάσωση,full_word,986
+Greek,CLIMATE_CHANGE,ξηρασίες,full_word,987
+Greek,CLIMATE_CHANGE,φιλικό προς το περιβάλλον,full_word,988
+Greek,CLIMATE_CHANGE,εκπομπές,full_word,989
+Greek,CLIMATE_CHANGE,περιβάλλον,full_word,990
+Greek,CLIMATE_CHANGE,έλεγχος της διάβρωσης,full_word,991
+Greek,CLIMATE_CHANGE,ακραίος καιρός,full_word,992
+Greek,CLIMATE_CHANGE,ακραία καιρικά φαινόμενα,full_word,993
+Greek,CLIMATE_CHANGE,δασοπυρκαγίες,full_word,994
+Greek,CLIMATE_CHANGE,ορυκτά καύσιμα,full_word,995
+Greek,CLIMATE_CHANGE,παρασκευή για το κλίμα,full_word,996
+Greek,CLIMATE_CHANGE,μηχανική κλίματος,full_word,997
+Greek,CLIMATE_CHANGE,παγετώνες,full_word,998
+Greek,CLIMATE_CHANGE,παγκόσμια θερμοκρασία,full_word,999
+Greek,CLIMATE_CHANGE,παγκόσμια υπερθέρμανση,full_word,1000
+Greek,CLIMATE_CHANGE,φαινόμενο του θερμοκηπίου,full_word,1001
+Greek,CLIMATE_CHANGE,αέρια του θερμοκηπίου,full_word,1002
+Greek,CLIMATE_CHANGE,γκρέτα τούνμπεργκ,full_word,1003
+Greek,CLIMATE_CHANGE,διατήρηση ειδών και οικοτόπων,full_word,1004
+Greek,CLIMATE_CHANGE,καταστροφή ειδών και οικοτόπων,full_word,1005
+Greek,CLIMATE_CHANGE,καύσωνες,full_word,1006
+Greek,CLIMATE_CHANGE,λιώσιμο των πάγων,full_word,1007
+Greek,CLIMATE_CHANGE,διατήρηση της θαλάσσιας φύσης,full_word,1008
+Greek,CLIMATE_CHANGE,μικροπλαστικά,full_word,1009
+Greek,CLIMATE_CHANGE,μέτρα μετριασμού,full_word,1010
+Greek,CLIMATE_CHANGE,φυσικές καταστροφές,full_word,1011
+Greek,CLIMATE_CHANGE,μηδενικές εκπομπές αερίων,full_word,1012
+Greek,CLIMATE_CHANGE,οξίνιση των ωκεανών,full_word,1013
+Greek,CLIMATE_CHANGE,υπεραλίευση,full_word,1014
+Greek,CLIMATE_CHANGE,τρύπα του όζοντος,full_word,1015
+Greek,CLIMATE_CHANGE,συμφωνία του παρισιού,full_word,1016
+Greek,CLIMATE_CHANGE,φωτοβολταικά,full_word,1017
+Greek,CLIMATE_CHANGE,τροπικό δάσος,full_word,1018
+Greek,CLIMATE_CHANGE,πρωτοβουλίες ανακύκλωσης,full_word,1019
+Greek,CLIMATE_CHANGE,ανανεώσιμη ενέργεια,full_word,1020
+Greek,CLIMATE_CHANGE,αύξηση της στάθμης της θάλασσας,full_word,1021
+Greek,CLIMATE_CHANGE,βιώσιμες προσπάθειες,full_word,1022
+Greek,CLIMATE_CHANGE,βιώσιμη ανάπτυξη,full_word,1023
+Greek,CLIMATE_CHANGE,βιώσιμη ενέργεια,full_word,1024
+Greek,CLIMATE_CHANGE,διάσκεψη των ηνωμένων εθνών για την κλιματική αλλαγή,full_word,1025
+Greek,CLIMATE_CHANGE,διαχείριση αποβλήτων,full_word,1026
+Greek,CLIMATE_CHANGE,μόλυνση του νερού,full_word,1027
+Greek,CLIMATE_CHANGE,λειψυδρία,full_word,1028
+Greek,CLIMATE_CHANGE,καιρός,full_word,1029
+Greek,CLIMATE_CHANGE,τροποποίηση του καιρού,full_word,1030
+Greek,CLIMATE_CHANGE,ανεμογεννήτριες,full_word,1031
+Greek,CLIMATE_CHANGE,πυρκαγιές,full_word,1032
+Greek,PUBLIC_HEALTH,5g,full_word,1033
+Greek,PUBLIC_HEALTH,ασύρματα δίκτυα πέμπτης γενιάς,full_word,1034
+Greek,PUBLIC_HEALTH,εξωγήινοι,full_word,1035
+Greek,PUBLIC_HEALTH,ατζέντα εξωγήινων,full_word,1036
+Greek,PUBLIC_HEALTH,alienleaks,full_word,1037
+Greek,PUBLIC_HEALTH,άντονι φάουτσι,full_word,1038
+Greek,PUBLIC_HEALTH,big pharma,full_word,1039
+Greek,PUBLIC_HEALTH,μεγάλες φαρμακευτικές,full_word,1040
+Greek,PUBLIC_HEALTH,μπιλ γκέιτς,full_word,1041
+Greek,PUBLIC_HEALTH,cdc,full_word,1042
+Greek,PUBLIC_HEALTH,chd,full_word,1043
+Greek,PUBLIC_HEALTH,covid,full_word,1044
+Greek,PUBLIC_HEALTH,covid-19,full_word,1045
+Greek,PUBLIC_HEALTH,εμβόλιο covid,full_word,1046
+Greek,PUBLIC_HEALTH,covid19,full_word,1047
+Greek,PUBLIC_HEALTH,δρ. μπράιν άντρις,full_word,1048
+Greek,PUBLIC_HEALTH,dna,full_word,1049
+Greek,PUBLIC_HEALTH,έκτακτη ανάγκη,full_word,1050
+Greek,PUBLIC_HEALTH,fda,full_word,1051
+Greek,PUBLIC_HEALTH,τζορτζ σόρος,full_word,1052
+Greek,PUBLIC_HEALTH,johnson & johnson,full_word,1053
+Greek,PUBLIC_HEALTH,ιός marburg,full_word,1054
+Greek,PUBLIC_HEALTH,moderna,full_word,1055
+Greek,PUBLIC_HEALTH,morgellons,full_word,1056
+Greek,PUBLIC_HEALTH,pfizer,full_word,1057
+Greek,PUBLIC_HEALTH,rna,full_word,1058
+Greek,PUBLIC_HEALTH,ρον γουάτκινς,full_word,1059
+Greek,PUBLIC_HEALTH,sars-cov-2,full_word,1060
+Greek,PUBLIC_HEALTH,μετάνθρωπος,full_word,1061
+Greek,PUBLIC_HEALTH,διανθρωπισμός,full_word,1062
+Greek,PUBLIC_HEALTH,ατια,full_word,1063
+Greek,PUBLIC_HEALTH,ufo,full_word,1064
+Greek,PUBLIC_HEALTH,ufo report,full_word,1065
+Greek,PUBLIC_HEALTH,μη αναγνωρισμένα εναέρια φαινόμενα,full_word,1066
+Greek,PUBLIC_HEALTH,αδρενοχρώμιο,full_word,1067
+Greek,PUBLIC_HEALTH,ανεπιθύμητα γεγονότα,full_word,1068
+Greek,PUBLIC_HEALTH,παρενέργειες,full_word,1069
+Greek,PUBLIC_HEALTH,αντιβιωτικά,full_word,1070
+Greek,PUBLIC_HEALTH,κατά των εμβολίων,full_word,1071
+Greek,PUBLIC_HEALTH,anti-vax,full_word,1072
+Greek,PUBLIC_HEALTH,εντιεμβολιαστής,full_word,1073
+Greek,PUBLIC_HEALTH,astrazeneca,full_word,1074
+Greek,PUBLIC_HEALTH,αυτισμός,full_word,1075
+Greek,PUBLIC_HEALTH,κακή θεραπεία,full_word,1076
+Greek,PUBLIC_HEALTH,κακή επιστήμη,full_word,1077
+Greek,PUBLIC_HEALTH,παράλυση bell,full_word,1078
+Greek,PUBLIC_HEALTH,μεγάλες εταιρείες τεχνολογίας,full_word,1079
+Greek,PUBLIC_HEALTH,λογοκρισία από μεγάλες εταιρείες τεχνολογίας,full_word,1080
+Greek,PUBLIC_HEALTH,biontech,full_word,1081
+Greek,PUBLIC_HEALTH,αίμα,full_word,1082
+Greek,PUBLIC_HEALTH,θρόμβοι αίματος,full_word,1083
+Greek,PUBLIC_HEALTH,δείγμα αίματος,full_word,1084
+Greek,PUBLIC_HEALTH,καρκίνος,full_word,1085
+Greek,PUBLIC_HEALTH,καρκινικά κύτταρα,full_word,1086
+Greek,PUBLIC_HEALTH,καρδιακή προσβολή,full_word,1087
+Greek,PUBLIC_HEALTH,καρδιακό πρόβλημα,full_word,1088
+Greek,PUBLIC_HEALTH,βιολογικό όπλο του κομμουνιστικού κόμματος της κίνας,full_word,1089
+Greek,PUBLIC_HEALTH,ιός του κομμουνιστικού κόμματος της κίνας,full_word,1090
+Greek,PUBLIC_HEALTH,αεροψεκασμοί,full_word,1091
+Greek,PUBLIC_HEALTH,χημειοθεραπεία,full_word,1092
+Greek,PUBLIC_HEALTH,χημική άμβλωση,full_word,1093
+Greek,PUBLIC_HEALTH,χωρίς χημικά,full_word,1094
+Greek,PUBLIC_HEALTH,πρόγραμμα εμβολιασμών παιδικής ηλικίας,full_word,1095
+Greek,PUBLIC_HEALTH,διοξείδιο του χλωρίου,full_word,1096
+Greek,PUBLIC_HEALTH,θειική χονδροϊτίνη,full_word,1097
+Greek,PUBLIC_HEALTH,σύνδρομο χρόνιας κόπωσης,full_word,1098
+Greek,PUBLIC_HEALTH,κλινική cleveland,full_word,1099
+Greek,PUBLIC_HEALTH,κλινικές δοκιμές,full_word,1100
+Greek,PUBLIC_HEALTH,εμβόλιο που προκαλεί θρόμβους,full_word,1101
+Greek,PUBLIC_HEALTH,codemonkeyz,full_word,1102
+Greek,PUBLIC_HEALTH,ανίχνευση επαφών,full_word,1103
+Greek,PUBLIC_HEALTH,κορωνοϊός,full_word,1104
+Greek,PUBLIC_HEALTH,διαβατήριο covid,full_word,1105
+Greek,PUBLIC_HEALTH,θεραπείες,full_word,1106
+Greek,PUBLIC_HEALTH,θεραπεία,full_word,1107
+Greek,PUBLIC_HEALTH,επικίνδυνα φάρμακα,full_word,1108
+Greek,PUBLIC_HEALTH,ευθύνη για επικίνδυνα προϊόντα,full_word,1109
+Greek,PUBLIC_HEALTH,θάνατος,full_word,1110
+Greek,PUBLIC_HEALTH,ποσοστό θανάτου,full_word,1111
+Greek,PUBLIC_HEALTH,ένεση θανάτου,full_word,1112
+Greek,PUBLIC_HEALTH,μείωση του πληθυσμού,full_word,1113
+Greek,PUBLIC_HEALTH,αποτοξίνωση,full_word,1114
+Greek,PUBLIC_HEALTH,ναρκωτικά,full_word,1115
+Greek,PUBLIC_HEALTH,ηλεκτρομαγνητισμός,full_word,1116
+Greek,PUBLIC_HEALTH,επιδημία,full_word,1117
+Greek,PUBLIC_HEALTH,επιδημιολογική καμπύλη,full_word,1118
+Greek,PUBLIC_HEALTH,μάσκα προσώπου,full_word,1119
+Greek,PUBLIC_HEALTH,εμβρυϊκός ιστός,full_word,1120
+Greek,PUBLIC_HEALTH,έμβρυο,full_word,1121
+Greek,PUBLIC_HEALTH,έμβρυα,full_word,1122
+Greek,PUBLIC_HEALTH,γρίπη,full_word,1123
+Greek,PUBLIC_HEALTH,υποχρεωτικά εμβόλια,full_word,1124
+Greek,PUBLIC_HEALTH,θεραπεία γονιδίων,full_word,1125
+Greek,PUBLIC_HEALTH,γονίδια,full_word,1126
+Greek,PUBLIC_HEALTH,γραφένιο,full_word,1127
+Greek,PUBLIC_HEALTH,πράσινες αφίξεις,full_word,1128
+Greek,PUBLIC_HEALTH,πράσινη λίστα,full_word,1129
+Greek,PUBLIC_HEALTH,εκπαίδευση σχετικά με την υγεία,full_word,1130
+Greek,PUBLIC_HEALTH,κίνδυνος για την υγεία,full_word,1131
+Greek,PUBLIC_HEALTH,ανοσία της αγέλης,full_word,1132
+Greek,PUBLIC_HEALTH,ομοιοπαθητικός,full_word,1133
+Greek,PUBLIC_HEALTH,αλόγοπαστα,full_word,1134
+Greek,PUBLIC_HEALTH,περίοδος επώασης,full_word,1135
+Greek,PUBLIC_HEALTH,ανοσοποιητικό σύστημα,full_word,1136
+Greek,PUBLIC_HEALTH,ανοσοποίηση,full_word,1137
+Greek,PUBLIC_HEALTH,μόλυνση,full_word,1138
+Greek,PUBLIC_HEALTH,ενέσεις,full_word,1139
+Greek,PUBLIC_HEALTH,μονάδα εντατικής θεραπείας,full_word,1140
+Greek,PUBLIC_HEALTH,ένεση,full_word,1141
+Greek,PUBLIC_HEALTH,σκάνδαλο εμβολίου,full_word,1142
+Greek,PUBLIC_HEALTH,janssen,full_word,1143
+Greek,PUBLIC_HEALTH,θανατηφόρα ένεση,full_word,1144
+Greek,PUBLIC_HEALTH,τεστ πλευρικής ροής,full_word,1145
+Greek,PUBLIC_HEALTH,μακρά covid,full_word,1146
+Greek,PUBLIC_HEALTH,ελονοσία,full_word,1147
+Greek,PUBLIC_HEALTH,υποχρεωτική χρήση μάσκας,full_word,1148
+Greek,PUBLIC_HEALTH,μάσκες,full_word,1149
+Greek,PUBLIC_HEALTH,οι μάσκες είναι για σκλάβους,full_word,1150
+Greek,PUBLIC_HEALTH,ιλαρά,full_word,1151
+Greek,PUBLIC_HEALTH,ιατρική άμβλωση,full_word,1152
+Greek,PUBLIC_HEALTH,ιατρική τυραννία,full_word,1153
+Greek,PUBLIC_HEALTH,φάρμακα,full_word,1154
+Greek,PUBLIC_HEALTH,megha thakur,full_word,1155
+Greek,PUBLIC_HEALTH,χιλιοστομετρικό κύμα,full_word,1156
+Greek,PUBLIC_HEALTH,μιτοχόνδρια,full_word,1157
+Greek,PUBLIC_HEALTH,ευλογιά των πιθήκων,full_word,1158
+Greek,PUBLIC_HEALTH,θνησιμότητα,full_word,1159
+Greek,PUBLIC_HEALTH,mrna,full_word,1160
+Greek,PUBLIC_HEALTH,φυσική ιατρική,full_word,1161
+Greek,PUBLIC_HEALTH,νυρεμβέργη,full_word,1162
+Greek,PUBLIC_HEALTH,νυρεμβέργη 2.0,full_word,1163
+Greek,PUBLIC_HEALTH,κώδικας της νυρεμβέργης,full_word,1164
+Greek,PUBLIC_HEALTH,δίκες της νυρεμβέργης για τον κορωνοϊό,full_word,1165
+Greek,PUBLIC_HEALTH,χωρίς εμβόλιο,full_word,1166
+Greek,PUBLIC_HEALTH,κανένα παιδί δεν έχει εμβολιαστεί,full_word,1167
+Greek,PUBLIC_HEALTH,πανδημία,full_word,1168
+Greek,PUBLIC_HEALTH,ασθενής μηδέν,full_word,1169
+Greek,PUBLIC_HEALTH,αναφορά του πενταγώνου για ufo,full_word,1170
+Greek,PUBLIC_HEALTH,φαρμακευτικές εταιρείες,full_word,1171
+Greek,PUBLIC_HEALTH,χάπια,full_word,1172
+Greek,PUBLIC_HEALTH,πλανδημία,full_word,1173
+Greek,PUBLIC_HEALTH,πολιτική ατζέντα,full_word,1174
+Greek,PUBLIC_HEALTH,πρόληψη,full_word,1175
+Greek,PUBLIC_HEALTH,πρωτεΐνη ακίδα,full_word,1176
+Greek,PUBLIC_HEALTH,υπέρ του ασφαλούς εμβολίου,full_word,1177
+Greek,PUBLIC_HEALTH,υπέρ της επιλογής,full_word,1178
+Greek,PUBLIC_HEALTH,υπέρ της ζωής,full_word,1179
+Greek,PUBLIC_HEALTH,ακτινοβολία,full_word,1180
+Greek,PUBLIC_HEALTH,αντίδραση,full_word,1181
+Greek,PUBLIC_HEALTH,κόκκινες αφίξεις,full_word,1182
+Greek,PUBLIC_HEALTH,κόκκινη λίστα,full_word,1183
+Greek,PUBLIC_HEALTH,χάπι αντιστροφής φαρμακευτικής άμβλωσης,full_word,1184
+Greek,PUBLIC_HEALTH,ρόμπερτ μαλόουν,full_word,1185
+Greek,PUBLIC_HEALTH,ροσέλ ουαλένσκι,full_word,1186
+Greek,PUBLIC_HEALTH,ρόου εναντίον ουέιντ,full_word,1187
+Greek,PUBLIC_HEALTH,απολύμανση,full_word,1188
+Greek,PUBLIC_HEALTH,απομόνωση,full_word,1189
+Greek,PUBLIC_HEALTH,αίμα φιδιού,full_word,1190
+Greek,PUBLIC_HEALTH,δηλητήριο φιδιού,full_word,1191
+Greek,PUBLIC_HEALTH,μετάλλαξη νότιας αφρικής,full_word,1192
+Greek,PUBLIC_HEALTH,ακίδα,full_word,1193
+Greek,PUBLIC_HEALTH,σταματήστε τη γενοκτονία των αγαλμάτων,full_word,1194
+Greek,PUBLIC_HEALTH,μελέτη,full_word,1195
+Greek,PUBLIC_HEALTH,ξαφνικός θάνατος,full_word,1196
+Greek,PUBLIC_HEALTH,χειρουργική μάσκα,full_word,1197
+Greek,PUBLIC_HEALTH,αφαίρεση τοξινών,full_word,1198
+Greek,PUBLIC_HEALTH,οι ζωές των ανεμβολίαστων μετρούν,full_word,1199
+Greek,PUBLIC_HEALTH,ανεμβολίαστοι,full_word,1200
+Greek,PUBLIC_HEALTH,vaids,full_word,1201
+Greek,PUBLIC_HEALTH,σύνδρομο επίκτητης ανοσοανεπάρκειας από το εμβόλιο,full_word,1202
+Greek,PUBLIC_HEALTH,vaers,full_word,1203
+Greek,PUBLIC_HEALTH,σύστημα αναφοράς ανεπιθύμητων παρενεργειών των εμβολίων,full_word,1204
+Greek,PUBLIC_HEALTH,επιλογή για το εμβόλιο,full_word,1205
+Greek,PUBLIC_HEALTH,θάνατοι από το εμβόλιο,full_word,1206
+Greek,PUBLIC_HEALTH,τραυματισμοί από το εμβόλιο,full_word,1207
+Greek,PUBLIC_HEALTH,παρενέργειες του εμβολίου,full_word,1208
+Greek,PUBLIC_HEALTH,θύματα του εμβολίου,full_word,1209
+Greek,PUBLIC_HEALTH,ουχάν,full_word,1210
+Greek,PUBLIC_HEALTH,γιουχάν,full_word,1211
+Greek,PUBLIC_HEALTH,κίτρινος πυρετός,full_word,1212
+Greek,PUBLIC_HEALTH,ξαφνικίτιδα,full_word,1213
+Greek,PUBLIC_HEALTH,μπόλι,full_word,1214
+Greek,PUBLIC_HEALTH,μπολιασμένος,full_word,1215
+Greek,PUBLIC_HEALTH,πρωτόκολλο θανάτου,full_word,1216
+Greek,PUBLIC_HEALTH,κοροϊδοιός,full_word,1217
+Greek,PUBLIC_HEALTH,σφράγισμα,full_word,1218
+Greek,PUBLIC_HEALTH,τσίμπιμα,full_word,1219
+Greek,PUBLIC_HEALTH,τσιπάκι,full_word,1220
+Greek,MIGRANTS,αφρικανοί,full_word,1221
+Greek,MIGRANTS,άραβες,full_word,1222
+Greek,MIGRANTS,αιτούντες άσυλο,full_word,1223
+Greek,MIGRANTS,επίθεση στην ευρώπη,full_word,1224
+Greek,MIGRANTS,banderisation,full_word,1225
+Greek,MIGRANTS,βάρβαροι,full_word,1226
+Greek,MIGRANTS,σύνορα,full_word,1227
+Greek,MIGRANTS,παιδιά μετανάστες,full_word,1228
+Greek,MIGRANTS,απειλή για τον πολιτισμό,full_word,1229
+Greek,MIGRANTS,επικίνδυνος πολιτισμός,full_word,1230
+Greek,MIGRANTS,εκτοπισμός,full_word,1231
+Greek,MIGRANTS,οικονομικοί μετανάστες,full_word,1232
+Greek,MIGRANTS,οικονομικές επιπτώσεις της μετανάστευσης,full_word,1233
+Greek,MIGRANTS,φοβία για την ευρώπη,full_word,1234
+Greek,MIGRANTS,η_ελλάδα_προστατεύει_την_ευρώπη,full_word,1235
+Greek,MIGRANTS,η_ελλάδα_δέχεται_επίθεση,full_word,1236
+Greek,MIGRANTS,μεγάλη αντικατάσταση,full_word,1237
+Greek,MIGRANTS,παράνομος,full_word,1238
+Greek,MIGRANTS,παράνομος μετανάστης,full_word,1239
+Greek,MIGRANTS,μεταναστευτικός νόμος,full_word,1240
+Greek,MIGRANTS,μεταναστευτικές πολιτικές,full_word,1241
+Greek,MIGRANTS,μεταναστευτικά προγράμματα,full_word,1242
+Greek,MIGRANTS,εισβολή,full_word,1243
+Greek,MIGRANTS,προγράμματα ενσωμάτωσης,full_word,1244
+Greek,MIGRANTS,εισβολή στην ευρώπη,full_word,1245
+Greek,MIGRANTS,εισβολείς,full_word,1246
+Greek,MIGRANTS,μετανάστες κίνδυνος για τις γυναίκες,full_word,1247
+Greek,MIGRANTS,μετανάστης δολοφόνος,full_word,1248
+Greek,MIGRANTS,μετανάστευση και ανάπτυξη,full_word,1249
+Greek,MIGRANTS,διαχείριση της μετανάστευσης,full_word,1250
+Greek,MIGRANTS,μεταναστευτικά μοτίβα,full_word,1251
+Greek,MIGRANTS,μεταναστευτική εισβολή,full_word,1252
+Greek,MIGRANTS,κράτηση μεταναστών,full_word,1253
+Greek,MIGRANTS,υγεία των μεταναστών,full_word,1254
+Greek,MIGRANTS,δικαιώματα των μεταναστών,full_word,1255
+Greek,MIGRANTS,μουσουλμάνοι,full_word,1256
+Greek,MIGRANTS,μετανάστης βιαστής,full_word,1257
+Greek,MIGRANTS,πρόσφυγας βιαστής,full_word,1258
+Greek,MIGRANTS,κέντρο προσφύγων,full_word,1259
+Greek,MIGRANTS,προσφυγική κρίση,full_word,1260
+Greek,MIGRANTS,μετεγκατάσταση προσφύγων,full_word,1261
+Greek,MIGRANTS,πρόσφυγες κίνδυνος για τις γυναίκες,full_word,1262
+Greek,MIGRANTS,μετεγκατεστημένος,full_word,1263
+Greek,MIGRANTS,επαναπατρισμός,full_word,1264
+Greek,MIGRANTS,δράση μετεγκατάστασης,full_word,1265
+Greek,MIGRANTS,κοινωνική μέριμνα,full_word,1266
+Greek,MIGRANTS,κοινωνική ενσωμάτωση,full_word,1267
+Greek,MIGRANTS,τρομοκράτες,full_word,1268
+Greek,MIGRANTS,απειλή για την ευρώπη,full_word,1269
+Greek,MIGRANTS,απειλή για δύση,full_word,1270
+Greek,MIGRANTS,απειλή για τις δυτικές αξίες,full_word,1271
+Greek,MIGRANTS,τόμι ρόμπινσον,full_word,1272
+Greek,MIGRANTS,ουκρανοί,full_word,1273
+Greek,MIGRANTS,ουκρανοποίηση,full_word,1274
+Greek,MIGRANTS,γενοκτονία των λευκών,full_word,1275
+Greek,MIGRANTS,ξενοφοβία,full_word,1276
+Greek,MIGRANTS,λαθροεισβολέας,full_word,1277
+Greek,MIGRANTS,λαθρομετανάστης,full_word,1278
+Greek,MIGRANTS,λαθροεπενδυτές,full_word,1279
+Greek,MIGRANTS,επενδυτές,full_word,1280
+Italian,CLIMATE_CHANGE,città senza auto,full_word,1281
+Italian,CLIMATE_CHANGE,fuoriuscita di sostanze chimiche,full_word,1282
+Italian,CLIMATE_CHANGE,bufala del cambiamento climatico,full_word,1283
+Italian,CLIMATE_CHANGE,greta thunberg,full_word,1284
+Italian,CLIMATE_CHANGE,co2,full_word,1285
+Italian,CLIMATE_CHANGE,disastro ambientale,full_word,1286
+Italian,CLIMATE_CHANGE,strategie di adattamento,full_word,1287
+Italian,CLIMATE_CHANGE,inquinamento atmosferico,full_word,1288
+Italian,CLIMATE_CHANGE,perdita biodiversità,full_word,1289
+Italian,CLIMATE_CHANGE,emissioni co2,full_word,1290
+Italian,CLIMATE_CHANGE,emissioni carbonio,full_word,1291
+Italian,CLIMATE_CHANGE,impronta carbonio,full_word,1292
+Italian,CLIMATE_CHANGE,prezzo carbonio,full_word,1293
+Italian,CLIMATE_CHANGE,sequestro carbonio,full_word,1294
+Italian,CLIMATE_CHANGE,energia pulita,full_word,1295
+Italian,CLIMATE_CHANGE,tecnologie energia pulita,full_word,1296
+Italian,CLIMATE_CHANGE,attivismo climatico,full_word,1297
+Italian,CLIMATE_CHANGE,inganno cambiamento climatico,full_word,1298
+Italian,CLIMATE_CHANGE,crisi climatiche,full_word,1299
+Italian,CLIMATE_CHANGE,educazione climatica,full_word,1300
+Italian,CLIMATE_CHANGE,finanza climatica,full_word,1301
+Italian,CLIMATE_CHANGE,impatto climatico ecosistemi,full_word,1302
+Italian,CLIMATE_CHANGE,giustizia climatica,full_word,1303
+Italian,CLIMATE_CHANGE,migrazioni climatiche,full_word,1304
+Italian,CLIMATE_CHANGE,moderazione climatica,full_word,1305
+Italian,CLIMATE_CHANGE,politiche climatiche,full_word,1306
+Italian,CLIMATE_CHANGE,rifugiati climatici,full_word,1307
+Italian,CLIMATE_CHANGE,resilienza climatica,full_word,1308
+Italian,CLIMATE_CHANGE,scienza,full_word,1309
+Italian,CLIMATE_CHANGE,clima,full_word,1310
+Italian,CLIMATE_CHANGE,copernicus,full_word,1311
+Italian,CLIMATE_CHANGE,deforestazione,full_word,1312
+Italian,CLIMATE_CHANGE,siccità,full_word,1313
+Italian,CLIMATE_CHANGE,eco-friendly,full_word,1314
+Italian,CLIMATE_CHANGE,emissioni,full_word,1315
+Italian,CLIMATE_CHANGE,ambiente,full_word,1316
+Italian,CLIMATE_CHANGE,attivismo ambientale,full_word,1317
+Italian,CLIMATE_CHANGE,impatto ambientale,full_word,1318
+Italian,CLIMATE_CHANGE,sostenibilità ambientale,full_word,1319
+Italian,CLIMATE_CHANGE,controllo erosione,full_word,1320
+Italian,CLIMATE_CHANGE,tempo estremo,full_word,1321
+Italian,CLIMATE_CHANGE,eventi meteorologici estremi,full_word,1322
+Italian,CLIMATE_CHANGE,incendi boschivi,full_word,1323
+Italian,CLIMATE_CHANGE,carburanti fossili,full_word,1324
+Italian,CLIMATE_CHANGE,friday for future,full_word,1325
+Italian,CLIMATE_CHANGE,geoingegneria,full_word,1326
+Italian,CLIMATE_CHANGE,ghiacciai,full_word,1327
+Italian,CLIMATE_CHANGE,temperature globali,full_word,1328
+Italian,CLIMATE_CHANGE,effetto serra,full_word,1329
+Italian,CLIMATE_CHANGE,gas serra,full_word,1330
+Italian,CLIMATE_CHANGE,conversazione habitat,full_word,1331
+Italian,CLIMATE_CHANGE,distruzione habitat,full_word,1332
+Italian,CLIMATE_CHANGE,ondate caldo,full_word,1333
+Italian,CLIMATE_CHANGE,scioglimento ghiacciai,full_word,1334
+Italian,CLIMATE_CHANGE,conservazione marina,full_word,1335
+Italian,CLIMATE_CHANGE,microplastiche,full_word,1336
+Italian,CLIMATE_CHANGE,misure di contenimento,full_word,1337
+Italian,CLIMATE_CHANGE,disastri naturali,full_word,1338
+Italian,CLIMATE_CHANGE,emissioni nette zero,full_word,1339
+Italian,CLIMATE_CHANGE,acidificazione oceano,full_word,1340
+Italian,CLIMATE_CHANGE,sovrapesca,full_word,1341
+Italian,CLIMATE_CHANGE,riduzione ozono,full_word,1342
+Italian,CLIMATE_CHANGE,accordi di parigi,full_word,1343
+Italian,CLIMATE_CHANGE,fotovoltaico,full_word,1344
+Italian,CLIMATE_CHANGE,foreste pluviali,full_word,1345
+Italian,CLIMATE_CHANGE,iniziative riciclo,full_word,1346
+Italian,CLIMATE_CHANGE,energia rinnovabile,full_word,1347
+Italian,CLIMATE_CHANGE,aumento livello mare,full_word,1348
+Italian,CLIMATE_CHANGE,sforzi sostenibilità,full_word,1349
+Italian,CLIMATE_CHANGE,sviluppo sostenibile,full_word,1350
+Italian,CLIMATE_CHANGE,energia sostenibile,full_word,1351
+Italian,CLIMATE_CHANGE,conferenza cambiamento climatico onu,full_word,1352
+Italian,CLIMATE_CHANGE,gestione rifiuti,full_word,1353
+Italian,CLIMATE_CHANGE,inquinamento acqua,full_word,1354
+Italian,CLIMATE_CHANGE,mancanza acqua,full_word,1355
+Italian,CLIMATE_CHANGE,tempo atmosferico,full_word,1356
+Italian,CLIMATE_CHANGE,modificazione tempo atmosferico,full_word,1357
+Italian,CLIMATE_CHANGE,turbine eoliche,full_word,1358
+Italian,PUBLIC_HEALTH,5g,full_word,1359
+Italian,PUBLIC_HEALTH,wireless quinta generazione,full_word,1360
+Italian,PUBLIC_HEALTH,wireless 5 gen,full_word,1361
+Italian,PUBLIC_HEALTH,alieno,full_word,1362
+Italian,PUBLIC_HEALTH,agenda aliena,full_word,1363
+Italian,PUBLIC_HEALTH,alienleaks,full_word,1364
+Italian,PUBLIC_HEALTH,anthony fauci,full_word,1365
+Italian,PUBLIC_HEALTH,big pharma,full_word,1366
+Italian,PUBLIC_HEALTH,bill gates,full_word,1367
+Italian,PUBLIC_HEALTH,cdc,full_word,1368
+Italian,PUBLIC_HEALTH,chd,full_word,1369
+Italian,PUBLIC_HEALTH,covid,full_word,1370
+Italian,PUBLIC_HEALTH,covid-19,full_word,1371
+Italian,PUBLIC_HEALTH,vaccino covid,full_word,1372
+Italian,PUBLIC_HEALTH,covid19,full_word,1373
+Italian,PUBLIC_HEALTH,dr bryan ardis,full_word,1374
+Italian,PUBLIC_HEALTH,dna,full_word,1375
+Italian,PUBLIC_HEALTH,emergenza,full_word,1376
+Italian,PUBLIC_HEALTH,fda,full_word,1377
+Italian,PUBLIC_HEALTH,george soros,full_word,1378
+Italian,PUBLIC_HEALTH,johnson & johnson,full_word,1379
+Italian,PUBLIC_HEALTH,virus di marburg,full_word,1380
+Italian,PUBLIC_HEALTH,moderna,full_word,1381
+Italian,PUBLIC_HEALTH,morgellons,full_word,1382
+Italian,PUBLIC_HEALTH,pfizer,full_word,1383
+Italian,PUBLIC_HEALTH,rna,full_word,1384
+Italian,PUBLIC_HEALTH,ron watkins,full_word,1385
+Italian,PUBLIC_HEALTH,sars-cov-2,full_word,1386
+Italian,PUBLIC_HEALTH,transumano,full_word,1387
+Italian,PUBLIC_HEALTH,transumanesimo,full_word,1388
+Italian,PUBLIC_HEALTH,uap,full_word,1389
+Italian,PUBLIC_HEALTH,ufo,full_word,1390
+Italian,PUBLIC_HEALTH,report ufo,full_word,1391
+Italian,PUBLIC_HEALTH,fenomeno aereo non identificato,full_word,1392
+Italian,PUBLIC_HEALTH,adrenocromo,full_word,1393
+Italian,PUBLIC_HEALTH,eventi avversi,full_word,1394
+Italian,PUBLIC_HEALTH,reazioni avverse,full_word,1395
+Italian,PUBLIC_HEALTH,anticorpi,full_word,1396
+Italian,PUBLIC_HEALTH,anticorpo,full_word,1397
+Italian,PUBLIC_HEALTH,astrazeneca,full_word,1398
+Italian,PUBLIC_HEALTH,autismo,full_word,1399
+Italian,PUBLIC_HEALTH,cattiva medicina,full_word,1400
+Italian,PUBLIC_HEALTH,cattiva scienza,full_word,1401
+Italian,PUBLIC_HEALTH,paralisi di bell,full_word,1402
+Italian,PUBLIC_HEALTH,big tech,full_word,1403
+Italian,PUBLIC_HEALTH,censura big tech,full_word,1404
+Italian,PUBLIC_HEALTH,biontech,full_word,1405
+Italian,PUBLIC_HEALTH,sangue,full_word,1406
+Italian,PUBLIC_HEALTH,coaguli di sangue,full_word,1407
+Italian,PUBLIC_HEALTH,campione sangue,full_word,1408
+Italian,PUBLIC_HEALTH,cancro,full_word,1409
+Italian,PUBLIC_HEALTH,cellule cancerogene,full_word,1410
+Italian,PUBLIC_HEALTH,arresto cardiaco,full_word,1411
+Italian,PUBLIC_HEALTH,problema cardiaco,full_word,1412
+Italian,PUBLIC_HEALTH,arma biologica ccp,full_word,1413
+Italian,PUBLIC_HEALTH,virus ccp,full_word,1414
+Italian,PUBLIC_HEALTH,scie chimiche,full_word,1415
+Italian,PUBLIC_HEALTH,chemioterapia,full_word,1416
+Italian,PUBLIC_HEALTH,aborto chimico,full_word,1417
+Italian,PUBLIC_HEALTH,privo di sostanze chimiche,full_word,1418
+Italian,PUBLIC_HEALTH,programma vaccinale infantile,full_word,1419
+Italian,PUBLIC_HEALTH,biossido di cloro,full_word,1420
+Italian,PUBLIC_HEALTH,condroitin solfato,full_word,1421
+Italian,PUBLIC_HEALTH,sindrome affaticamento cronico,full_word,1422
+Italian,PUBLIC_HEALTH,clinica cleveland,full_word,1423
+Italian,PUBLIC_HEALTH,test clinici,full_word,1424
+Italian,PUBLIC_HEALTH,coagulato,full_word,1425
+Italian,PUBLIC_HEALTH,codemonkeyz,full_word,1426
+Italian,PUBLIC_HEALTH,tracciamento contatti,full_word,1427
+Italian,PUBLIC_HEALTH,corona,full_word,1428
+Italian,PUBLIC_HEALTH,corona virus,full_word,1429
+Italian,PUBLIC_HEALTH,passaporto covid,full_word,1430
+Italian,PUBLIC_HEALTH,cure,full_word,1431
+Italian,PUBLIC_HEALTH,cura,full_word,1432
+Italian,PUBLIC_HEALTH,medicina pericolosa,full_word,1433
+Italian,PUBLIC_HEALTH,responsabilità prodotti pericolosi,full_word,1434
+Italian,PUBLIC_HEALTH,morte,full_word,1435
+Italian,PUBLIC_HEALTH,iniezione mortale,full_word,1436
+Italian,PUBLIC_HEALTH,tasso mortalità,full_word,1437
+Italian,PUBLIC_HEALTH,colpo mortale,full_word,1438
+Italian,PUBLIC_HEALTH,spopolamento,full_word,1439
+Italian,PUBLIC_HEALTH,detox,full_word,1440
+Italian,PUBLIC_HEALTH,farmaci,full_word,1441
+Italian,PUBLIC_HEALTH,elettromagnetismo,full_word,1442
+Italian,PUBLIC_HEALTH,epidemia,full_word,1443
+Italian,PUBLIC_HEALTH,curva epidemica,full_word,1444
+Italian,PUBLIC_HEALTH,mascherina,full_word,1445
+Italian,PUBLIC_HEALTH,tessuto fetale,full_word,1446
+Italian,PUBLIC_HEALTH,feto,full_word,1447
+Italian,PUBLIC_HEALTH,feti,full_word,1448
+Italian,PUBLIC_HEALTH,influenza,full_word,1449
+Italian,PUBLIC_HEALTH,vaccini forzati,full_word,1450
+Italian,PUBLIC_HEALTH,terapia genetica,full_word,1451
+Italian,PUBLIC_HEALTH,geni,full_word,1452
+Italian,PUBLIC_HEALTH,grafene,full_word,1453
+Italian,PUBLIC_HEALTH,green list,full_word,1454
+Italian,PUBLIC_HEALTH,porcellini d’india,full_word,1455
+Italian,PUBLIC_HEALTH,educazione alla salute,full_word,1456
+Italian,PUBLIC_HEALTH,rischio salute,full_word,1457
+Italian,PUBLIC_HEALTH,infarto,full_word,1458
+Italian,PUBLIC_HEALTH,immunità di gregge,full_word,1459
+Italian,PUBLIC_HEALTH,omeopatia,full_word,1460
+Italian,PUBLIC_HEALTH,pasta di cavallo,full_word,1461
+Italian,PUBLIC_HEALTH,periodo di incubazione,full_word,1462
+Italian,PUBLIC_HEALTH,sistema immunitario,full_word,1463
+Italian,PUBLIC_HEALTH,immunizzazione,full_word,1464
+Italian,PUBLIC_HEALTH,infezione,full_word,1465
+Italian,PUBLIC_HEALTH,iniezioni,full_word,1466
+Italian,PUBLIC_HEALTH,inoculazione,full_word,1467
+Italian,PUBLIC_HEALTH,terapia intensiva,full_word,1468
+Italian,PUBLIC_HEALTH,jabgate,full_word,1469
+Italian,PUBLIC_HEALTH,janssen,full_word,1470
+Italian,PUBLIC_HEALTH,prova di flusso laterale,full_word,1471
+Italian,PUBLIC_HEALTH,iniezione letale,full_word,1472
+Italian,PUBLIC_HEALTH,long covid,full_word,1473
+Italian,PUBLIC_HEALTH,malaria,full_word,1474
+Italian,PUBLIC_HEALTH,obblighi mascherina,full_word,1475
+Italian,PUBLIC_HEALTH,mascherine,full_word,1476
+Italian,PUBLIC_HEALTH,mascherine sono per gli schiavi,full_word,1477
+Italian,PUBLIC_HEALTH,morbillo,full_word,1478
+Italian,PUBLIC_HEALTH,aborto medico,full_word,1479
+Italian,PUBLIC_HEALTH,tirannia medica,full_word,1480
+Italian,PUBLIC_HEALTH,medicine,full_word,1481
+Italian,PUBLIC_HEALTH,megha thakur,full_word,1482
+Italian,PUBLIC_HEALTH,onda millimetrica,full_word,1483
+Italian,PUBLIC_HEALTH,mitocondri,full_word,1484
+Italian,PUBLIC_HEALTH,vaiolo delle scimmie,full_word,1485
+Italian,PUBLIC_HEALTH,mortalità mrna,full_word,1486
+Italian,PUBLIC_HEALTH,medicina naturale,full_word,1487
+Italian,PUBLIC_HEALTH,norimberga 2,full_word,1488
+Italian,PUBLIC_HEALTH,norimberga 2.0,full_word,1489
+Italian,PUBLIC_HEALTH,codice di norimberga,full_word,1490
+Italian,PUBLIC_HEALTH,processo di norimberga per covid,full_word,1491
+Italian,PUBLIC_HEALTH,no iniezione,full_word,1492
+Italian,PUBLIC_HEALTH,no bambini vaccinati,full_word,1493
+Italian,PUBLIC_HEALTH,pandemia,full_word,1494
+Italian,PUBLIC_HEALTH,paziente zero,full_word,1495
+Italian,PUBLIC_HEALTH,report pentagono ufo,full_word,1496
+Italian,PUBLIC_HEALTH,compagnie farmaceutiche,full_word,1497
+Italian,PUBLIC_HEALTH,pillole,full_word,1498
+Italian,PUBLIC_HEALTH,plandemic,full_word,1499
+Italian,PUBLIC_HEALTH,agenda politica,full_word,1500
+Italian,PUBLIC_HEALTH,prevenzione,full_word,1501
+Italian,PUBLIC_HEALTH,proteina spike,full_word,1502
+Italian,PUBLIC_HEALTH,pro vaccino sicuro,full_word,1503
+Italian,PUBLIC_HEALTH,prochoice,full_word,1504
+Italian,PUBLIC_HEALTH,pro-life,full_word,1505
+Italian,PUBLIC_HEALTH,prolife,full_word,1506
+Italian,PUBLIC_HEALTH,radiazione,full_word,1507
+Italian,PUBLIC_HEALTH,reazione,full_word,1508
+Italian,PUBLIC_HEALTH,pillola di inversione,full_word,1509
+Italian,PUBLIC_HEALTH,robert malone,full_word,1510
+Italian,PUBLIC_HEALTH,rochelle walensky,full_word,1511
+Italian,PUBLIC_HEALTH,roe contro wade,full_word,1512
+Italian,PUBLIC_HEALTH,servizi igienico-sanitari,full_word,1513
+Italian,PUBLIC_HEALTH,auto isolamento,full_word,1514
+Italian,PUBLIC_HEALTH,effetti collaterali,full_word,1515
+Italian,PUBLIC_HEALTH,sangue di serpente,full_word,1516
+Italian,PUBLIC_HEALTH,veleno di serpente,full_word,1517
+Italian,PUBLIC_HEALTH,variante sudafricana,full_word,1518
+Italian,PUBLIC_HEALTH,spike,full_word,1519
+Italian,PUBLIC_HEALTH,studio,full_word,1520
+Italian,PUBLIC_HEALTH,morte improvvisa,full_word,1521
+Italian,PUBLIC_HEALTH,mascherina chirurgica,full_word,1522
+Italian,PUBLIC_HEALTH,grande abbattimento,full_word,1523
+Italian,PUBLIC_HEALTH,rimozione tossine,full_word,1524
+Italian,PUBLIC_HEALTH,non vaccinato,full_word,1525
+Italian,PUBLIC_HEALTH,unvaxxed lives matter,full_word,1526
+Italian,PUBLIC_HEALTH,unvaccinated,full_word,1527
+Italian,PUBLIC_HEALTH,immunodeficienza acquisita da vaccino,full_word,1528
+Italian,PUBLIC_HEALTH,sistema di segnalazione eventi avversi da vaccino,full_word,1529
+Italian,PUBLIC_HEALTH,scelta vaccinale,full_word,1530
+Italian,PUBLIC_HEALTH,morti da vaccino,full_word,1531
+Italian,PUBLIC_HEALTH,infortuni da vaccino,full_word,1532
+Italian,PUBLIC_HEALTH,obblighi vaccinali,full_word,1533
+Italian,PUBLIC_HEALTH,effetti collaterali vaccino,full_word,1534
+Italian,PUBLIC_HEALTH,vittime vaccino,full_word,1535
+Italian,PUBLIC_HEALTH,vax,full_word,1536
+Italian,PUBLIC_HEALTH,wuhan,full_word,1537
+Italian,PUBLIC_HEALTH,febbre gialla,full_word,1538
+Italian,MIGRANTS,i bambini migranti scompaiono,full_word,1539
+Italian,MIGRANTS,extracomunitari,full_word,1540
+Italian,MIGRANTS,invasione,full_word,1541
+Italian,MIGRANTS,immigrato,full_word,1542
+Italian,MIGRANTS,clandestini,full_word,1543
+Italian,MIGRANTS,straniero clandestino,full_word,1544
+Italian,MIGRANTS,tommy robinson,full_word,1545
+Italian,MIGRANTS,immigrati,full_word,1546
+Italian,MIGRANTS,africani,full_word,1547
+Italian,MIGRANTS,arabi,full_word,1548
+Italian,MIGRANTS,richiedenti asilo,full_word,1549
+Italian,MIGRANTS,attacchi europa,full_word,1550
+Italian,MIGRANTS,banderizzazione,full_word,1551
+Italian,MIGRANTS,confini,full_word,1552
+Italian,MIGRANTS,bambini migranti,full_word,1553
+Italian,MIGRANTS,minaccia alla civiltà,full_word,1554
+Italian,MIGRANTS,pericolo civiltà,full_word,1555
+Italian,MIGRANTS,dislocamento,full_word,1556
+Italian,MIGRANTS,immigrati economici,full_word,1557
+Italian,MIGRANTS,migranti economici,full_word,1558
+Italian,MIGRANTS,impatto economico della migrazione,full_word,1559
+Italian,MIGRANTS,eurofobia,full_word,1560
+Italian,MIGRANTS,grecia difende europa,full_word,1561
+Italian,MIGRANTS,grecia sotto attacco,full_word,1562
+Italian,MIGRANTS,grande sostituzione,full_word,1563
+Italian,MIGRANTS,illegale,full_word,1564
+Italian,MIGRANTS,clandestino,full_word,1565
+Italian,MIGRANTS,leggi immigrazione,full_word,1566
+Italian,MIGRANTS,politiche immigrazione,full_word,1567
+Italian,MIGRANTS,programmi integrazione,full_word,1568
+Italian,MIGRANTS,invasione europa,full_word,1569
+Italian,MIGRANTS,invasore,full_word,1570
+Italian,MIGRANTS,donne a rischio migranti,full_word,1571
+Italian,MIGRANTS,migranti assassini,full_word,1572
+Italian,MIGRANTS,migrazione e sviluppo,full_word,1573
+Italian,MIGRANTS,gestione migrazione,full_word,1574
+Italian,MIGRANTS,modelli di migrazione,full_word,1575
+Italian,MIGRANTS,invasione migratoria,full_word,1576
+Italian,MIGRANTS,detenzione migranti,full_word,1577
+Italian,MIGRANTS,salute migranti,full_word,1578
+Italian,MIGRANTS,diritti migranti,full_word,1579
+Italian,MIGRANTS,musulmani,full_word,1580
+Italian,MIGRANTS,migrante stupratore,full_word,1581
+Italian,MIGRANTS,rifugiato stupratore,full_word,1582
+Italian,MIGRANTS,campo profughi,full_word,1583
+Italian,MIGRANTS,crisi rifugiati,full_word,1584
+Italian,MIGRANTS,reinsediamento rifugiati,full_word,1585
+Italian,MIGRANTS,rifugiati pericolo donne,full_word,1586
+Italian,MIGRANTS,trasferiti,full_word,1587
+Italian,MIGRANTS,emigrazione,full_word,1588
+Italian,MIGRANTS,attività di reinsediamento,full_word,1589
+Italian,MIGRANTS,assistenza sociale,full_word,1590
+Italian,MIGRANTS,inclusione sociale,full_word,1591
+Italian,MIGRANTS,terroristi,full_word,1592
+Italian,MIGRANTS,pericolo europa,full_word,1593
+Italian,MIGRANTS,pericolo occidente,full_word,1594
+Italian,MIGRANTS,pericolo valori occidentali,full_word,1595
+Italian,MIGRANTS,ucraini,full_word,1596
+Italian,MIGRANTS,ucrainizzazione,full_word,1597
+Italian,MIGRANTS,genocidio bianco,full_word,1598
+Italian,MIGRANTS,xenofobia,full_word,1599
+Italian,MIGRANTS,lampedusa,full_word,1600
+Italian,MIGRANTS,sbarchi,full_word,1601
+Italian,MIGRANTS,barche,full_word,1602
+Italian,MIGRANTS,barchini,full_word,1603
+Italian,MIGRANTS,naufragio,full_word,1604
+Italian,MIGRANTS,centro di accoglienza,full_word,1605
+Italian,MIGRANTS,ong,full_word,1606
+Italian,MIGRANTS,centro di primo soccorso e accoglienza,full_word,1607
+Italian,MIGRANTS,accoglienza,full_word,1608
+Italian,MIGRANTS,libia,full_word,1609
+Italian,MIGRANTS,tunisia,full_word,1610
+Italian,MIGRANTS,mediterraneo,full_word,1611
+Italian,MIGRANTS,mar mediterraneo,full_word,1612
+Polish,CLIMATE_CHANGE,strategie adaptacyjne/środki przystosowawcze,full_word,1613
+Polish,CLIMATE_CHANGE,zanieczyszczenie powietrza,full_word,1614
+Polish,CLIMATE_CHANGE,utrata różnorodności biologicznej,full_word,1615
+Polish,CLIMATE_CHANGE,miasta bez samochodów,full_word,1616
+Polish,CLIMATE_CHANGE,emisja dwutlenku węgla,full_word,1617
+Polish,CLIMATE_CHANGE,śląd węglowy,full_word,1618
+Polish,CLIMATE_CHANGE,ceny emisji dwutlenku węgla,full_word,1619
+Polish,CLIMATE_CHANGE,sekwestracja dwutlenku węgla,full_word,1620
+Polish,CLIMATE_CHANGE,wyciek substancji chemicznych,full_word,1621
+Polish,CLIMATE_CHANGE,czysta energia,full_word,1622
+Polish,CLIMATE_CHANGE,technologia czystej energii,full_word,1623
+Polish,CLIMATE_CHANGE,clean energy technologies,full_word,1624
+Polish,CLIMATE_CHANGE,aktywizmy klimatyczny,full_word,1625
+Polish,CLIMATE_CHANGE,działanie/działania na rzecz klimatu,full_word,1626
+Polish,CLIMATE_CHANGE,adaptacja klimatyczna,full_word,1627
+Polish,CLIMATE_CHANGE,zmiany klimatu/zmiana klimatu,full_word,1628
+Polish,CLIMATE_CHANGE,adaptacja do zmian klimatycznych,full_word,1629
+Polish,CLIMATE_CHANGE,oszustwo dotyczące zmian klimatu/spisek klimatyczny,full_word,1630
+Polish,CLIMATE_CHANGE,kryzys klimatyczny,full_word,1631
+Polish,CLIMATE_CHANGE,edukacja klimatyczna,full_word,1632
+Polish,CLIMATE_CHANGE,zrównoważone finanse,full_word,1633
+Polish,CLIMATE_CHANGE,wpływ klimatu na ekosystemy,full_word,1634
+Polish,CLIMATE_CHANGE,sprawiedliwość klimatyczna,full_word,1635
+Polish,CLIMATE_CHANGE,łagodzenie zmian klimatu/mitygacyja zmian klimatu,full_word,1636
+Polish,CLIMATE_CHANGE,modelowanie klimatu,full_word,1637
+Polish,CLIMATE_CHANGE,polityka klimatyczna,full_word,1638
+Polish,CLIMATE_CHANGE,uchodźcy klimatyczni,full_word,1639
+Polish,CLIMATE_CHANGE,odporność klimatyczna,full_word,1640
+Polish,CLIMATE_CHANGE,nauka o klimacie,full_word,1641
+Polish,CLIMATE_CHANGE,zmienność klimatu,full_word,1642
+Polish,CLIMATE_CHANGE,copernicus,full_word,1643
+Polish,CLIMATE_CHANGE,wylesianie/deforestacja,full_word,1644
+Polish,CLIMATE_CHANGE,susze,full_word,1645
+Polish,CLIMATE_CHANGE,ekologiczny,full_word,1646
+Polish,CLIMATE_CHANGE,emisje,full_word,1647
+Polish,CLIMATE_CHANGE,środowisko,full_word,1648
+Polish,CLIMATE_CHANGE,aktywizmy ekologiczny,full_word,1649
+Polish,CLIMATE_CHANGE,katastrofa ekologiczna,full_word,1650
+Polish,CLIMATE_CHANGE,wpływ/oddziaływanie na środowisko,full_word,1651
+Polish,CLIMATE_CHANGE,zrównoważony rozwój środowiska,full_word,1652
+Polish,CLIMATE_CHANGE,kontrola erozji/zapobieganie erozji,full_word,1653
+Polish,CLIMATE_CHANGE,ekstremalna pogoda,full_word,1654
+Polish,CLIMATE_CHANGE,ekstremalne zjawiska pogodowe,full_word,1655
+Polish,CLIMATE_CHANGE,pożary lasów,full_word,1656
+Polish,CLIMATE_CHANGE,paliwa kopalne,full_word,1657
+Polish,CLIMATE_CHANGE,friday for future/młodzieżowy strajk klimatyczny,full_word,1658
+Polish,CLIMATE_CHANGE,geoinżynieria,full_word,1659
+Polish,CLIMATE_CHANGE,lodowce,full_word,1660
+Polish,CLIMATE_CHANGE,globalna temperatura,full_word,1661
+Polish,CLIMATE_CHANGE,efekt cieplarniany,full_word,1662
+Polish,CLIMATE_CHANGE,gazy cieplarniane,full_word,1663
+Polish,CLIMATE_CHANGE,greta thunberg,full_word,1664
+Polish,CLIMATE_CHANGE,ochrona siedlisk,full_word,1665
+Polish,CLIMATE_CHANGE,niszczenie siedlisk,full_word,1666
+Polish,CLIMATE_CHANGE,fala/fale upałów,full_word,1667
+Polish,CLIMATE_CHANGE,topnienie lodu/topnienie lodowców,full_word,1668
+Polish,CLIMATE_CHANGE,ochrona mórz,full_word,1669
+Polish,CLIMATE_CHANGE,mikroplastik,full_word,1670
+Polish,CLIMATE_CHANGE,środki łagodzące,full_word,1671
+Polish,CLIMATE_CHANGE,klęska żywiołowa,full_word,1672
+Polish,CLIMATE_CHANGE,zerowe emisje netto,full_word,1673
+Polish,CLIMATE_CHANGE,zakwaszanie oceanu,full_word,1674
+Polish,CLIMATE_CHANGE,zbyt intensywne połowy/przełowienie,full_word,1675
+Polish,CLIMATE_CHANGE,zubożenie warstwy ozonowej,full_word,1676
+Polish,CLIMATE_CHANGE,porozumienie paryskie,full_word,1677
+Polish,CLIMATE_CHANGE,fotowoltaika,full_word,1678
+Polish,CLIMATE_CHANGE,las deszczowy,full_word,1679
+Polish,CLIMATE_CHANGE,inicjatywy recyklingowe/inicjatywy proekologiczne,full_word,1680
+Polish,CLIMATE_CHANGE,energia odnawialna,full_word,1681
+Polish,CLIMATE_CHANGE,wzrost poziomu morza,full_word,1682
+Polish,CLIMATE_CHANGE,wysiłki na rzecz zrównoważonego rozwoju,full_word,1683
+Polish,CLIMATE_CHANGE,zrównoważony rozwój,full_word,1684
+Polish,CLIMATE_CHANGE,konferencja narodów zjednoczonych w sprawie zmian klimatycznych,full_word,1685
+Polish,CLIMATE_CHANGE,gospodarowanie odpadami,full_word,1686
+Polish,CLIMATE_CHANGE,zanieczyszczenie wody,full_word,1687
+Polish,CLIMATE_CHANGE,ziedobór wody,full_word,1688
+Polish,CLIMATE_CHANGE,pogoda,full_word,1689
+Polish,CLIMATE_CHANGE,modyfikacja pogody/wpływanie na pogodę,full_word,1690
+Polish,CLIMATE_CHANGE,turbiny wiatrowe,full_word,1691
+Polish,CLIMATE_CHANGE,niekontrolowany ogień,full_word,1692
+Polish,PUBLIC_HEALTH,5g,full_word,1693
+Polish,PUBLIC_HEALTH,technologia bezprzewodowa piątej generacji,full_word,1694
+Polish,PUBLIC_HEALTH,technologia bezprzewodowa 5-tej generacji,full_word,1695
+Polish,PUBLIC_HEALTH,obcy/kosmita,full_word,1696
+Polish,PUBLIC_HEALTH,agenda obcych,full_word,1697
+Polish,PUBLIC_HEALTH,anthony fauci,full_word,1698
+Polish,PUBLIC_HEALTH,big pharma,full_word,1699
+Polish,PUBLIC_HEALTH,bill gates,full_word,1700
+Polish,PUBLIC_HEALTH,cdc,full_word,1701
+Polish,PUBLIC_HEALTH,chd,full_word,1702
+Polish,PUBLIC_HEALTH,covid,full_word,1703
+Polish,PUBLIC_HEALTH,covid-19,full_word,1704
+Polish,PUBLIC_HEALTH,szczepionka na covid/szczepionka przeciw covid,full_word,1705
+Polish,PUBLIC_HEALTH,covid19,full_word,1706
+Polish,PUBLIC_HEALTH,dr bryan ardis,full_word,1707
+Polish,PUBLIC_HEALTH,dna,full_word,1708
+Polish,PUBLIC_HEALTH,nagły wypadek,full_word,1709
+Polish,PUBLIC_HEALTH,fda,full_word,1710
+Polish,PUBLIC_HEALTH,george soros,full_word,1711
+Polish,PUBLIC_HEALTH,johnson & johnson,full_word,1712
+Polish,PUBLIC_HEALTH,wirus marburg,full_word,1713
+Polish,PUBLIC_HEALTH,moderna,full_word,1714
+Polish,PUBLIC_HEALTH,morgellony/morgellonowie,full_word,1715
+Polish,PUBLIC_HEALTH,pfizer,full_word,1716
+Polish,PUBLIC_HEALTH,rna,full_word,1717
+Polish,PUBLIC_HEALTH,ron watkins,full_word,1718
+Polish,PUBLIC_HEALTH,sars-cov-2,full_word,1719
+Polish,PUBLIC_HEALTH,transczłowiek,full_word,1720
+Polish,PUBLIC_HEALTH,transhumanizm,full_word,1721
+Polish,PUBLIC_HEALTH,uap,full_word,1722
+Polish,PUBLIC_HEALTH,ufo,full_word,1723
+Polish,PUBLIC_HEALTH,raport o ufo,full_word,1724
+Polish,PUBLIC_HEALTH,niezidentyfikowane zjawiska latający,full_word,1725
+Polish,PUBLIC_HEALTH,adrenochrom,full_word,1726
+Polish,PUBLIC_HEALTH,zdarzenia niepożądane,full_word,1727
+Polish,PUBLIC_HEALTH,działanie niepożądane,full_word,1728
+Polish,PUBLIC_HEALTH,przeciwciała,full_word,1729
+Polish,PUBLIC_HEALTH,antyszczepionkowy,full_word,1730
+Polish,PUBLIC_HEALTH,antyszczepionkowiec,full_word,1731
+Polish,PUBLIC_HEALTH,przeciwciało,full_word,1732
+Polish,PUBLIC_HEALTH,astrazeneca,full_word,1733
+Polish,PUBLIC_HEALTH,autyzm,full_word,1734
+Polish,PUBLIC_HEALTH,paramedycyna/medycyna niekonwencjonalna,full_word,1735
+Polish,PUBLIC_HEALTH,porażenie bella,full_word,1736
+Polish,PUBLIC_HEALTH,big tech,full_word,1737
+Polish,PUBLIC_HEALTH,cenzura big techów,full_word,1738
+Polish,PUBLIC_HEALTH,biontech,full_word,1739
+Polish,PUBLIC_HEALTH,krew,full_word,1740
+Polish,PUBLIC_HEALTH,skrzepy/zakrzepy,full_word,1741
+Polish,PUBLIC_HEALTH,próbka krwi,full_word,1742
+Polish,PUBLIC_HEALTH,rak/nowotwór,full_word,1743
+Polish,PUBLIC_HEALTH,komórki nowotworowe,full_word,1744
+Polish,PUBLIC_HEALTH,zatrzymanie akcji serca,full_word,1745
+Polish,PUBLIC_HEALTH,problem kardiologiczny/problem sercowy,full_word,1746
+Polish,PUBLIC_HEALTH,broń biologiczna ccp,full_word,1747
+Polish,PUBLIC_HEALTH,wirus ccp,full_word,1748
+Polish,PUBLIC_HEALTH,chemtrails/smugi chemiczne,full_word,1749
+Polish,PUBLIC_HEALTH,chemoterapia,full_word,1750
+Polish,PUBLIC_HEALTH,aborcja chemiczna,full_word,1751
+Polish,PUBLIC_HEALTH,bez chemii,full_word,1752
+Polish,PUBLIC_HEALTH,harmonogram szczepień dla dzieci,full_word,1753
+Polish,PUBLIC_HEALTH,dwutlenek chloru,full_word,1754
+Polish,PUBLIC_HEALTH,siarczan chondroityny,full_word,1755
+Polish,PUBLIC_HEALTH,zespół chronicznego zmęczenia,full_word,1756
+Polish,PUBLIC_HEALTH,cleveland clinic,full_word,1757
+Polish,PUBLIC_HEALTH,badania kliniczne,full_word,1758
+Polish,PUBLIC_HEALTH,zakrzep,full_word,1759
+Polish,PUBLIC_HEALTH,codemonkeyz,full_word,1760
+Polish,PUBLIC_HEALTH,śledzenie kontaktów,full_word,1761
+Polish,PUBLIC_HEALTH,korona,full_word,1762
+Polish,PUBLIC_HEALTH,koronawirus,full_word,1763
+Polish,PUBLIC_HEALTH,paszport covidowy/paszport cowidowy,full_word,1764
+Polish,PUBLIC_HEALTH,leki/legarstwa,full_word,1765
+Polish,PUBLIC_HEALTH,lek/lekarstwo,full_word,1766
+Polish,PUBLIC_HEALTH,niebezpieczny lek,full_word,1767
+Polish,PUBLIC_HEALTH,odpowiedzialność za produkt niebezpieczny,full_word,1768
+Polish,PUBLIC_HEALTH,śmierć,full_word,1769
+Polish,PUBLIC_HEALTH,zatrzyk śmierci,full_word,1770
+Polish,PUBLIC_HEALTH,śmiertleność,full_word,1771
+Polish,PUBLIC_HEALTH,śmiertleny zastrzyk,full_word,1772
+Polish,PUBLIC_HEALTH,depopulacja,full_word,1773
+Polish,PUBLIC_HEALTH,detoks,full_word,1774
+Polish,PUBLIC_HEALTH,narkotyki,full_word,1775
+Polish,PUBLIC_HEALTH,elektromagnetyzm,full_word,1776
+Polish,PUBLIC_HEALTH,epidemia,full_word,1777
+Polish,PUBLIC_HEALTH,krzywa epidemiologiczna,full_word,1778
+Polish,PUBLIC_HEALTH,maska ochronna/maseczka ochronna,full_word,1779
+Polish,PUBLIC_HEALTH,tkanka płodowa/tkanka płodu,full_word,1780
+Polish,PUBLIC_HEALTH,płód,full_word,1781
+Polish,PUBLIC_HEALTH,płody,full_word,1782
+Polish,PUBLIC_HEALTH,grypa,full_word,1783
+Polish,PUBLIC_HEALTH,przymusowe szczepionki,full_word,1784
+Polish,PUBLIC_HEALTH,terapia genowa,full_word,1785
+Polish,PUBLIC_HEALTH,geny,full_word,1786
+Polish,PUBLIC_HEALTH,garfen,full_word,1787
+Polish,PUBLIC_HEALTH,świnki morskie,full_word,1788
+Polish,PUBLIC_HEALTH,edukacja zdrowotna,full_word,1789
+Polish,PUBLIC_HEALTH,ryzyko dla zdrowia,full_word,1790
+Polish,PUBLIC_HEALTH,zawał serca,full_word,1791
+Polish,PUBLIC_HEALTH,odporność stadna/odporność zbiorowiskowa,full_word,1792
+Polish,PUBLIC_HEALTH,homeopatyczny,full_word,1793
+Polish,PUBLIC_HEALTH,maść końska,full_word,1794
+Polish,PUBLIC_HEALTH,okres wylęgania/okres inkubacji,full_word,1795
+Polish,PUBLIC_HEALTH,układ odpornościowy,full_word,1796
+Polish,PUBLIC_HEALTH,immunizacja/uodpornienie,full_word,1797
+Polish,PUBLIC_HEALTH,infekcja,full_word,1798
+Polish,PUBLIC_HEALTH,zastrzyki,full_word,1799
+Polish,PUBLIC_HEALTH,szczepienie ochronne,full_word,1800
+Polish,PUBLIC_HEALTH,oddział intensywnej terapii,full_word,1801
+Polish,PUBLIC_HEALTH,ukłucie/szczepionka,full_word,1802
+Polish,PUBLIC_HEALTH,janssen,full_word,1803
+Polish,PUBLIC_HEALTH,zabójczy strzał,full_word,1804
+Polish,PUBLIC_HEALTH,badanie metodą przepływu bocznego,full_word,1805
+Polish,PUBLIC_HEALTH,przewlekły covid,full_word,1806
+Polish,PUBLIC_HEALTH,malaria,full_word,1807
+Polish,PUBLIC_HEALTH,nakaz noszenia maski,full_word,1808
+Polish,PUBLIC_HEALTH,maski,full_word,1809
+Polish,PUBLIC_HEALTH,maski są dla niewolników,full_word,1810
+Polish,PUBLIC_HEALTH,odra,full_word,1811
+Polish,PUBLIC_HEALTH,aborcja medyczna,full_word,1812
+Polish,PUBLIC_HEALTH,tyrania medyczna,full_word,1813
+Polish,PUBLIC_HEALTH,leki,full_word,1814
+Polish,PUBLIC_HEALTH,meghathakur,full_word,1815
+Polish,PUBLIC_HEALTH,fala milimetrowa,full_word,1816
+Polish,PUBLIC_HEALTH,mitochondria,full_word,1817
+Polish,PUBLIC_HEALTH,małpia ospa,full_word,1818
+Polish,PUBLIC_HEALTH,śmiertelność,full_word,1819
+Polish,PUBLIC_HEALTH,mrna,full_word,1820
+Polish,PUBLIC_HEALTH,medycyna naturalna,full_word,1821
+Polish,PUBLIC_HEALTH,norymberga 2,full_word,1822
+Polish,PUBLIC_HEALTH,norymberga 2.0,full_word,1823
+Polish,PUBLIC_HEALTH,kodeks norymberski,full_word,1824
+Polish,PUBLIC_HEALTH,procesy norymberskie za covid,full_word,1825
+Polish,PUBLIC_HEALTH,pandemia,full_word,1826
+Polish,PUBLIC_HEALTH,pacjent zero,full_word,1827
+Polish,PUBLIC_HEALTH,raport pentagonu o ufo,full_word,1828
+Polish,PUBLIC_HEALTH,firmy farmaceutyczne,full_word,1829
+Polish,PUBLIC_HEALTH,pigułki,full_word,1830
+Polish,PUBLIC_HEALTH,plandemia,full_word,1831
+Polish,PUBLIC_HEALTH,program polityczny,full_word,1832
+Polish,PUBLIC_HEALTH,zapobieganie/profilktyka,full_word,1833
+Polish,PUBLIC_HEALTH,białko kolca,full_word,1834
+Polish,PUBLIC_HEALTH,prochoice,full_word,1835
+Polish,PUBLIC_HEALTH,pro-life,full_word,1836
+Polish,PUBLIC_HEALTH,promieniowanie,full_word,1837
+Polish,PUBLIC_HEALTH,reakcja,full_word,1838
+Polish,PUBLIC_HEALTH,robert malone,full_word,1839
+Polish,PUBLIC_HEALTH,rochelle walensky,full_word,1840
+Polish,PUBLIC_HEALTH,roe przeciwko wade,full_word,1841
+Polish,PUBLIC_HEALTH,warunki sanitarne,full_word,1842
+Polish,PUBLIC_HEALTH,samoizolacja,full_word,1843
+Polish,PUBLIC_HEALTH,skutki uboczne,full_word,1844
+Polish,PUBLIC_HEALTH,krew węża,full_word,1845
+Polish,PUBLIC_HEALTH,jad węża,full_word,1846
+Polish,PUBLIC_HEALTH,wariant południowoafrykański,full_word,1847
+Polish,PUBLIC_HEALTH,kolec,full_word,1848
+Polish,PUBLIC_HEALTH,białko kolczaste,full_word,1849
+Polish,PUBLIC_HEALTH,zatrzymac ludobójstwo,full_word,1850
+Polish,PUBLIC_HEALTH,badanie,full_word,1851
+Polish,PUBLIC_HEALTH,nagła śmierć,full_word,1852
+Polish,PUBLIC_HEALTH,chirurgiczna maska,full_word,1853
+Polish,PUBLIC_HEALTH,wielki ubój,full_word,1854
+Polish,PUBLIC_HEALTH,usuwanie toksyn,full_word,1855
+Polish,PUBLIC_HEALTH,transludzki,full_word,1856
+Polish,PUBLIC_HEALTH,nieszczepiony,full_word,1857
+Polish,PUBLIC_HEALTH,vaids,full_word,1858
+Polish,PUBLIC_HEALTH,nieszczepione życie ma znaczenie,full_word,1859
+Polish,PUBLIC_HEALTH,system zgłaszania działań niepożądanych szczepionek,full_word,1860
+Polish,PUBLIC_HEALTH,wybór czy zostać zaszczepionym,full_word,1861
+Polish,PUBLIC_HEALTH,zgonów poszczepienne,full_word,1862
+Polish,PUBLIC_HEALTH,urazy poszczepienne,full_word,1863
+Polish,PUBLIC_HEALTH,upoważnienie do zaszczepienia,full_word,1864
+Polish,PUBLIC_HEALTH,skutki uboczne szczepionki/niepożądany odczyn poszczepienny/nop,full_word,1865
+Polish,PUBLIC_HEALTH,ofiar szczepionek,full_word,1866
+Polish,PUBLIC_HEALTH,śmierć szczepionkowa,full_word,1867
+Polish,PUBLIC_HEALTH,wuhan,full_word,1868
+Polish,PUBLIC_HEALTH,żółta febra,full_word,1869
+Polish,MIGRANTS,afrykanie,full_word,1870
+Polish,MIGRANTS,arabowie,full_word,1871
+Polish,MIGRANTS,osoby ubiegające się o azyl,full_word,1872
+Polish,MIGRANTS,atakować europę,full_word,1873
+Polish,MIGRANTS,banderyzacja,full_word,1874
+Polish,MIGRANTS,granice,full_word,1875
+Polish,MIGRANTS,dzieci-migranci,full_word,1876
+Polish,MIGRANTS,zagrożenie cywilizacyjne,full_word,1877
+Polish,MIGRANTS,niebezpieczna cywilizacja,full_word,1878
+Polish,MIGRANTS,przemieszczenie,full_word,1879
+Polish,MIGRANTS,imigranci ekonomiczni,full_word,1880
+Polish,MIGRANTS,emigranci ekonomiczni,full_word,1881
+Polish,MIGRANTS,ekonomiczne skutki migracji,full_word,1882
+Polish,MIGRANTS,eurofob,full_word,1883
+Polish,MIGRANTS,grecja_chroni_europę,full_word,1884
+Polish,MIGRANTS,grecja_atakowana,full_word,1885
+Polish,MIGRANTS,wielkie zastąpienie,full_word,1886
+Polish,MIGRANTS,nielegalny,full_word,1887
+Polish,MIGRANTS,nielegalny obcy,full_word,1888
+Polish,MIGRANTS,nielegalni obcy,full_word,1889
+Polish,MIGRANTS,prawo imigracyjne,full_word,1890
+Polish,MIGRANTS,polityka imigracyjna,full_word,1891
+Polish,MIGRANTS,programy integracyjne,full_word,1892
+Polish,MIGRANTS,inwazja,full_word,1893
+Polish,MIGRANTS,inwazja na europę,full_word,1894
+Polish,MIGRANTS,najeźdźcy,full_word,1895
+Polish,MIGRANTS,najechać,full_word,1896
+Polish,MIGRANTS,migranci zagrażają kobietom,full_word,1897
+Polish,MIGRANTS,migrant zabójca,full_word,1898
+Polish,MIGRANTS,migracja i rozwój,full_word,1899
+Polish,MIGRANTS,zarządzanie migracją,full_word,1900
+Polish,MIGRANTS,wzorce migracji,full_word,1901
+Polish,MIGRANTS,inwazja migracyjna,full_word,1902
+Polish,MIGRANTS,dzieci migrantów,full_word,1903
+Polish,MIGRANTS,zatrzymanie migracyjne,full_word,1904
+Polish,MIGRANTS,zdrowie migrantów,full_word,1905
+Polish,MIGRANTS,prawa migrantów,full_word,1906
+Polish,MIGRANTS,muzułmanie,full_word,1907
+Polish,MIGRANTS,migrant-gwałciciel,full_word,1908
+Polish,MIGRANTS,uchodźca-gwałciciel,full_word,1909
+Polish,MIGRANTS,rapefugees,full_word,1910
+Polish,MIGRANTS,obóz dla uchodźców,full_word,1911
+Polish,MIGRANTS,kryzys uchodźczy,full_word,1912
+Polish,MIGRANTS,przesiedlenie uchodźców,full_word,1913
+Polish,MIGRANTS,uchodźcy zagrażają kobietom,full_word,1914
+Polish,MIGRANTS,relokacja,full_word,1915
+Polish,MIGRANTS,ponowna migracja,full_word,1916
+Polish,MIGRANTS,akcja przesiedleńcza,full_word,1917
+Polish,MIGRANTS,opieka społeczna,full_word,1918
+Polish,MIGRANTS,integracja społeczna,full_word,1919
+Polish,MIGRANTS,terroryści,full_word,1920
+Polish,MIGRANTS,zagrażać europie,full_word,1921
+Polish,MIGRANTS,zagrażać zachodowi,full_word,1922
+Polish,MIGRANTS,zagrażać zachodnim wartościom,full_word,1923
+Polish,MIGRANTS,tommy robinson,full_word,1924
+Polish,MIGRANTS,ukraińcy,full_word,1925
+Polish,MIGRANTS,ukrainizacja,full_word,1926
+Polish,MIGRANTS,ludobójstwo białych,full_word,1927
+Polish,MIGRANTS,ksenofobia,full_word,1928
+Romanian,CLIMATE_CHANGE,strategii de adaptare,full_word,1929
+Romanian,CLIMATE_CHANGE,poluarea aerului,full_word,1930
+Romanian,CLIMATE_CHANGE,poluarea atmosferică,full_word,1931
+Romanian,CLIMATE_CHANGE,pierderea biodiversității,full_word,1932
+Romanian,CLIMATE_CHANGE,distrugerea biodiversității,full_word,1933
+Romanian,CLIMATE_CHANGE,orașe fără mașini,full_word,1934
+Romanian,CLIMATE_CHANGE,emisii de dioxid de carbon,full_word,1935
+Romanian,CLIMATE_CHANGE,emisiile de dioxid de carbon,full_word,1936
+Romanian,CLIMATE_CHANGE,amprenta de carbon,full_word,1937
+Romanian,CLIMATE_CHANGE,prețul carbonului,full_word,1938
+Romanian,CLIMATE_CHANGE,stocarea carbonului,full_word,1939
+Romanian,CLIMATE_CHANGE,deversare de substanțe chimice,full_word,1940
+Romanian,CLIMATE_CHANGE,energie curată,full_word,1941
+Romanian,CLIMATE_CHANGE,tehnologii energetice curate,full_word,1942
+Romanian,CLIMATE_CHANGE,activism climatic,full_word,1943
+Romanian,CLIMATE_CHANGE,acțiune climatică,full_word,1944
+Romanian,CLIMATE_CHANGE,adaptare la schimbările climatice,full_word,1945
+Romanian,CLIMATE_CHANGE,caniculă privind schimbările climatice,full_word,1946
+Romanian,CLIMATE_CHANGE,criza climatică,full_word,1947
+Romanian,CLIMATE_CHANGE,educație climatică,full_word,1948
+Romanian,CLIMATE_CHANGE,finanțarea climei,full_word,1949
+Romanian,CLIMATE_CHANGE,impactul climei asupra ecosistemelor,full_word,1950
+Romanian,CLIMATE_CHANGE,justiție climatică,full_word,1951
+Romanian,CLIMATE_CHANGE,atenuarea schimbărilor climatice,full_word,1952
+Romanian,CLIMATE_CHANGE,modelarea climatică,full_word,1953
+Romanian,CLIMATE_CHANGE,politica climatică,full_word,1954
+Romanian,CLIMATE_CHANGE,politica de mediu,full_word,1955
+Romanian,CLIMATE_CHANGE,refugiați de mediu,full_word,1956
+Romanian,CLIMATE_CHANGE,reziliența climatică,full_word,1957
+Romanian,CLIMATE_CHANGE,știința mediului,full_word,1958
+Romanian,CLIMATE_CHANGE,variabilitatea climei,full_word,1959
+Romanian,CLIMATE_CHANGE,copernicus,full_word,1960
+Romanian,CLIMATE_CHANGE,defrișări,full_word,1961
+Romanian,CLIMATE_CHANGE,secete,full_word,1962
+Romanian,CLIMATE_CHANGE,ecologic,full_word,1963
+Romanian,CLIMATE_CHANGE,emisii,full_word,1964
+Romanian,CLIMATE_CHANGE,mediu,full_word,1965
+Romanian,CLIMATE_CHANGE,activism de mediu,full_word,1966
+Romanian,CLIMATE_CHANGE,dezastru ecologic,full_word,1967
+Romanian,CLIMATE_CHANGE,impact asupra mediului,full_word,1968
+Romanian,CLIMATE_CHANGE,impact climatic,full_word,1969
+Romanian,CLIMATE_CHANGE,impact asupra climei,full_word,1970
+Romanian,CLIMATE_CHANGE,sustenabilitatea mediului,full_word,1971
+Romanian,CLIMATE_CHANGE,mediu durabil,full_word,1972
+Romanian,CLIMATE_CHANGE,combaterea eroziunii,full_word,1973
+Romanian,CLIMATE_CHANGE,vreme extremă,full_word,1974
+Romanian,CLIMATE_CHANGE,fenomene meteorologice extreme,full_word,1975
+Romanian,CLIMATE_CHANGE,incendii de pădure,full_word,1976
+Romanian,CLIMATE_CHANGE,combustibili fosili,full_word,1977
+Romanian,CLIMATE_CHANGE,vineri pentru viitor,full_word,1978
+Romanian,CLIMATE_CHANGE,geoinginerie,full_word,1979
+Romanian,CLIMATE_CHANGE,ghețari,full_word,1980
+Romanian,CLIMATE_CHANGE,temperatura globală,full_word,1981
+Romanian,CLIMATE_CHANGE,încălzirea globală,full_word,1982
+Romanian,CLIMATE_CHANGE,efectul de seră,full_word,1983
+Romanian,CLIMATE_CHANGE,gazele cu efect de seră,full_word,1984
+Romanian,CLIMATE_CHANGE,greta thunberg,full_word,1985
+Romanian,CLIMATE_CHANGE,conservarea habitatelor,full_word,1986
+Romanian,CLIMATE_CHANGE,distrugerea habitatelor,full_word,1987
+Romanian,CLIMATE_CHANGE,valuri de căldură,full_word,1988
+Romanian,CLIMATE_CHANGE,topirea gheții,full_word,1989
+Romanian,CLIMATE_CHANGE,conservarea mediului marin,full_word,1990
+Romanian,CLIMATE_CHANGE,microplastice,full_word,1991
+Romanian,CLIMATE_CHANGE,măsuri de atenuare,full_word,1992
+Romanian,CLIMATE_CHANGE,dezastre naturale,full_word,1993
+Romanian,CLIMATE_CHANGE,emisii nete zero,full_word,1994
+Romanian,CLIMATE_CHANGE,acidificarea oceanelor,full_word,1995
+Romanian,CLIMATE_CHANGE,pescuitul excesiv,full_word,1996
+Romanian,CLIMATE_CHANGE,epuizarea stratului de ozon,full_word,1997
+Romanian,CLIMATE_CHANGE,acordul de la paris,full_word,1998
+Romanian,CLIMATE_CHANGE,energie fotovoltaică,full_word,1999
+Romanian,CLIMATE_CHANGE,fotovoltaice,full_word,2000
+Romanian,CLIMATE_CHANGE,pădurea tropicală,full_word,2001
+Romanian,CLIMATE_CHANGE,inițiative de reciclare,full_word,2002
+Romanian,CLIMATE_CHANGE,energie regenerabilă,full_word,2003
+Romanian,CLIMATE_CHANGE,creșterea nivelului mării,full_word,2004
+Romanian,CLIMATE_CHANGE,eforturi de durabilitate,full_word,2005
+Romanian,CLIMATE_CHANGE,dezvoltare durabilă,full_word,2006
+Romanian,CLIMATE_CHANGE,energie durabilă,full_word,2007
+Romanian,CLIMATE_CHANGE,conferința națiunilor unite privind schimbările climatice,full_word,2008
+Romanian,CLIMATE_CHANGE,gestionarea deșeurilor,full_word,2009
+Romanian,CLIMATE_CHANGE,poluarea apei,full_word,2010
+Romanian,CLIMATE_CHANGE,scăderea apei,full_word,2011
+Romanian,CLIMATE_CHANGE,vreme,full_word,2012
+Romanian,CLIMATE_CHANGE,schimbarea vremii,full_word,2013
+Romanian,CLIMATE_CHANGE,turbine eolienne,full_word,2014
+Romanian,PUBLIC_HEALTH,5g,full_word,2015
+Romanian,PUBLIC_HEALTH,a 5a generație wireless,full_word,2016
+Romanian,PUBLIC_HEALTH,wireless 5 gen,full_word,2017
+Romanian,PUBLIC_HEALTH,alien,full_word,2018
+Romanian,PUBLIC_HEALTH,alien agenda,full_word,2019
+Romanian,PUBLIC_HEALTH,alienleaks,full_word,2020
+Romanian,PUBLIC_HEALTH,anthony fauci,full_word,2021
+Romanian,PUBLIC_HEALTH,big pharma,full_word,2022
+Romanian,PUBLIC_HEALTH,bill gates,full_word,2023
+Romanian,PUBLIC_HEALTH,cdc,full_word,2024
+Romanian,PUBLIC_HEALTH,chd,full_word,2025
+Romanian,PUBLIC_HEALTH,covid,full_word,2026
+Romanian,PUBLIC_HEALTH,covid-19,full_word,2027
+Romanian,PUBLIC_HEALTH,covid vax,full_word,2028
+Romanian,PUBLIC_HEALTH,covid19,full_word,2029
+Romanian,PUBLIC_HEALTH,dr. bryan ardis,full_word,2030
+Romanian,PUBLIC_HEALTH,dna,full_word,2031
+Romanian,PUBLIC_HEALTH,urgență,full_word,2032
+Romanian,PUBLIC_HEALTH,fda,full_word,2033
+Romanian,PUBLIC_HEALTH,george soros,full_word,2034
+Romanian,PUBLIC_HEALTH,johnson & johnson,full_word,2035
+Romanian,PUBLIC_HEALTH,virusul marburg,full_word,2036
+Romanian,PUBLIC_HEALTH,moderna,full_word,2037
+Romanian,PUBLIC_HEALTH,morgellons,full_word,2038
+Romanian,PUBLIC_HEALTH,pfizer,full_word,2039
+Romanian,PUBLIC_HEALTH,arn,full_word,2040
+Romanian,PUBLIC_HEALTH,ron watkins,full_word,2041
+Romanian,PUBLIC_HEALTH,sars-cov-2,full_word,2042
+Romanian,PUBLIC_HEALTH,transuman,full_word,2043
+Romanian,PUBLIC_HEALTH,transumanism,full_word,2044
+Romanian,PUBLIC_HEALTH,uap,full_word,2045
+Romanian,PUBLIC_HEALTH,ozn,full_word,2046
+Romanian,PUBLIC_HEALTH,raport ozn,full_word,2047
+Romanian,PUBLIC_HEALTH,fenomene aeriene neidentificate,full_word,2048
+Romanian,PUBLIC_HEALTH,adrenocrom,full_word,2049
+Romanian,PUBLIC_HEALTH,evenimente adverse,full_word,2050
+Romanian,PUBLIC_HEALTH,reacții adverse,full_word,2051
+Romanian,PUBLIC_HEALTH,anticorpi,full_word,2052
+Romanian,PUBLIC_HEALTH,anti-vax,full_word,2053
+Romanian,PUBLIC_HEALTH,anti-vaxx,full_word,2054
+Romanian,PUBLIC_HEALTH,anti-vaxxer,full_word,2055
+Romanian,PUBLIC_HEALTH,antivaxx,full_word,2056
+Romanian,PUBLIC_HEALTH,astrazeneca,full_word,2057
+Romanian,PUBLIC_HEALTH,autism,full_word,2058
+Romanian,PUBLIC_HEALTH,medicină proastă,full_word,2059
+Romanian,PUBLIC_HEALTH,știință proastă,full_word,2060
+Romanian,PUBLIC_HEALTH,paralizia clopotelor,full_word,2061
+Romanian,PUBLIC_HEALTH,big tech,full_word,2062
+Romanian,PUBLIC_HEALTH,cenzura big tech,full_word,2063
+Romanian,PUBLIC_HEALTH,biontech,full_word,2064
+Romanian,PUBLIC_HEALTH,sânge,full_word,2065
+Romanian,PUBLIC_HEALTH,cheaguri de sânge,full_word,2066
+Romanian,PUBLIC_HEALTH,probă de sânge,full_word,2067
+Romanian,PUBLIC_HEALTH,cancer,full_word,2068
+Romanian,PUBLIC_HEALTH,celule canceroase,full_word,2069
+Romanian,PUBLIC_HEALTH,stop cardiac,full_word,2070
+Romanian,PUBLIC_HEALTH,problemă cardiacă,full_word,2071
+Romanian,PUBLIC_HEALTH,ccp bioweapon,full_word,2072
+Romanian,PUBLIC_HEALTH,ccp virus,full_word,2073
+Romanian,PUBLIC_HEALTH,chemtrails,full_word,2074
+Romanian,PUBLIC_HEALTH,chimioterapie,full_word,2075
+Romanian,PUBLIC_HEALTH,avort chimic,full_word,2076
+Romanian,PUBLIC_HEALTH,fără chimicale,full_word,2077
+Romanian,PUBLIC_HEALTH,calendarul vaccinurilor pentru copii,full_word,2078
+Romanian,PUBLIC_HEALTH,dioxid de clor,full_word,2079
+Romanian,PUBLIC_HEALTH,sulfat de condroitină,full_word,2080
+Romanian,PUBLIC_HEALTH,sindromul oboselii cronice,full_word,2081
+Romanian,PUBLIC_HEALTH,clinica cleveland,full_word,2082
+Romanian,PUBLIC_HEALTH,studii clinice,full_word,2083
+Romanian,PUBLIC_HEALTH,clotshot,full_word,2084
+Romanian,PUBLIC_HEALTH,codemonkeyz,full_word,2085
+Romanian,PUBLIC_HEALTH,contact tracing,full_word,2086
+Romanian,PUBLIC_HEALTH,corona,full_word,2087
+Romanian,PUBLIC_HEALTH,corona virus,full_word,2088
+Romanian,PUBLIC_HEALTH,covid passport,full_word,2089
+Romanian,PUBLIC_HEALTH,cure,full_word,2090
+Romanian,PUBLIC_HEALTH,leac,full_word,2091
+Romanian,PUBLIC_HEALTH,medicament periculos,full_word,2092
+Romanian,PUBLIC_HEALTH,răspundere pentru produse periculoase,full_word,2093
+Romanian,PUBLIC_HEALTH,deces,full_word,2094
+Romanian,PUBLIC_HEALTH,death jab,full_word,2095
+Romanian,PUBLIC_HEALTH,mortalitate,full_word,2096
+Romanian,PUBLIC_HEALTH,death shot,full_word,2097
+Romanian,PUBLIC_HEALTH,depopulare,full_word,2098
+Romanian,PUBLIC_HEALTH,detoxifiere,full_word,2099
+Romanian,PUBLIC_HEALTH,adn,full_word,2100
+Romanian,PUBLIC_HEALTH,medicamente,full_word,2101
+Romanian,PUBLIC_HEALTH,electromagnetism,full_word,2102
+Romanian,PUBLIC_HEALTH,epidemie,full_word,2103
+Romanian,PUBLIC_HEALTH,curbă epidemică,full_word,2104
+Romanian,PUBLIC_HEALTH,mască de față,full_word,2105
+Romanian,PUBLIC_HEALTH,țesut fetal,full_word,2106
+Romanian,PUBLIC_HEALTH,fetus,full_word,2107
+Romanian,PUBLIC_HEALTH,fetuși,full_word,2108
+Romanian,PUBLIC_HEALTH,a cincea generație de wireless,full_word,2109
+Romanian,PUBLIC_HEALTH,gripă,full_word,2110
+Romanian,PUBLIC_HEALTH,vaccinuri forțate,full_word,2111
+Romanian,PUBLIC_HEALTH,terapie genică,full_word,2112
+Romanian,PUBLIC_HEALTH,gene,full_word,2113
+Romanian,PUBLIC_HEALTH,grafenă,full_word,2114
+Romanian,PUBLIC_HEALTH,sosiri verzi,full_word,2115
+Romanian,PUBLIC_HEALTH,listă verde,full_word,2116
+Romanian,PUBLIC_HEALTH,cobai,full_word,2117
+Romanian,PUBLIC_HEALTH,educație pentru sănătate,full_word,2118
+Romanian,PUBLIC_HEALTH,risc pentru sănătate,full_word,2119
+Romanian,PUBLIC_HEALTH,atac de cord,full_word,2120
+Romanian,PUBLIC_HEALTH,imunitate de turmă,full_word,2121
+Romanian,PUBLIC_HEALTH,homeopatic,full_word,2122
+Romanian,PUBLIC_HEALTH,cremă de cal,full_word,2123
+Romanian,PUBLIC_HEALTH,perioadă de incubație,full_word,2124
+Romanian,PUBLIC_HEALTH,sistem imunitar,full_word,2125
+Romanian,PUBLIC_HEALTH,imunizare,full_word,2126
+Romanian,PUBLIC_HEALTH,infecție,full_word,2127
+Romanian,PUBLIC_HEALTH,injecții,full_word,2128
+Romanian,PUBLIC_HEALTH,inoculare,full_word,2129
+Romanian,PUBLIC_HEALTH,unitate de terapie intensivă,full_word,2130
+Romanian,PUBLIC_HEALTH,jab,full_word,2131
+Romanian,PUBLIC_HEALTH,jabgate,full_word,2132
+Romanian,PUBLIC_HEALTH,janssen,full_word,2133
+Romanian,PUBLIC_HEALTH,kill shot,full_word,2134
+Romanian,PUBLIC_HEALTH,test de flux lateral,full_word,2135
+Romanian,PUBLIC_HEALTH,injecție letală,full_word,2136
+Romanian,PUBLIC_HEALTH,long-covid,full_word,2137
+Romanian,PUBLIC_HEALTH,malarie,full_word,2138
+Romanian,PUBLIC_HEALTH,mandate de măști,full_word,2139
+Romanian,PUBLIC_HEALTH,măști,full_word,2140
+Romanian,PUBLIC_HEALTH,măștile sunt pentru sclavi,full_word,2141
+Romanian,PUBLIC_HEALTH,rujeolă,full_word,2142
+Romanian,PUBLIC_HEALTH,avort medical,full_word,2143
+Romanian,PUBLIC_HEALTH,tiranie medicală,full_word,2144
+Romanian,PUBLIC_HEALTH,meghathakur,full_word,2145
+Romanian,PUBLIC_HEALTH,unde milimetrice,full_word,2146
+Romanian,PUBLIC_HEALTH,mitocondrie,full_word,2147
+Romanian,PUBLIC_HEALTH,pojarul maimuței,full_word,2148
+Romanian,PUBLIC_HEALTH,arnm,full_word,2149
+Romanian,PUBLIC_HEALTH,medicină naturală,full_word,2150
+Romanian,PUBLIC_HEALTH,nuremberg 2,full_word,2151
+Romanian,PUBLIC_HEALTH,nuremberg 2.0,full_word,2152
+Romanian,PUBLIC_HEALTH,codul de la nürnberg,full_word,2153
+Romanian,PUBLIC_HEALTH,procesele de la nürnberg pentru covid,full_word,2154
+Romanian,PUBLIC_HEALTH,no jab,full_word,2155
+Romanian,PUBLIC_HEALTH,nu copii vaccinați,full_word,2156
+Romanian,PUBLIC_HEALTH,pandemie,full_word,2157
+Romanian,PUBLIC_HEALTH,pacient zero,full_word,2158
+Romanian,PUBLIC_HEALTH,pentagon ufo report,full_word,2159
+Romanian,PUBLIC_HEALTH,companii farmaceutice,full_word,2160
+Romanian,PUBLIC_HEALTH,pastile,full_word,2161
+Romanian,PUBLIC_HEALTH,plandemic,full_word,2162
+Romanian,PUBLIC_HEALTH,agenda politică,full_word,2163
+Romanian,PUBLIC_HEALTH,prevenție,full_word,2164
+Romanian,PUBLIC_HEALTH,vârf de proteină,full_word,2165
+Romanian,PUBLIC_HEALTH,vaccin pro-safe,full_word,2166
+Romanian,PUBLIC_HEALTH,prochoice,full_word,2167
+Romanian,PUBLIC_HEALTH,pro-viață,full_word,2168
+Romanian,PUBLIC_HEALTH,pro-life,full_word,2169
+Romanian,PUBLIC_HEALTH,radiații,full_word,2170
+Romanian,PUBLIC_HEALTH,reacție,full_word,2171
+Romanian,PUBLIC_HEALTH,sosiri roșii,full_word,2172
+Romanian,PUBLIC_HEALTH,lista roșie,full_word,2173
+Romanian,PUBLIC_HEALTH,pilula de inversare,full_word,2174
+Romanian,PUBLIC_HEALTH,robert malone,full_word,2175
+Romanian,PUBLIC_HEALTH,rochelle walensky,full_word,2176
+Romanian,PUBLIC_HEALTH,roe v wade,full_word,2177
+Romanian,PUBLIC_HEALTH,igienă,full_word,2178
+Romanian,PUBLIC_HEALTH,autoizolare,full_word,2179
+Romanian,PUBLIC_HEALTH,efecte secundare,full_word,2180
+Romanian,PUBLIC_HEALTH,sânge de șarpe,full_word,2181
+Romanian,PUBLIC_HEALTH,venin de șarpe,full_word,2182
+Romanian,PUBLIC_HEALTH,varianta sud-africană,full_word,2183
+Romanian,PUBLIC_HEALTH,spike,full_word,2184
+Romanian,PUBLIC_HEALTH,spike protein,full_word,2185
+Romanian,PUBLIC_HEALTH,opriți genocidul statuii,full_word,2186
+Romanian,PUBLIC_HEALTH,studiu,full_word,2187
+Romanian,PUBLIC_HEALTH,moarte subită,full_word,2188
+Romanian,PUBLIC_HEALTH,mască de față chirurgicală,full_word,2189
+Romanian,PUBLIC_HEALTH,marea sacrificare,full_word,2190
+Romanian,PUBLIC_HEALTH,eliminarea toxinelor,full_word,2191
+Romanian,PUBLIC_HEALTH,unvax,full_word,2192
+Romanian,PUBLIC_HEALTH,unvaxxed lives matter,full_word,2193
+Romanian,PUBLIC_HEALTH,nevaccinat,full_word,2194
+Romanian,PUBLIC_HEALTH,vaids,full_word,2195
+Romanian,PUBLIC_HEALTH,sistemul de raportare a efectelor adverse ale vaccinurilor,full_word,2196
+Romanian,PUBLIC_HEALTH,alegerea vaccinului,full_word,2197
+Romanian,PUBLIC_HEALTH,decese prin vaccinare,full_word,2198
+Romanian,PUBLIC_HEALTH,leziuni prin vaccinare,full_word,2199
+Romanian,PUBLIC_HEALTH,mandate de vaccinare,full_word,2200
+Romanian,PUBLIC_HEALTH,efecte secundare ale vaccinurilor,full_word,2201
+Romanian,PUBLIC_HEALTH,victime ale vaccinurilor,full_word,2202
+Romanian,PUBLIC_HEALTH,vax,full_word,2203
+Romanian,PUBLIC_HEALTH,vax moarte,full_word,2204
+Romanian,PUBLIC_HEALTH,vaxx,full_word,2205
+Romanian,PUBLIC_HEALTH,watch the water,full_word,2206
+Romanian,PUBLIC_HEALTH,wuhan,full_word,2207
+Romanian,PUBLIC_HEALTH,febra galbenă,full_word,2208
+Romanian,MIGRANTS,africani,full_word,2209
+Romanian,MIGRANTS,arabi,full_word,2210
+Romanian,MIGRANTS,solicitanți de azil,full_word,2211
+Romanian,MIGRANTS,atacă europa,full_word,2212
+Romanian,MIGRANTS,banderizare,full_word,2213
+Romanian,MIGRANTS,granițe,full_word,2214
+Romanian,MIGRANTS,copii migranți,full_word,2215
+Romanian,MIGRANTS,amenințarea civilizației,full_word,2216
+Romanian,MIGRANTS,pericolul civilizației,full_word,2217
+Romanian,MIGRANTS,strămutare,full_word,2218
+Romanian,MIGRANTS,imigranți economici,full_word,2219
+Romanian,MIGRANTS,migranți economici,full_word,2220
+Romanian,MIGRANTS,impactul economic al migrației,full_word,2221
+Romanian,MIGRANTS,eurofobie,full_word,2222
+Romanian,MIGRANTS,grecia_apară_europa,full_word,2223
+Romanian,MIGRANTS,grecia_sub_atac,full_word,2224
+Romanian,MIGRANTS,marea înlocuire,full_word,2225
+Romanian,MIGRANTS,marea relocare,full_word,2226
+Romanian,MIGRANTS,ilegal,full_word,2227
+Romanian,MIGRANTS,străin ilegal,full_word,2228
+Romanian,MIGRANTS,străini illegali,full_word,2229
+Romanian,MIGRANTS,imigrare,full_word,2230
+Romanian,MIGRANTS,legea imigrației,full_word,2231
+Romanian,MIGRANTS,politici de migrație,full_word,2232
+Romanian,MIGRANTS,programe de integrare,full_word,2233
+Romanian,MIGRANTS,invazie,full_word,2234
+Romanian,MIGRANTS,invazie europa,full_word,2235
+Romanian,MIGRANTS,invadatori,full_word,2236
+Romanian,MIGRANTS,invadare,full_word,2237
+Romanian,MIGRANTS,invadează,full_word,2238
+Romanian,MIGRANTS,pericol migranți femei,full_word,2239
+Romanian,MIGRANTS,ucigaș de migranți,full_word,2240
+Romanian,MIGRANTS,migrație și dezvoltare,full_word,2241
+Romanian,MIGRANTS,managementul migrației,full_word,2242
+Romanian,MIGRANTS,modele de migrație,full_word,2243
+Romanian,MIGRANTS,invazie migratorie,full_word,2244
+Romanian,MIGRANTS,detenția migranților,full_word,2245
+Romanian,MIGRANTS,sănătatea migranților,full_word,2246
+Romanian,MIGRANTS,drepturile migranților,full_word,2247
+Romanian,MIGRANTS,musulmani,full_word,2248
+Romanian,MIGRANTS,migrant violat,full_word,2249
+Romanian,MIGRANTS,refugiat violat,full_word,2250
+Romanian,MIGRANTS,refugiați violați,full_word,2251
+Romanian,MIGRANTS,tabără de refugiați,full_word,2252
+Romanian,MIGRANTS,criza refugiaților,full_word,2253
+Romanian,MIGRANTS,relocare refugiați,full_word,2254
+Romanian,MIGRANTS,pericolul refugiaților,full_word,2255
+Romanian,MIGRANTS,femei refugiate,full_word,2256
+Romanian,MIGRANTS,relocare,full_word,2257
+Romanian,MIGRANTS,remigrație,full_word,2258
+Romanian,MIGRANTS,acțiune de relocare,full_word,2259
+Romanian,MIGRANTS,asistență socială,full_word,2260
+Romanian,MIGRANTS,incluziune socială,full_word,2261
+Romanian,MIGRANTS,teroriști,full_word,2262
+Romanian,MIGRANTS,amenințare europa,full_word,2263
+Romanian,MIGRANTS,amenințare vest,full_word,2264
+Romanian,MIGRANTS,amenințare valori occidentale,full_word,2265
+Romanian,MIGRANTS,tommy robinson,full_word,2266
+Romanian,MIGRANTS,ucraineni,full_word,2267
+Romanian,MIGRANTS,ucrainizare,full_word,2268
+Romanian,MIGRANTS,genocid alb,full_word,2269
+Romanian,MIGRANTS,xenofobie,full_word,2270
+Spanish,CLIMATE_CHANGE,engaño del cambio climático,full_word,2271
+Spanish,CLIMATE_CHANGE,desastre ambiental,full_word,2272
+Spanish,CLIMATE_CHANGE,ciudades sin coches,full_word,2273
+Spanish,CLIMATE_CHANGE,co2,full_word,2274
+Spanish,CLIMATE_CHANGE,greta thunberg,full_word,2275
+Spanish,CLIMATE_CHANGE,derrame de sustancias químicas,full_word,2276
+Spanish,CLIMATE_CHANGE,cambio cromático,full_word,2277
+Spanish,CLIMATE_CHANGE,timo climático,full_word,2278
+Spanish,CLIMATE_CHANGE,presas,full_word,2279
+Spanish,CLIMATE_CHANGE,sequía,full_word,2280
+Spanish,CLIMATE_CHANGE,temperaturas,full_word,2281
+Spanish,CLIMATE_CHANGE,inundación,full_word,2282
+Spanish,CLIMATE_CHANGE,agenda 2030,full_word,2283
+Spanish,CLIMATE_CHANGE,nivel del mar,full_word,2284
+Spanish,CLIMATE_CHANGE,chemtrails,full_word,2285
+Spanish,CLIMATE_CHANGE,geoingeniería,full_word,2286
+Spanish,CLIMATE_CHANGE,planeta b,full_word,2287
+Spanish,CLIMATE_CHANGE,ciclón,full_word,2288
+Spanish,CLIMATE_CHANGE,tormenta,full_word,2289
+Spanish,CLIMATE_CHANGE,huracán,full_word,2290
+Spanish,CLIMATE_CHANGE,haarp,full_word,2291
+Spanish,CLIMATE_CHANGE,dana,full_word,2292
+Spanish,CLIMATE_CHANGE,insectos,full_word,2293
+Spanish,CLIMATE_CHANGE,emergencia climática,full_word,2294
+Spanish,CLIMATE_CHANGE,pantano,full_word,2295
+Spanish,CLIMATE_CHANGE,incendio,full_word,2296
+Spanish,CLIMATE_CHANGE,reciclaje,full_word,2297
+Spanish,CLIMATE_CHANGE,glaciar,full_word,2298
+Spanish,CLIMATE_CHANGE,temperaturas extremas,full_word,2299
+Spanish,CLIMATE_CHANGE,embalses,full_word,2300
+Spanish,CLIMATE_CHANGE,paneles solares,full_word,2301
+Spanish,CLIMATE_CHANGE,hidroeléctrica,full_word,2302
+Spanish,CLIMATE_CHANGE,molinos de viento,full_word,2303
+Spanish,CLIMATE_CHANGE,electricidad,full_word,2304
+Spanish,CLIMATE_CHANGE,baterías,full_word,2305
+Spanish,CLIMATE_CHANGE,ola de calor,full_word,2306
+Spanish,CLIMATE_CHANGE,coches eléctricos,full_word,2307
+Spanish,CLIMATE_CHANGE,cobalto,full_word,2308
+Spanish,CLIMATE_CHANGE,contaminación,full_word,2309
+Spanish,CLIMATE_CHANGE,temperatura,full_word,2310
+Spanish,CLIMATE_CHANGE,explosiones de baterías,full_word,2311
+Spanish,CLIMATE_CHANGE,sueño verde,full_word,2312
+Spanish,CLIMATE_CHANGE,litio,full_word,2313
+Spanish,CLIMATE_CHANGE,hidrógeno,full_word,2314
+Spanish,CLIMATE_CHANGE,estela de condensación,full_word,2315
+Spanish,CLIMATE_CHANGE,combustión,full_word,2316
+Spanish,CLIMATE_CHANGE,domo atmosférico,full_word,2317
+Spanish,CLIMATE_CHANGE,atmósfera,full_word,2318
+Spanish,CLIMATE_CHANGE,farsa climática,full_word,2319
+Spanish,CLIMATE_CHANGE,hielo,full_word,2320
+Spanish,CLIMATE_CHANGE,granjas,full_word,2321
+Spanish,CLIMATE_CHANGE,ganadería,full_word,2322
+Spanish,CLIMATE_CHANGE,cargarse el campo,full_word,2323
+Spanish,CLIMATE_CHANGE,carne,full_word,2324
+Spanish,CLIMATE_CHANGE,yoduro de plata,full_word,2325
+Spanish,CLIMATE_CHANGE,cambio climatico antropogénico,full_word,2326
+Spanish,CLIMATE_CHANGE,agua,full_word,2327
+Spanish,CLIMATE_CHANGE,racionamiento,full_word,2328
+Spanish,CLIMATE_CHANGE,fumigación,full_word,2329
+Spanish,CLIMATE_CHANGE,energía verde,full_word,2330
+Spanish,CLIMATE_CHANGE,destrucción de lluvias,full_word,2331
+Spanish,CLIMATE_CHANGE,afrenta 2030,full_word,2332
+Spanish,CLIMATE_CHANGE,climodemia,full_word,2333
+Spanish,CLIMATE_CHANGE,climademia,full_word,2334
+Spanish,CLIMATE_CHANGE,ecodictadura,full_word,2335
+Spanish,CLIMATE_CHANGE,ecofascismo,full_word,2336
+Spanish,CLIMATE_CHANGE,ecorrégimen dictatorial,full_word,2337
+Spanish,CLIMATE_CHANGE,farsemia climática,full_word,2338
+Spanish,CLIMATE_CHANGE,paranoia climática,full_word,2339
+Spanish,CLIMATE_CHANGE,2030 agenda,full_word,2340
+Spanish,PUBLIC_HEALTH,5g,full_word,2341
+Spanish,PUBLIC_HEALTH,aborto,full_word,2342
+Spanish,PUBLIC_HEALTH,adrenocromo,full_word,2343
+Spanish,PUBLIC_HEALTH,agenda alienígena,full_word,2344
+Spanish,PUBLIC_HEALTH,anticuerpos,full_word,2345
+Spanish,PUBLIC_HEALTH,antivacunas,full_word,2346
+Spanish,PUBLIC_HEALTH,antivax,full_word,2347
+Spanish,PUBLIC_HEALTH,antivaxx,full_word,2348
+Spanish,PUBLIC_HEALTH,aplanando la curva,full_word,2349
+Spanish,PUBLIC_HEALTH,arma biológica del ccp,full_word,2350
+Spanish,PUBLIC_HEALTH,asintomático,full_word,2351
+Spanish,PUBLIC_HEALTH,astrazeneca,full_word,2352
+Spanish,PUBLIC_HEALTH,autoaislamiento,full_word,2353
+Spanish,PUBLIC_HEALTH,base de datos vaers,full_word,2354
+Spanish,PUBLIC_HEALTH,bill gates,full_word,2355
+Spanish,PUBLIC_HEALTH,biotecnología,full_word,2356
+Spanish,PUBLIC_HEALTH,calendario vacunal infantil,full_word,2357
+Spanish,PUBLIC_HEALTH,cáncer,full_word,2358
+Spanish,PUBLIC_HEALTH,cardiopatía coronaria,full_word,2359
+Spanish,PUBLIC_HEALTH,cepa lambda,full_word,2360
+Spanish,PUBLIC_HEALTH,clínica de cleveland,full_word,2361
+Spanish,PUBLIC_HEALTH,coágulo,full_word,2362
+Spanish,PUBLIC_HEALTH,coalición para la preparación ante epidemias,full_word,2363
+Spanish,PUBLIC_HEALTH,cobayas,full_word,2364
+Spanish,PUBLIC_HEALTH,codigo de nuremberg,full_word,2365
+Spanish,PUBLIC_HEALTH,códigomonkeyz,full_word,2366
+Spanish,PUBLIC_HEALTH,colapsado,full_word,2367
+Spanish,PUBLIC_HEALTH,conejillos de indias,full_word,2368
+Spanish,PUBLIC_HEALTH,convención de estambul,full_word,2369
+Spanish,PUBLIC_HEALTH,corona,full_word,2370
+Spanish,PUBLIC_HEALTH,coronavirus,full_word,2371
+Spanish,PUBLIC_HEALTH,covid-19,full_word,2372
+Spanish,PUBLIC_HEALTH,crímenes contra la humanidad,full_word,2373
+Spanish,PUBLIC_HEALTH,curar,full_word,2374
+Spanish,PUBLIC_HEALTH,curva epidémica,full_word,2375
+Spanish,PUBLIC_HEALTH,disparo mortal,full_word,2376
+Spanish,PUBLIC_HEALTH,efectos secundarios,full_word,2377
+Spanish,PUBLIC_HEALTH,elección de vacuna,full_word,2378
+Spanish,PUBLIC_HEALTH,epp,full_word,2379
+Spanish,PUBLIC_HEALTH,eventos adversos,full_word,2380
+Spanish,PUBLIC_HEALTH,feto,full_word,2381
+Spanish,PUBLIC_HEALTH,fiebre amarilla,full_word,2382
+Spanish,PUBLIC_HEALTH,golpe de muerte,full_word,2383
+Spanish,PUBLIC_HEALTH,gran censura tecnológica,full_word,2384
+Spanish,PUBLIC_HEALTH,gran farmacéutica,full_word,2385
+Spanish,PUBLIC_HEALTH,gran tecnología,full_word,2386
+Spanish,PUBLIC_HEALTH,gripe de wuhan,full_word,2387
+Spanish,PUBLIC_HEALTH,homeopático,full_word,2388
+Spanish,PUBLIC_HEALTH,inalámbrica de quinta generación,full_word,2389
+Spanish,PUBLIC_HEALTH,influencer antivacunas,full_word,2390
+Spanish,PUBLIC_HEALTH,inmunizaciones,full_word,2391
+Spanish,PUBLIC_HEALTH,jabgate,full_word,2392
+Spanish,PUBLIC_HEALTH,jansen,full_word,2393
+Spanish,PUBLIC_HEALTH,johnson y johnson,full_word,2394
+Spanish,PUBLIC_HEALTH,juicios de nuremberg por covid,full_word,2395
+Spanish,PUBLIC_HEALTH,la gran matanza,full_word,2396
+Spanish,PUBLIC_HEALTH,la inmunidad de grupo,full_word,2397
+Spanish,PUBLIC_HEALTH,las mascaras son para los esclavos,full_word,2398
+Spanish,PUBLIC_HEALTH,vacunas forzadas,full_word,2399
+Spanish,PUBLIC_HEALTH,vaers,full_word,2400
+Spanish,PUBLIC_HEALTH,variante mongola,full_word,2401
+Spanish,PUBLIC_HEALTH,variante sudafricana,full_word,2402
+Spanish,PUBLIC_HEALTH,vax,full_word,2403
+Spanish,PUBLIC_HEALTH,veneno de serpiente,full_word,2404
+Spanish,PUBLIC_HEALTH,veneno intencional,full_word,2405
+Spanish,PUBLIC_HEALTH,víctimas de la vacuna,full_word,2406
+Spanish,PUBLIC_HEALTH,viruela de dinero,full_word,2407
+Spanish,PUBLIC_HEALTH,viruela del simio,full_word,2408
+Spanish,PUBLIC_HEALTH,virus chino,full_word,2409
+Spanish,PUBLIC_HEALTH,virus de wuhan,full_word,2410
+Spanish,PUBLIC_HEALTH,virus del pcc,full_word,2411
+Spanish,PUBLIC_HEALTH,wuhan,full_word,2412
+Spanish,PUBLIC_HEALTH,las vidas no vacunadas importan,full_word,2413
+Spanish,PUBLIC_HEALTH,lesiones por vacunas,full_word,2414
+Spanish,PUBLIC_HEALTH,mala ciencia,full_word,2415
+Spanish,PUBLIC_HEALTH,mandato,full_word,2416
+Spanish,PUBLIC_HEALTH,mandatos de máscara,full_word,2417
+Spanish,PUBLIC_HEALTH,mandatos de vacunación,full_word,2418
+Spanish,PUBLIC_HEALTH,medicamento,full_word,2419
+Spanish,PUBLIC_HEALTH,medicina mala,full_word,2420
+Spanish,PUBLIC_HEALTH,medicina natural,full_word,2421
+Spanish,PUBLIC_HEALTH,medicina peligrosa,full_word,2422
+Spanish,PUBLIC_HEALTH,mimo,full_word,2423
+Spanish,PUBLIC_HEALTH,mira el agua,full_word,2424
+Spanish,PUBLIC_HEALTH,roe contra wade,full_word,2425
+Spanish,PUBLIC_HEALTH,sabio,full_word,2426
+Spanish,PUBLIC_HEALTH,sangre de serpiente,full_word,2427
+Spanish,PUBLIC_HEALTH,sarampión,full_word,2428
+Spanish,PUBLIC_HEALTH,sars-cov-2,full_word,2429
+Spanish,PUBLIC_HEALTH,sb-277,full_word,2430
+Spanish,PUBLIC_HEALTH,sin jab,full_word,2431
+Spanish,PUBLIC_HEALTH,sistema de notificación de efectos adversos,full_word,2432
+Spanish,PUBLIC_HEALTH,tirania médica,full_word,2433
+Spanish,PUBLIC_HEALTH,tiro de muerte,full_word,2434
+Spanish,PUBLIC_HEALTH,moderno,full_word,2435
+Spanish,PUBLIC_HEALTH,muerte vax,full_word,2436
+Spanish,PUBLIC_HEALTH,muertes por vacunas,full_word,2437
+Spanish,PUBLIC_HEALTH,mutación viral,full_word,2438
+Spanish,PUBLIC_HEALTH,ningún niño vacunado,full_word,2439
+Spanish,PUBLIC_HEALTH,no vacunado,full_word,2440
+Spanish,PUBLIC_HEALTH,núremberg 2,full_word,2441
+Spanish,PUBLIC_HEALTH,núremberg 2.0,full_word,2442
+Spanish,PUBLIC_HEALTH,paciente cero,full_word,2443
+Spanish,PUBLIC_HEALTH,parálisis de campanas,full_word,2444
+Spanish,PUBLIC_HEALTH,paro cardiaco,full_word,2445
+Spanish,PUBLIC_HEALTH,pasaporte covid,full_word,2446
+Spanish,PUBLIC_HEALTH,pau,full_word,2447
+Spanish,PUBLIC_HEALTH,período de incubación,full_word,2448
+Spanish,PUBLIC_HEALTH,pfizer,full_word,2449
+Spanish,PUBLIC_HEALTH,pinchazo,full_word,2450
+Spanish,PUBLIC_HEALTH,planificación familiar,full_word,2451
+Spanish,PUBLIC_HEALTH,pro vida,full_word,2452
+Spanish,PUBLIC_HEALTH,productos farmacéuticos,full_word,2453
+Spanish,PUBLIC_HEALTH,preselección,full_word,2454
+Spanish,PUBLIC_HEALTH,prueba de flujo lateral,full_word,2455
+Spanish,PUBLIC_HEALTH,rastreo de contactos,full_word,2456
+Spanish,PUBLIC_HEALTH,reacción adversa,full_word,2457
+Spanish,PUBLIC_HEALTH,reacciones adversas,full_word,2458
+Spanish,PUBLIC_HEALTH,responsabilidad por productos peligrosos,full_word,2459
+Spanish,PUBLIC_HEALTH,arn,full_word,2460
+Spanish,PUBLIC_HEALTH,bozal,full_word,2461
+Spanish,PUBLIC_HEALTH,covidiano,full_word,2462
+Spanish,PUBLIC_HEALTH,despiertos,full_word,2463
+Spanish,PUBLIC_HEALTH,disidentes,full_word,2464
+Spanish,PUBLIC_HEALTH,enflautamientos,full_word,2465
+Spanish,PUBLIC_HEALTH,inoculados,full_word,2466
+Spanish,PUBLIC_HEALTH,kakunas,full_word,2467
+Spanish,PUBLIC_HEALTH,masónico,full_word,2468
+Spanish,PUBLIC_HEALTH,mundialista,full_word,2469
+Spanish,PUBLIC_HEALTH,neonega,full_word,2470
+Spanish,PUBLIC_HEALTH,nom,full_word,2471
+Spanish,PUBLIC_HEALTH,nuevo orden mundia,full_word,2472
+Spanish,PUBLIC_HEALTH,nueva normalidad,full_word,2473
+Spanish,PUBLIC_HEALTH,opoficción,full_word,2474
+Spanish,PUBLIC_HEALTH,plandemia,full_word,2475
+Spanish,PUBLIC_HEALTH,repentinitis,full_word,2476
+Spanish,PUBLIC_HEALTH,tapabocas,full_word,2477
+Spanish,PUBLIC_HEALTH,úrsula von der pfizer,full_word,2478
+Spanish,PUBLIC_HEALTH,vacuñao,full_word,2479
+Spanish,PUBLIC_HEALTH,zombi covidiano,full_word,2480
+Spanish,PUBLIC_HEALTH,zoociedad,full_word,2481
+Spanish,MIGRANTS,niños migrantes,full_word,2482
+Spanish,MIGRANTS,extranjeros ilegales,full_word,2483
+Spanish,MIGRANTS,niños migrantes desaparecen,full_word,2484
+Spanish,MIGRANTS,invasión,full_word,2485
+Spanish,MIGRANTS,marroquíes,full_word,2486
+Spanish,MIGRANTS,moros,full_word,2487
+Spanish,MIGRANTS,musulmanes,full_word,2488
+Spanish,MIGRANTS,árabe,full_word,2489
+Spanish,MIGRANTS,alá es grande,full_word,2490
+Spanish,MIGRANTS,ilegales,full_word,2491
+Spanish,MIGRANTS,magrebí,full_word,2492
+Spanish,MIGRANTS,islamismo,full_word,2493
+Spanish,MIGRANTS,pateras,full_word,2494
+Spanish,MIGRANTS,barco nodriza,full_word,2495
+Spanish,MIGRANTS,mahomá,full_word,2496
+Spanish,MIGRANTS,ramadan,full_word,2497
+Spanish,MIGRANTS,meca,full_word,2498
+Spanish,MIGRANTS,inmigrante okupa,full_word,2499
+Spanish,MIGRANTS,africanos,full_word,2500
+Spanish,MIGRANTS,invasión islámica,full_word,2501
+Spanish,MIGRANTS,mezquita,full_word,2502
+Spanish,MIGRANTS,negro,full_word,2503
+Spanish,MIGRANTS,persona negra,full_word,2504
+Spanish,MIGRANTS,burka,full_word,2505
+Spanish,MIGRANTS,ayudas,full_word,2506
+Spanish,MIGRANTS,paguitas,full_word,2507
+Spanish,MIGRANTS,puertas ilegales,full_word,2508
+Spanish,MIGRANTS,reemplazo social,full_word,2509
+Spanish,MIGRANTS,terrorismo,full_word,2510
