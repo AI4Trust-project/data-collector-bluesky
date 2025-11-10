@@ -22,6 +22,7 @@ HOST = os.environ.get("DATABASE_HOST")
 DELAY = 15
 client = None
 
+
 def _iceberg_json_default(value):
     if isinstance(value, datetime):
         return value.isoformat()
@@ -40,7 +41,7 @@ def get_keywords(conn):
         cur = conn.cursor()
         query = """
             SELECT keyword, topic, language, match_type
-            FROM bluesky.search_keywords
+            FROM bluesky.keywords
             WHERE keyword_id < 3000 ORDER BY keyword_id
         """
         cur.execute(query)
@@ -53,13 +54,15 @@ def get_keywords(conn):
                 pattern = r"\b" + re.escape(keyword).replace(r"\*", ".*") + r"\b"
 
             regex = re.compile(pattern, re.IGNORECASE)
-            data.append({
-                "word": keyword,
-                "regex": regex,
-                "lang": language,
-                "topic": topic,
-                "match_type": match_type
-            })
+            data.append(
+                {
+                    "word": keyword,
+                    "regex": regex,
+                    "lang": language,
+                    "topic": topic,
+                    "match_type": match_type,
+                }
+            )
 
     except Exception as e:
         print("ERROR fetching keywords:", e)
@@ -76,11 +79,9 @@ def keyword_matches(text, keywords):
 
     for k in keywords:
         if k["regex"].search(text):
-            match.append({
-                "keyword": k["word"],
-                "language": k["lang"],
-                "topic": k["topic"]
-            })
+            match.append(
+                {"keyword": k["word"], "language": k["lang"], "topic": k["topic"]}
+            )
     # Deduplicate
     keywords_list = list({m["keyword"] for m in match})
     languages = list({m["language"] for m in match})
@@ -98,7 +99,9 @@ def init_context(context):
     producer = KafkaProducer(
         bootstrap_servers=[os.environ.get("KAFKA_BROKER")],
         key_serializer=lambda x: x.encode("utf-8"),
-        value_serializer=lambda x: json.dumps(x, default=_iceberg_json_default).encode("utf-8"),
+        value_serializer=lambda x: json.dumps(x, default=_iceberg_json_default).encode(
+            "utf-8"
+        ),
     )
 
     if not producer or not keywords:
@@ -107,6 +110,7 @@ def init_context(context):
 
     setattr(context, "producer", producer)
     setattr(context, "keywords", keywords)
+
 
 def serialize_extra(extra):
     """Serialize extra data for Kafka"""
@@ -119,35 +123,33 @@ def serialize_extra(extra):
     else:
         return str(extra)
 
-def decode_embed_link(encoded_ref, author_did, fmt):
-    if fmt == "image":
-        try:
-            if not isinstance(encoded_ref, (str, bytes)):
-                raise TypeError(f"Expected str or bytes, got {type(encoded_ref)}")
 
-            ref_decoded = CID.decode(encoded_ref)
+def decode_embed_link(encoded_ref, author_did, fmt):
+    try:
+        if not isinstance(encoded_ref, (str, bytes)):
+            raise TypeError(f"Expected str or bytes, got {type(encoded_ref)}")
+
+        ref_decoded = CID.decode(encoded_ref)
+
+        if fmt == "image":
             return f"https://cdn.bsky.app/img/feed_fullsize/plain/{author_did}/{ref_decoded}@jpeg"
 
-        except Exception as e:
-            print(f"[!] Failed to decode image ref: {e}")
-            return None
-
-    if fmt == "video":
-        try:
-            if not isinstance(encoded_ref, bytes):
-                raise TypeError(f"Expected bytes, got {type(encoded_ref)}")
-
-            cid_obj = CID.decode(encoded_ref)
-            cid_base32 = cid_obj.encode("base32")
+        if fmt == "video":
+            cid_base32 = ref_decoded.encode("base32")
             return (
-                f"https://video.bsky.app/watch/{author_did}/{cid_base32}/playlist.m3u8",
+                f"https://video.bsky.app/watch/{author_did}/{cid_base32}/playlist.m3u8"
+            )
+
+        if fmt == "video_thumbnail":
+            cid_base32 = ref_decoded.encode("base32")
+            return (
                 f"https://video.bsky.app/watch/{author_did}/{cid_base32}/thumbnail.jpg"
             )
-        except Exception as e:
-            print(f"[!] Failed to decode video ref: {e}")
-            return None, None
 
-    raise ValueError(f"Unsupported format: {fmt}")
+        raise ValueError(f"Unsupported format: {fmt}")
+    except Exception as e:
+        print(f"[!] Failed to decode encoded ref: {e}")
+        return None
 
 
 def process_post(block, commit, op, keywords):
@@ -171,17 +173,24 @@ def process_post(block, commit, op, keywords):
             for image in embed.get("images", []):
                 ref = image.get("image", {}).get("ref")
                 if ref:
-                    images_links.append(decode_embed_link(ref, author_did, "image"))
+                    image_link = decode_embed_link(ref, author_did, "image")
+                    if image_link is not None:
+                        images_links.append(image_link)
         elif embed_type == "app.bsky.embed.video":
             ref = embed.get("video", {}).get("ref")
             if ref:
-                video_link, video_thumbnail_link = decode_embed_link(ref, author_did, "video")
+                video_link = decode_embed_link(ref, author_did, "video")
+                video_thumbnail_link = decode_embed_link(
+                    ref, author_did, "video_thumbnail"
+                )
         elif embed_type == "app.bsky.embed.external":
             external_link_url = embed.get("external", {}).get("uri")
             thumb_ref = embed.get("external", {}).get("thumb", {}).get("ref")
             if thumb_ref:
-                external_link_image_link = decode_embed_link(thumb_ref, author_did, "image")
-        embed =  serialize_extra(embed)
+                external_link_image_link = decode_embed_link(
+                    thumb_ref, author_did, "image"
+                )
+        embed = serialize_extra(embed)
 
     # Deal with facets
     facets = block.get("facets")
@@ -198,7 +207,7 @@ def process_post(block, commit, op, keywords):
         parent_cid = reply_full["parent"]["cid"]
         reply_to_store = {
             "root": {"cid": root_cid, "uri": reply_full["root"]["uri"]},
-            "parent": {"cid": parent_cid, "uri": reply_full["parent"]["uri"]}
+            "parent": {"cid": parent_cid, "uri": reply_full["parent"]["uri"]},
         }
 
     return {
@@ -206,21 +215,21 @@ def process_post(block, commit, op, keywords):
         "cid": str(op.cid),
         "author": commit.repo,
         "created_at": block.get("createdAt"),
-        "text": block.get("text", ""),
+        "text": block.get("text", None),
         "langs": block.get("langs", []),
         "embed": embed,
-        "images_links": images_links,
-        "video_link": video_link,
-        "video_thumbnail_link": video_thumbnail_link,
+        "image_urls": images_links,
+        "video_url": video_link,
+        "video_thumbnail_url": video_thumbnail_link,
         "external_link_url": external_link_url,
-        "external_link_image_link": external_link_image_link,
+        "external_link_thumbnail_url": external_link_image_link,
         "facets": facets,
         "reply": reply_to_store,
         "root_cid": root_cid,
         "parent_cid": parent_cid,
         "keywords": matches["keywords"],
         "languages": matches["languages"],
-        "topics": matches["topics"]
+        "topics": matches["topics"],
     }
 
 
@@ -228,23 +237,37 @@ def process_like(block, commit, op):
     return {
         "type": "app.bsky.feed.like",
         "author": commit.repo,
-        "subject.cid": str(block.get("subject", {}).get("cid", "")),
-        "subject.uri": block.get("subject", {}).get("uri", ""),
-        "via.cid": str(block.get("via", {}).get("cid", "")) if block.get("via") else None,
-        "via.uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
+        "subject": {
+            "cid": str(block.get("subject", {}).get("cid", "")),
+            "uri": block.get("subject", {}).get("uri", ""),
+        },
+        "via": {
+            "cid": (
+                str(block.get("via", {}).get("cid", "")) if block.get("via") else None
+            ),
+            "uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
+        },
         "createdAt": block.get("createdAt"),
     }
+
 
 def process_repost(block, commit, op):
     return {
         "type": "app.bsky.feed.repost",
         "author": commit.repo,
-        "subject.cid": str(block.get("subject", {}).get("cid", "")) if block.get("subject") else None,
-        "subject.uri": block.get("subject", {}).get("uri", "") if block.get("subject") else None,
-        "via.cid": str(block.get("via", {}).get("cid", "")) if block.get("via") else None,
-        "via.uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
+        "subject": {
+            "cid": str(block.get("subject", {}).get("cid", "")),
+            "uri": block.get("subject", {}).get("uri", ""),
+        },
+        "via": {
+            "cid": (
+                str(block.get("via", {}).get("cid", "")) if block.get("via") else None
+            ),
+            "uri": block.get("via", {}).get("uri", "") if block.get("via") else None,
+        },
         "createdAt": block.get("createdAt"),
     }
+
 
 def on_message_handler(message, keywords, producer):
     commit = parse_subscribe_repos_message(message)
@@ -264,7 +287,11 @@ def on_message_handler(message, keywords, producer):
 
             block = car.blocks.get(op.cid)
             record_type = block.get("$type") if isinstance(block, dict) else None
-            if record_type not in ["app.bsky.feed.post", "app.bsky.feed.like", "app.bsky.feed.repost"]:
+            if record_type not in [
+                "app.bsky.feed.post",
+                "app.bsky.feed.like",
+                "app.bsky.feed.repost",
+            ]:
                 continue
 
             if record_type == "app.bsky.feed.post":
@@ -274,13 +301,17 @@ def on_message_handler(message, keywords, producer):
 
             elif record_type == "app.bsky.feed.like":
                 like = process_like(block, commit, op)
-                like_key = f"{commit.repo}/{op.path}:{like.get('subject.cid') or 'no-cid'}"
-                # TODO producer.send("bluesky.likes", key=like_key, value=like)
+                like_key = (
+                    f"{commit.repo}/{op.path}:{like.get('subject.cid') or 'no-cid'}"
+                )
+                producer.send("bluesky.likes", key=like_key, value=like)
 
             elif record_type == "app.bsky.feed.repost":
                 repost = process_repost(block, commit, op)
-                repost_key = f"{commit.repo}/{op.path}:{repost.get('subject.cid') or 'no-cid'}"
-                # TODO producer.send("bluesky.reposts", key=repost_key, value=repost)
+                repost_key = (
+                    f"{commit.repo}/{op.path}:{repost.get('subject.cid') or 'no-cid'}"
+                )
+                producer.send("bluesky.reposts", key=repost_key, value=repost)
 
     except Exception as e:
         print(f"[ERR] Error in message handler: {e}")
