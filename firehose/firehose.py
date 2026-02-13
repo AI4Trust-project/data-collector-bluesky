@@ -298,6 +298,9 @@ def on_message_handler(message, keywords, producer):
                 post = process_post(block, commit, op, keywords)
                 post_key = f"{commit.repo}/{op.path}:{post['cid']}"
                 producer.send("bluesky.firehose", key=post_key, value=post)
+                
+                if len(post.get("keywords", [])) > 0:
+                    producer.send("bluesky.posts", key=post_key, value=post)
 
             elif record_type == "app.bsky.feed.like":
                 like = process_like(block, commit, op)
